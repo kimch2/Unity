@@ -223,16 +223,16 @@
     <None Include="Assets\PlayMaker\Editor\Install\readme.txt" />
     <None Include="Assets\PlayMaker\Editor\UnityEngine.UI.xml" />
     <Reference Include="UnityEditor.StandardEvents">
-      <HintPath>E:/SundryMonolog/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+      <HintPath>E:/Unity/SundryMonolog/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>E:/SundryMonolog/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>E:/Unity/SundryMonolog/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>E:/SundryMonolog/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>E:/Unity/SundryMonolog/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>E:/SundryMonolog/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>E:/Unity/SundryMonolog/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -481,19 +481,19 @@
       <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="ConditionalExpression">
-      <HintPath>E:/SundryMonolog/Assets/PlayMaker/ConditionalExpression.dll</HintPath>
+      <HintPath>E:/Unity/SundryMonolog/Assets/PlayMaker/ConditionalExpression.dll</HintPath>
     </Reference>
     <Reference Include="ConditionalExpressionEditor">
-      <HintPath>E:/SundryMonolog/Assets/PlayMaker/Editor/ConditionalExpressionEditor.dll</HintPath>
+      <HintPath>E:/Unity/SundryMonolog/Assets/PlayMaker/Editor/ConditionalExpressionEditor.dll</HintPath>
     </Reference>
     <Reference Include="PlayMakerEditor">
-      <HintPath>E:/SundryMonolog/Assets/PlayMaker/Editor/PlayMakerEditor.dll</HintPath>
+      <HintPath>E:/Unity/SundryMonolog/Assets/PlayMaker/Editor/PlayMakerEditor.dll</HintPath>
     </Reference>
     <Reference Include="PlayMakerEditorResources">
-      <HintPath>E:/SundryMonolog/Assets/PlayMaker/Editor/PlayMakerEditorResources.dll</HintPath>
+      <HintPath>E:/Unity/SundryMonolog/Assets/PlayMaker/Editor/PlayMakerEditorResources.dll</HintPath>
     </Reference>
     <Reference Include="PlayMaker">
-      <HintPath>E:/SundryMonolog/Assets/Plugins/PlayMaker/PlayMaker.dll</HintPath>
+      <HintPath>E:/Unity/SundryMonolog/Assets/Plugins/PlayMaker/PlayMaker.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.Advertisements">
       <HintPath>C:/Users/silya/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
