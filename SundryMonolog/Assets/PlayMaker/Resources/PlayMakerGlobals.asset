@@ -45,3 +45,7 @@ MonoBehaviour:
   - Cube!
   - PickedProduct
   - ScoreIncreasing
+  - UpdateInventory
+  - UpdateInventory1
+  - UpdateInventory2
+  - UpdateInventory3
