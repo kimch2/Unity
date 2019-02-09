@@ -445,12 +445,12 @@ MonoBehaviour:
       isGlobal: 0
     - name: TakeOrder
       isSystemEvent: 0
-      isGlobal: 0
+      isGlobal: 1
     globalTransitions:
     - fsmEvent:
         name: TakeOrder
         isSystemEvent: 0
-        isGlobal: 0
+        isGlobal: 1
       toState: State 2
       linkStyle: 0
       linkConstraint: 0

@@ -2343,7 +2343,7 @@ MonoBehaviour:
       isGlobal: 0
     - name: Check
       isSystemEvent: 0
-      isGlobal: 0
+      isGlobal: 1
     - name: Cube!
       isSystemEvent: 0
       isGlobal: 1
@@ -2374,7 +2374,7 @@ MonoBehaviour:
     - fsmEvent:
         name: Check
         isSystemEvent: 0
-        isGlobal: 0
+        isGlobal: 1
       toState: State 11
       linkStyle: 0
       linkConstraint: 0

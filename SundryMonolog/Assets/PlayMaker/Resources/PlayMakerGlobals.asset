@@ -49,3 +49,7 @@ MonoBehaviour:
   - UpdateInventory1
   - UpdateInventory2
   - UpdateInventory3
+  - TakeOrder
+  - StartConversation
+  - FinishOrder
+  - Check
