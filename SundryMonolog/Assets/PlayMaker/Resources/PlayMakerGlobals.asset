@@ -53,3 +53,5 @@ MonoBehaviour:
   - StartConversation
   - FinishOrder
   - Check
+  - RemoveInvIcon
+  - RemoveOrderIcon
