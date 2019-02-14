@@ -42,7 +42,6 @@ MonoBehaviour:
   - Sort
   - PickedProductReturn
   - PickedProductPos3
-  - Cube!
   - PickedProduct
   - ScoreIncreasing
   - UpdateInventory

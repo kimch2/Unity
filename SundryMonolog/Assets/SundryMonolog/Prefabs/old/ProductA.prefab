@@ -506,9 +506,6 @@ MonoBehaviour:
     - name: FINISHED
       isSystemEvent: 1
       isGlobal: 0
-    - name: Cube!
-      isSystemEvent: 0
-      isGlobal: 1
     - name: Picked
       isSystemEvent: 0
       isGlobal: 0
