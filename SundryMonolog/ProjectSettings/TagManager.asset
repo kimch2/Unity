@@ -7,6 +7,7 @@ TagManager:
   - INV
   - Customer
   - ProductPos
+  - Stranger
   layers:
   - Default
   - TransparentFX

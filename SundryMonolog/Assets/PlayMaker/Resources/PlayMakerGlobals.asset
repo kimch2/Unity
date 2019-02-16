@@ -21,13 +21,7 @@ MonoBehaviour:
     colorVariables: []
     rectVariables: []
     quaternionVariables: []
-    gameObjectVariables:
-    - useVariable: 1
-      name: aaa
-      tooltip: 
-      showInInspector: 0
-      networkSync: 0
-      value: {fileID: 0}
+    gameObjectVariables: []
     objectVariables: []
     materialVariables: []
     textureVariables: []
@@ -35,7 +29,7 @@ MonoBehaviour:
     enumVariables: []
     categories:
     - 
-    variableCategoryIDs: 00000000
+    variableCategoryIDs: 
   events:
   - sold
   - Reset
@@ -54,3 +48,5 @@ MonoBehaviour:
   - Check
   - RemoveInvIcon
   - RemoveOrderIcon
+  - ChoseCustomer
+  - StartTransaction
