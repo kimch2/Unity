@@ -5,9 +5,11 @@ TagManager:
   serializedVersion: 2
   tags:
   - INV
-  - Customer
   - ProductPos
   - Stranger
+  - Customer1
+  - Customer2
+  - Customer0
   layers:
   - Default
   - TransparentFX

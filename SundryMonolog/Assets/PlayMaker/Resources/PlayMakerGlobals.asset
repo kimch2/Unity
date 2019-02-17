@@ -27,7 +27,25 @@ MonoBehaviour:
     colorVariables: []
     rectVariables: []
     quaternionVariables: []
-    gameObjectVariables: []
+    gameObjectVariables:
+    - useVariable: 1
+      name: DissapearPosition
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: {fileID: 1544972424301310, guid: b822e602a85573241808b4a0f88c2068, type: 2}
+    - useVariable: 1
+      name: OrderPosition
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: {fileID: 1123991206135042, guid: 2a679df1f5d8b6748ace64e16683e7e7, type: 2}
+    - useVariable: 1
+      name: SpawnPosition
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: {fileID: 1898276931441158, guid: c4d62bd2f1a718b49aa90ff2e2545199, type: 2}
     objectVariables: []
     materialVariables: []
     textureVariables: []
@@ -35,7 +53,7 @@ MonoBehaviour:
     enumVariables: []
     categories:
     - 
-    variableCategoryIDs: 00000000
+    variableCategoryIDs: 00000000000000000000000000000000
   events:
   - sold
   - Reset
