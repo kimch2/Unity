@@ -21,7 +21,13 @@ MonoBehaviour:
       showInInspector: 0
       networkSync: 0
       value: 0
-    stringVariables: []
+    stringVariables:
+    - useVariable: 1
+      name: ThisCustomerTag
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 
     vector2Variables: []
     vector3Variables: []
     colorVariables: []
@@ -53,7 +59,7 @@ MonoBehaviour:
     enumVariables: []
     categories:
     - 
-    variableCategoryIDs: 00000000000000000000000000000000
+    variableCategoryIDs: 0000000000000000000000000000000000000000
   events:
   - sold
   - Reset
