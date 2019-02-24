@@ -97,3 +97,5 @@ MonoBehaviour:
   - PressD
   - PressW
   - ProductsRestock
+  - TurnUpProduct
+  - TurnInvisibleProduct

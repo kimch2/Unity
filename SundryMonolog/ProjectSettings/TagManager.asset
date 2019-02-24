@@ -10,6 +10,7 @@ TagManager:
   - Customer1
   - Customer2
   - Customer0
+  - HavingProduct
   layers:
   - Default
   - TransparentFX
