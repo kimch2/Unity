@@ -16,12 +16,6 @@ MonoBehaviour:
     intVariables: []
     boolVariables:
     - useVariable: 1
-      name: NextCustomerReady
-      tooltip: 
-      showInInspector: 0
-      networkSync: 0
-      value: 0
-    - useVariable: 1
       name: NowTransaction
       tooltip: 
       showInInspector: 0
@@ -71,7 +65,7 @@ MonoBehaviour:
     enumVariables: []
     categories:
     - 
-    variableCategoryIDs: 00000000000000000000000000000000000000000000000000000000
+    variableCategoryIDs: 000000000000000000000000000000000000000000000000
   events:
   - sold
   - Reset
