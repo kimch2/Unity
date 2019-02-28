@@ -15,16 +15,68 @@ MonoBehaviour:
   fsm:
     dataVersion: 2
     usedInTemplate: {fileID: 11400000}
-    name: FSM
+    name: TemplateCustomer
     startState: State 10
     states:
+    - name: State 1
+      description: 
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 50
+        y: 100
+        width: 100
+        height: 16
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions: []
+      actionData:
+        actionNames: []
+        customNames: []
+        actionEnabled: 
+        actionIsOpen: 
+        actionStartIndex: 
+        actionHashCodes: 
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams: []
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 
+        paramName: []
+        paramDataPos: 
+        paramByteDataSize: 
     - name: State 10
       description: 
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 63.367188
-        y: 111.38281
+        x: 320
+        y: 216.375
         width: 100
         height: 16
       isBreakpoint: 0
@@ -75,8 +127,8 @@ MonoBehaviour:
       colorIndex: 1
       position:
         serializedVersion: 2
-        x: 496.27344
-        y: 267.5078
+        x: 752.90625
+        y: 372.5
         width: 179
         height: 48
       isBreakpoint: 0
@@ -157,8 +209,8 @@ MonoBehaviour:
       colorIndex: 3
       position:
         serializedVersion: 2
-        x: 763.3047
-        y: 193.79688
+        x: 1019.9375
+        y: 298.78906
         width: 162.5
         height: 16
       isBreakpoint: 0
@@ -318,8 +370,8 @@ MonoBehaviour:
       colorIndex: 5
       position:
         serializedVersion: 2
-        x: 769.7422
-        y: 310.8828
+        x: 1026.375
+        y: 415.875
         width: 154
         height: 16
       isBreakpoint: 0
@@ -401,8 +453,8 @@ MonoBehaviour:
       colorIndex: 4
       position:
         serializedVersion: 2
-        x: 234.02344
-        y: 106.33594
+        x: 490.65625
+        y: 211.32812
         width: 150
         height: 32
       isBreakpoint: 0
@@ -567,8 +619,8 @@ MonoBehaviour:
       colorIndex: 1
       position:
         serializedVersion: 2
-        x: 498.27344
-        y: 186.50781
+        x: 754.90625
+        y: 291.5
         width: 153
         height: 32
       isBreakpoint: 0
@@ -733,8 +785,8 @@ MonoBehaviour:
       colorIndex: 1
       position:
         serializedVersion: 2
-        x: 499.27344
-        y: 105.50781
+        x: 755.90625
+        y: 210.5
         width: 152
         height: 32
       isBreakpoint: 0
@@ -877,8 +929,8 @@ MonoBehaviour:
       colorIndex: 2
       position:
         serializedVersion: 2
-        x: 228.27344
-        y: 259.5078
+        x: 484.90625
+        y: 364.5
         width: 207
         height: 16
       isBreakpoint: 0
@@ -1001,8 +1053,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 231.27344
-        y: 178.50781
+        x: 487.90625
+        y: 283.5
         width: 123
         height: 32
       isBreakpoint: 0
@@ -1069,24 +1121,12 @@ MonoBehaviour:
         paramDataPos: 000000000000000000000000
         paramByteDataSize: 000000000000000001000000
     events:
-    - name: FINISHED
-      isSystemEvent: 1
-      isGlobal: 0
-    - name: ChoseCustomer
-      isSystemEvent: 0
-      isGlobal: 1
-    - name: False
-      isSystemEvent: 0
-      isGlobal: 0
     - name: FinishOrder
       isSystemEvent: 0
       isGlobal: 1
-    - name: TakeOrder
+    - name: ChoseCustomer
       isSystemEvent: 0
       isGlobal: 1
-    - name: True
-      isSystemEvent: 0
-      isGlobal: 0
     globalTransitions:
     - fsmEvent:
         name: FinishOrder
@@ -1162,12 +1202,12 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 0
+    preprocessed: 1
     ExposedEvents: []
-    RestartOnEnable: 1
+    RestartOnEnable: 0
     EnableDebugFlow: 0
-    EnableBreakpoints: 1
-    editorFlags: 1
+    EnableBreakpoints: 0
+    editorFlags: 7
     activeStateName: 
     mouseEvents: 0
     handleLevelLoaded: 0
@@ -1189,7 +1229,7 @@ MonoBehaviour:
     handleJointBreak2D: 0
     handleOnGUI: 0
     handleFixedUpdate: 0
-    handleLateUpdate: 0
+    handleLateUpdate: 1
     handleApplicationEvents: 0
     handleUiEvents: 0
     handleLegacyNetworking: 0
