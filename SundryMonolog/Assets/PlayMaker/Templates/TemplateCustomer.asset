@@ -1127,6 +1127,15 @@ MonoBehaviour:
     - name: ChoseCustomer
       isSystemEvent: 0
       isGlobal: 1
+    - name: True
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: False
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: FINISHED
+      isSystemEvent: 1
+      isGlobal: 0
     globalTransitions:
     - fsmEvent:
         name: FinishOrder
@@ -1153,7 +1162,7 @@ MonoBehaviour:
         tooltip: 
         showInInspector: 0
         networkSync: 0
-        value: 0
+        value: 1
       stringVariables:
       - useVariable: 1
         name: ThisCustomerTag
