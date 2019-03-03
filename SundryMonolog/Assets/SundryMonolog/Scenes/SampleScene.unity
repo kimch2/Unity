@@ -1684,7 +1684,7 @@ MonoBehaviour:
         - 
         - 
         - 
-        actionEnabled: 010101010101
+        actionEnabled: 010101010001
         actionIsOpen: 010101010101
         actionStartIndex: 000000000300000006000000090000000c00000011000000
         actionHashCodes: ff77a904ff77a904ff77a904ff77a9047d0dad035e69bb04
@@ -1748,7 +1748,7 @@ MonoBehaviour:
         fsmVarParams:
         - variableName: 
           objectType: UnityEngine.GameObject
-          useVariable: 0
+          useVariable: 1
           type: 3
           floatValue: 0
           intValue: 0
@@ -2609,11 +2609,19 @@ MonoBehaviour:
         x: 622
         y: 368
         width: 100
-        height: 16
+        height: 32
       isBreakpoint: 0
       isSequence: 0
       hideUnused: 0
-      transitions: []
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: State 4
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
       actionData:
         actionNames:
         - HutongGames.PlayMaker.Actions.ArrayListGet
@@ -2632,7 +2640,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: {fileID: 343733845}
+          value: {fileID: 2118823476}
         - useVariable: 1
           name: 
           tooltip: 
@@ -2735,6 +2743,86 @@ MonoBehaviour:
         - conversant
         paramDataPos: 000000000000000000000000000000000000000001000000010000000000000001000000
         paramByteDataSize: 000000000000000000000000000000000000000000000000000000000000000000000000
+    - name: State 4
+      description: 
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 643
+        y: 465.0547
+        width: 100
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: State 2
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - PixelCrushers.DialogueSystem.PlayMaker.IsConversationActive
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: 5114b801
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams: []
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams:
+        - 
+        - FINISHED
+        byteData: 
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 11000000110000001700000017000000
+        paramName:
+        - everyFrame
+        - storeResult
+        - activeEvent
+        - inactiveEvent
+        paramDataPos: 00000000010000000000000001000000
+        paramByteDataSize: 00000000000000000000000000000000
     events:
     - name: PressA
       isSystemEvent: 0
@@ -3650,11 +3738,6 @@ MonoBehaviour:
     m_VerticalOverflow: 1
     m_LineSpacing: 1
   m_Text: (NPC Subtitle)
---- !u!1 &343733845 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1874560445187862, guid: a1466d7bb2942b14e889b4c293d20309,
-    type: 2}
-  m_PrefabInternal: {fileID: 1995570478}
 --- !u!1 &360274991
 GameObject:
   m_ObjectHideFlags: 0
@@ -11272,7 +11355,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 1638034602}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.99999946
+  m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -28420,6 +28503,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2118823476 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1874560445187862, guid: a1466d7bb2942b14e889b4c293d20309,
+    type: 2}
+  m_PrefabInternal: {fileID: 1995570478}
 --- !u!1 &2140389225
 GameObject:
   m_ObjectHideFlags: 0
