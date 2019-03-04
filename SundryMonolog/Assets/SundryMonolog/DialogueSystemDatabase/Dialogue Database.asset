@@ -963,7 +963,13 @@ MonoBehaviour:
       delaySimStatus: 0
       falseConditionAction: Block
       conditionPriority: 2
-      outgoingLinks: []
+      outgoingLinks:
+      - originConversationID: 2
+        originDialogueID: 2
+        destinationConversationID: 2
+        destinationDialogueID: 9
+        isConnector: 0
+        priority: 2
       conditionsString: 
       userScript: 
       onExecute:
@@ -974,7 +980,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 219.13046
-        y: 177.52176
+        y: 176.65219
         width: 160
         height: 30
     - id: 3
@@ -1194,7 +1200,7 @@ MonoBehaviour:
       onExecute:
         m_PersistentCalls:
           m_Calls:
-          - m_Target: {fileID: 114442190874609656, guid: 71af0f83da70865458b22fe655564440,
+          - m_Target: {fileID: 114161793299973452, guid: 92b357a2fa133774a8d859085ad0bb0d,
               type: 2}
             m_MethodName: SendEvent
             m_Mode: 5
@@ -1211,11 +1217,90 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 412.17395
-        y: 258.82608
+        y: 259.69565
         width: 160
         height: 30
-    canvasScrollPosition: {x: 0, y: 0}
-    canvasZoom: 1.15
+    - id: 9
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: -1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Dialogue Text
+        value: aaaaa
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Video File
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      conversationID: 2
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks: []
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 114766015477822110, guid: 92b357a2fa133774a8d859085ad0bb0d,
+              type: 2}
+            m_MethodName: SendEvent
+            m_Mode: 5
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: BackPlayer
+              m_BoolArgument: 0
+            m_CallState: 2
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      canvasRect:
+        serializedVersion: 2
+        x: 219.13046
+        y: 261.6522
+        width: 160
+        height: 30
+    canvasScrollPosition: {x: 10, y: 49}
+    canvasZoom: 1.0000001
   - id: 3
     fields:
     - title: Title
