@@ -79,11 +79,11 @@ MonoBehaviour:
   - id: 1
     fields:
     - title: Name
-      value: FinishConversation
+      value: NowConversation
       type: 0
       typeString: 
     - title: Initial Value
-      value: False
+      value: True
       type: 2
       typeString: CustomFieldType_Boolean
     - title: Description
@@ -820,7 +820,7 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: 
+      userScript: Variable["NowConversation"] = true
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -829,7 +829,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 27.826088
-        y: 32.73913
+        y: 31.739128
         width: 160
         height: 30
     - id: 1
@@ -1044,7 +1044,7 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: 
+      userScript: Variable["NowConversation"] = false
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -1052,7 +1052,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 411.30438
+        x: 414.30438
         y: 179.26086
         width: 160
         height: 30
@@ -1205,7 +1205,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 412.17395
-        y: 260.69565
+        y: 261.69565
         width: 160
         height: 30
     - id: 9
@@ -1275,7 +1275,7 @@ MonoBehaviour:
         y: 261.6522
         width: 160
         height: 30
-    canvasScrollPosition: {x: 91.674, y: 99.69566}
+    canvasScrollPosition: {x: 0, y: 43.69568}
     canvasZoom: 1.0000001
   - id: 3
     fields:
