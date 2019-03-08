@@ -73,7 +73,107 @@ MonoBehaviour:
       typeString: CustomFieldType_Boolean
     portrait: {fileID: 0}
     alternatePortraits: []
-  items: []
+  - id: 3
+    fields:
+    - title: Name
+      value: New Actor 3
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: Pictures
+      value: '[]'
+      type: 3
+      typeString: CustomFieldType_Files
+    - title: Description
+      value: 
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: IsPlayer
+      value: False
+      type: 2
+      typeString: CustomFieldType_Boolean
+    - title: Display Name
+      value: 
+      type: 0
+      typeString: CustomFieldType_Text
+    portrait: {fileID: 0}
+    alternatePortraits: []
+  - id: 4
+    fields:
+    - title: Name
+      value: New Actor 4
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: Pictures
+      value: '[]'
+      type: 3
+      typeString: CustomFieldType_Files
+    - title: Description
+      value: 
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: IsPlayer
+      value: False
+      type: 2
+      typeString: CustomFieldType_Boolean
+    portrait: {fileID: 0}
+    alternatePortraits: []
+  items:
+  - id: 1
+    fields:
+    - title: Name
+      value: Sdsad
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: Pictures
+      value: '[]'
+      type: 3
+      typeString: CustomFieldType_Files
+    - title: Description
+      value: asd
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: Success Description
+      value: 
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: Failure Description
+      value: 
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: State
+      value: success
+      type: 0
+      typeString: CustomFieldType_QuestState
+    - title: Is Item
+      value: False
+      type: 2
+      typeString: CustomFieldType_Boolean
+    - title: Group
+      value: 
+      type: 0
+      typeString: CustomFieldType_Text
+  - id: 2
+    fields:
+    - title: Name
+      value: New Item 2
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: Pictures
+      value: '[]'
+      type: 3
+      typeString: CustomFieldType_Files
+    - title: Group
+      value: 
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: Description
+      value: 
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: Is Item
+      value: True
+      type: 2
+      typeString: CustomFieldType_Boolean
   locations: []
   variables:
   - id: 1
@@ -1200,7 +1300,7 @@ MonoBehaviour:
       onExecute:
         m_PersistentCalls:
           m_Calls:
-          - m_Target: {fileID: 114438649818991694, guid: a1466d7bb2942b14e889b4c293d20309,
+          - m_Target: {fileID: 114161793299973452, guid: 92b357a2fa133774a8d859085ad0bb0d,
               type: 2}
             m_MethodName: SendEvent
             m_Mode: 5
@@ -1279,7 +1379,7 @@ MonoBehaviour:
       onExecute:
         m_PersistentCalls:
           m_Calls:
-          - m_Target: {fileID: 114438649818991694, guid: a1466d7bb2942b14e889b4c293d20309,
+          - m_Target: {fileID: 114766015477822110, guid: 92b357a2fa133774a8d859085ad0bb0d,
               type: 2}
             m_MethodName: SendEvent
             m_Mode: 5
@@ -1288,7 +1388,7 @@ MonoBehaviour:
               m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
               m_IntArgument: 0
               m_FloatArgument: 0
-              m_StringArgument: Back
+              m_StringArgument: BackPlayer
               m_BoolArgument: 0
             m_CallState: 2
         m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
@@ -1299,7 +1399,7 @@ MonoBehaviour:
         y: 261.6522
         width: 160
         height: 30
-    canvasScrollPosition: {x: 0, y: 0}
+    canvasScrollPosition: {x: 10, y: 49}
     canvasZoom: 1.0000001
   - id: 3
     fields:

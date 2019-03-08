@@ -8088,7 +8088,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -0.000076293945}
+  m_AnchoredPosition: {x: 0, y: 0.00019073486}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &488756849
@@ -10020,8 +10020,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1638034603}
   m_HandleRect: {fileID: 1638034602}
   m_Direction: 2
-  m_Value: 0
-  m_Size: 0.99999934
+  m_Value: 1
+  m_Size: 0.9999999
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -17726,7 +17726,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1309526780}
   - component: {fileID: 1309526782}
-  - component: {fileID: 1309526783}
   - component: {fileID: 1309526781}
   m_Layer: 0
   m_Name: Player
@@ -17756,78 +17755,13 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1309526779}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c593457cd8105e148906690e1707c592, type: 3}
+  m_Script: {fileID: 11500000, guid: 205c6d4e7606f8d40b5d2763ea70a42d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  trigger: 32
-  condition:
-    luaConditions: []
-    questConditions: []
-    acceptedTags:
-    - 
-    acceptedGameObjects:
-    - {fileID: 0}
-    luaWizardIndex: -1
-    lastEvaluationValue: 0
-  setQuestState: 1
-  questName: 
-  questState: 0
-  setQuestEntryState: 0
-  questEntryNumber: 1
-  questEntryState: 0
-  luaCode: 
-  sequence: 
-  sequenceSpeaker: {fileID: 0}
-  sequenceListener: {fileID: 0}
-  waitOneFrameOnStartOrEnable: 1
-  alertMessage: 
-  textTable: {fileID: 0}
-  alertDuration: 0
-  sendMessages: []
-  barkSource: 0
-  barkConversation: 
-  barkText: 
-  barkTextSequence: 
-  barker: {fileID: 0}
-  barkTarget: {fileID: 0}
-  barkOrder: 0
-  allowBarksDuringConversations: 0
-  skipBarkIfNoValidEntries: 0
-  cacheBarkLines: 0
-  conversation: 
-  conversationConversant: {fileID: 0}
-  conversationActor: {fileID: 0}
-  exclusive: 0
-  skipIfNoValidEntries: 1
-  stopConversationOnTriggerExit: 0
-  stopConversationIfTooFar: 0
-  maxConversationDistance: 5
-  monitorConversationDistanceFrequency: 1
-  showCursorDuringConversation: 0
-  pauseGameDuringConversation: 0
-  setActiveActions:
-  - condition:
-      luaConditions: []
-      questConditions: []
-      acceptedTags: []
-      acceptedGameObjects: []
-      luaWizardIndex: 0
-      lastEvaluationValue: 0
-    target: {fileID: 294736624}
-    state: 2
-  setEnabledActions: []
-  setAnimatorStateActions: []
-  onExecute:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: PixelCrushers.GameObjectUnityEvent, Assembly-CSharp-firstpass, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-  useConversationTitlePicker: 1
-  useBarkTitlePicker: 1
-  useQuestNamePicker: 1
-  selectedDatabase: {fileID: 11400000, guid: 06b2fc3286f16724fbe414c47b9754c9, type: 2}
+  priority: 40
+  ui: {fileID: 0}
 --- !u!114 &1309526782
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18714,8 +18648,8 @@ MonoBehaviour:
       colorIndex: 5
       position:
         serializedVersion: 2
-        x: 619
-        y: 281
+        x: 616
+        y: 280
         width: 100
         height: 48
       isBreakpoint: 0
@@ -18791,156 +18725,14 @@ MonoBehaviour:
         - everyFrame
         paramDataPos: 00000000000000000100000000000000
         paramByteDataSize: 00000000000000000000000001000000
-    - name: State 3
-      description: 
-      colorIndex: 5
-      position:
-        serializedVersion: 2
-        x: 622
-        y: 372
-        width: 100
-        height: 32
-      isBreakpoint: 0
-      isSequence: 0
-      hideUnused: 0
-      transitions:
-      - fsmEvent:
-          name: False
-          isSystemEvent: 0
-          isGlobal: 0
-        toState: State 2
-        linkStyle: 0
-        linkConstraint: 0
-        colorIndex: 0
-      actionData:
-        actionNames:
-        - PixelCrushers.DialogueSystem.PlayMaker.StartConversation
-        - PixelCrushers.DialogueSystem.PlayMaker.GetVariable
-        - HutongGames.PlayMaker.Actions.BoolTest
-        customNames:
-        - 
-        - 
-        - 
-        actionEnabled: 010101
-        actionIsOpen: 010101
-        actionStartIndex: 00000000040000000a000000
-        actionHashCodes: 234eb50227f1bb02a4c8bf00
-        unityObjectParams: []
-        fsmGameObjectParams:
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: {fileID: 1309526779}
-        - useVariable: 1
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: {fileID: 0}
-        fsmOwnerDefaultParams: []
-        animationCurveParams: []
-        functionCallParams: []
-        fsmTemplateControlParams: []
-        fsmEventTargetParams: []
-        fsmPropertyParams: []
-        layoutOptionParams: []
-        fsmStringParams:
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: New Conversation 2
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: NowConversation
-        - useVariable: 1
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 
-        fsmObjectParams: []
-        fsmVarParams: []
-        fsmArrayParams: []
-        fsmEnumParams: []
-        fsmFloatParams:
-        - useVariable: 1
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 0
-        fsmIntParams:
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 0
-        - useVariable: 1
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 0
-        fsmBoolParams:
-        - useVariable: 1
-          name: NowConversationStates
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 0
-        - useVariable: 1
-          name: NowConversationStates
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 0
-        fsmVector2Params: []
-        fsmVector3Params: []
-        fsmColorParams: []
-        fsmRectParams: []
-        fsmQuaternionParams: []
-        stringParams:
-        - 
-        - False
-        byteData: 0000
-        arrayParamSizes: 
-        arrayParamTypes: []
-        customTypeSizes: 
-        customTypeNames: []
-        paramDataType: 1200000010000000130000001300000012000000120000000f00000010000000110000000100000011000000170000001700000001000000
-        paramName:
-        - conversation
-        - startingEntryID
-        - actor
-        - conversant
-        - variableName
-        - storeStringResult
-        - storeFloatResult
-        - storeIntResult
-        - storeBoolResult
-        - everyFrame
-        - boolVariable
-        - isTrue
-        - isFalse
-        - everyFrame
-        paramDataPos: 0000000000000000000000000100000001000000020000000000000001000000000000000000000001000000000000000100000001000000
-        paramByteDataSize: 0000000000000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000001000000
-    - name: State 4
+    - name: Close Inventory
       description: 
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 441
-        y: 367
-        width: 100
+        x: 573.6328
+        y: 429.0625
+        width: 140
         height: 32
       isBreakpoint: 0
       isSequence: 0
@@ -18955,12 +18747,14 @@ MonoBehaviour:
         linkConstraint: 0
         colorIndex: 0
       actionData:
-        actionNames: []
-        customNames: []
-        actionEnabled: 
-        actionIsOpen: 
-        actionStartIndex: 
-        actionHashCodes: 
+        actionNames:
+        - HutongGames.PlayMaker.Actions.SetBoolValue
+        customNames:
+        - 
+        actionEnabled: 00
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: 27fbe103
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams: []
@@ -18977,22 +18771,37 @@ MonoBehaviour:
         fsmEnumParams: []
         fsmFloatParams: []
         fsmIntParams: []
-        fsmBoolParams: []
+        fsmBoolParams:
+        - useVariable: 1
+          name: PressE
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
         fsmVector2Params: []
         fsmVector3Params: []
         fsmColorParams: []
         fsmRectParams: []
         fsmQuaternionParams: []
         stringParams: []
-        byteData: 
+        byteData: 00
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 
-        paramName: []
-        paramDataPos: 
-        paramByteDataSize: 
+        paramDataType: 110000001100000001000000
+        paramName:
+        - boolVariable
+        - boolValue
+        - everyFrame
+        paramDataPos: 000000000100000000000000
+        paramByteDataSize: 000000000000000001000000
     - name: State 5
       description: 
       colorIndex: 0
@@ -19049,15 +18858,436 @@ MonoBehaviour:
         paramName: []
         paramDataPos: 
         paramByteDataSize: 
+    - name: State 3
+      description: 
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 790.0078
+        y: 297
+        width: 100
+        height: 48
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: False
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: Empty This Inventory
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: State 4
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.ArrayListGet
+        - HutongGames.PlayMaker.Actions.GetStringLength
+        - HutongGames.PlayMaker.Actions.IntOperator
+        - HutongGames.PlayMaker.Actions.GetSubstring
+        customNames:
+        - 
+        - 
+        - 
+        - 
+        actionEnabled: 01010101
+        actionIsOpen: 01010101
+        actionStartIndex: 0000000005000000080000000d000000
+        actionHashCodes: 7d0dad0379de810014180903414e8401
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams:
+        - ownerOption: 1
+          gameObject:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 1426998121}
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: PlayerList
+        - useVariable: 1
+          name: SelectedItem
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 
+        - useVariable: 1
+          name: SelectedItem
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 
+        - useVariable: 1
+          name: ItemName
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 
+        fsmObjectParams: []
+        fsmVarParams:
+        - variableName: SelectedItem
+          objectType: UnityEngine.Object
+          useVariable: 1
+          type: 4
+          floatValue: 0
+          intValue: 0
+          boolValue: 0
+          stringValue: 
+          vector4Value: {x: 0, y: 0, z: 0, w: 0}
+          objectReference: {fileID: 0}
+          arrayValue:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            type: -1
+            objectTypeName: 
+            floatValues: []
+            intValues: 
+            boolValues: 
+            stringValues: []
+            vector4Values: []
+            objectReferences: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams:
+        - useVariable: 1
+          name: SelectedInv
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 1
+          name: StringLength
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 1
+          name: StringLength
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        - useVariable: 1
+          name: StringNum
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 1
+          name: StringNum
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams:
+        - False
+        byteData: 00010000000000
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 140000001200000010000000270000001700000012000000100000000100000010000000100000000700000010000000010000001200000010000000100000001200000001000000
+        paramName:
+        - gameObject
+        - reference
+        - atIndex
+        - result
+        - failureEvent
+        - stringVariable
+        - storeResult
+        - everyFrame
+        - integer1
+        - integer2
+        - operation
+        - storeResult
+        - everyFrame
+        - stringVariable
+        - startIndex
+        - length
+        - storeResult
+        - everyFrame
+        paramDataPos: 000000000000000000000000000000000000000001000000010000000000000002000000030000000100000004000000050000000200000005000000060000000300000006000000
+        paramByteDataSize: 000000000000000000000000000000000000000000000000000000000100000000000000000000000400000000000000010000000000000000000000000000000000000001000000
+    - name: State 6
+      description: 
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 786.0156
+        y: 444.6328
+        width: 100
+        height: 16
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions: []
+      actionData:
+        actionNames:
+        - PixelCrushers.DialogueSystem.PlayMaker.StartConversation
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: 234eb502
+        unityObjectParams: []
+        fsmGameObjectParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {fileID: 1309526779}
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {fileID: 0}
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: FindOutThisItem
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams:
+        - useVariable: 1
+          name: EntryId
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 12000000100000001300000013000000
+        paramName:
+        - conversation
+        - startingEntryID
+        - actor
+        - conversant
+        paramDataPos: 00000000000000000000000001000000
+        paramByteDataSize: 00000000000000000000000000000000
+    - name: Empty This Inventory
+      description: 
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 955.4453
+        y: 312.89062
+        width: 171
+        height: 16
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions: []
+      actionData:
+        actionNames: []
+        customNames: []
+        actionEnabled: 
+        actionIsOpen: 
+        actionStartIndex: 
+        actionHashCodes: 
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams: []
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 
+        paramName: []
+        paramDataPos: 
+        paramByteDataSize: 
+    - name: State 4
+      description: 
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 789.1719
+        y: 379.89844
+        width: 100
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: State 6
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - PixelCrushers.DialogueSystem.PlayMaker.SetVariable
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: f6980e00
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: ThisItemName
+        - useVariable: 1
+          name: ItemName
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams:
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        fsmIntParams:
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        fsmBoolParams:
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 12000000120000000f0000001000000011000000
+        paramName:
+        - variableName
+        - stringValue
+        - floatValue
+        - intValue
+        - boolValue
+        paramDataPos: 0000000001000000000000000000000000000000
+        paramByteDataSize: 0000000000000000000000000000000000000000
     events:
     - name: FINISHED
       isSystemEvent: 1
       isGlobal: 0
     - name: MOUSE DOWN
       isSystemEvent: 1
-      isGlobal: 0
-    - name: Back
-      isSystemEvent: 0
       isGlobal: 0
     - name: False
       isSystemEvent: 0
@@ -19074,6 +19304,9 @@ MonoBehaviour:
     - name: PressW
       isSystemEvent: 0
       isGlobal: 1
+    - name: SelectedOption2
+      isSystemEvent: 0
+      isGlobal: 0
     - name: True
       isSystemEvent: 0
       isGlobal: 0
@@ -19111,10 +19344,10 @@ MonoBehaviour:
       linkConstraint: 0
       colorIndex: 0
     - fsmEvent:
-        name: Back
+        name: SelectedOption2
         isSystemEvent: 0
         isGlobal: 0
-      toState: State 4
+      toState: Close Inventory
       linkStyle: 0
       linkConstraint: 0
       colorIndex: 0
@@ -19135,6 +19368,18 @@ MonoBehaviour:
         showInInspector: 0
         networkSync: 0
         value: 0
+      - useVariable: 1
+        name: StringLength
+        tooltip: 
+        showInInspector: 0
+        networkSync: 0
+        value: 0
+      - useVariable: 1
+        name: StringNum
+        tooltip: 
+        showInInspector: 0
+        networkSync: 0
+        value: 0
       boolVariables:
       - useVariable: 1
         name: NowConversationStates
@@ -19144,7 +19389,7 @@ MonoBehaviour:
         value: 0
       stringVariables:
       - useVariable: 1
-        name: ConversationTitle
+        name: ItemName
         tooltip: 
         showInInspector: 0
         networkSync: 0
@@ -19168,7 +19413,7 @@ MonoBehaviour:
       enumVariables: []
       categories:
       - 
-      variableCategoryIDs: 00000000000000000000000000000000
+      variableCategoryIDs: 000000000000000000000000000000000000000000000000
     description: 
     docUrl: 
     showStateLabel: 0
@@ -19213,156 +19458,6 @@ MonoBehaviour:
     handleAnimatorIK: 0
   fsmTemplate: {fileID: 0}
   eventHandlerComponentsAdded: 0
---- !u!114 &1309526783
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 114094567227701544, guid: ce63c136059f61048b857fde1e165639,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1309526779}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5a5473918a168c44fa0294bd4d1399f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  conversationEvents:
-    onConversationStart:
-      m_PersistentCalls:
-        m_Calls: []
-      m_TypeName: PixelCrushers.DialogueSystem.DialogueSystemEvents+TransformEvent,
-        Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-    onConversationEnd:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1309526782}
-          m_MethodName: SendEvent
-          m_Mode: 5
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: Back
-            m_BoolArgument: 0
-          m_CallState: 0
-      m_TypeName: PixelCrushers.DialogueSystem.DialogueSystemEvents+TransformEvent,
-        Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-    onConversationCancelled:
-      m_PersistentCalls:
-        m_Calls: []
-      m_TypeName: PixelCrushers.DialogueSystem.DialogueSystemEvents+TransformEvent,
-        Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-    onConversationLine:
-      m_PersistentCalls:
-        m_Calls: []
-      m_TypeName: PixelCrushers.DialogueSystem.DialogueSystemEvents+SubtitleEvent,
-        Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-    onConversationLineEnd:
-      m_PersistentCalls:
-        m_Calls: []
-      m_TypeName: PixelCrushers.DialogueSystem.DialogueSystemEvents+SubtitleEvent,
-        Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-    onConversationLineCancelled:
-      m_PersistentCalls:
-        m_Calls: []
-      m_TypeName: PixelCrushers.DialogueSystem.DialogueSystemEvents+SubtitleEvent,
-        Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-    onConversationResponseMenu:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1309526782}
-          m_MethodName: SendEvent
-          m_Mode: 5
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-        - m_Target: {fileID: 0}
-          m_MethodName: 
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: 
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-      m_TypeName: PixelCrushers.DialogueSystem.DialogueSystemEvents+ResponsesEvent,
-        Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-    onConversationResponseMenuTimeout:
-      m_PersistentCalls:
-        m_Calls: []
-      m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-        Culture=neutral, PublicKeyToken=null
-    onLinkedConversationStart:
-      m_PersistentCalls:
-        m_Calls: []
-      m_TypeName: PixelCrushers.DialogueSystem.DialogueSystemEvents+TransformEvent,
-        Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-  barkEvents:
-    onBarkStart:
-      m_PersistentCalls:
-        m_Calls: []
-      m_TypeName: PixelCrushers.DialogueSystem.DialogueSystemEvents+TransformEvent,
-        Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-    onBarkEnd:
-      m_PersistentCalls:
-        m_Calls: []
-      m_TypeName: PixelCrushers.DialogueSystem.DialogueSystemEvents+TransformEvent,
-        Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-    onBarkLine:
-      m_PersistentCalls:
-        m_Calls: []
-      m_TypeName: PixelCrushers.DialogueSystem.DialogueSystemEvents+SubtitleEvent,
-        Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-  sequenceEvents:
-    onSequenceStart:
-      m_PersistentCalls:
-        m_Calls: []
-      m_TypeName: PixelCrushers.DialogueSystem.DialogueSystemEvents+TransformEvent,
-        Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-    onSequenceEnd:
-      m_PersistentCalls:
-        m_Calls: []
-      m_TypeName: PixelCrushers.DialogueSystem.DialogueSystemEvents+TransformEvent,
-        Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-  questEvents:
-    onQuestStateChange:
-      m_PersistentCalls:
-        m_Calls: []
-      m_TypeName: PixelCrushers.DialogueSystem.DialogueSystemEvents+StringEvent, Assembly-CSharp-firstpass,
-        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-    onQuestTrackingEnabled:
-      m_PersistentCalls:
-        m_Calls: []
-      m_TypeName: PixelCrushers.DialogueSystem.DialogueSystemEvents+StringEvent, Assembly-CSharp-firstpass,
-        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-    onQuestTrackingDisabled:
-      m_PersistentCalls:
-        m_Calls: []
-      m_TypeName: PixelCrushers.DialogueSystem.DialogueSystemEvents+StringEvent, Assembly-CSharp-firstpass,
-        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-    onUpdateQuestTracker:
-      m_PersistentCalls:
-        m_Calls: []
-      m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-        Culture=neutral, PublicKeyToken=null
-  pauseEvents:
-    onDialogueSystemPause:
-      m_PersistentCalls:
-        m_Calls: []
-      m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-        Culture=neutral, PublicKeyToken=null
-    onDialogueSystemUnpause:
-      m_PersistentCalls:
-        m_Calls: []
-      m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-        Culture=neutral, PublicKeyToken=null
 --- !u!4 &1318528367 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4425807483153262, guid: 8be783b245dcfc943a73709a65f39564,
@@ -24657,7 +24752,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1718321948}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -73581967, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
   m_Name: 
