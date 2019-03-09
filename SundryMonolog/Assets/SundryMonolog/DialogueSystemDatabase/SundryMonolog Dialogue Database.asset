@@ -78,90 +78,58 @@ MonoBehaviour:
     portrait: {fileID: 0}
     alternatePortraits: []
   items:
-  - id: 2
-    fields:
-    - title: Name
-      value: Chocotale
-      type: 0
-      typeString: CustomFieldType_Text
-    - title: Pictures
-      value: '[]'
-      type: 3
-      typeString: CustomFieldType_Files
-    - title: Description
-      value: 
-      type: 0
-      typeString: CustomFieldType_Text
-    - title: Is Item
-      value: True
-      type: 2
-      typeString: CustomFieldType_Boolean
   - id: 3
     fields:
-    - title: Name
-      value: Gum
-      type: 0
-      typeString: CustomFieldType_Text
-    - title: Pictures
-      value: '[]'
-      type: 3
-      typeString: CustomFieldType_Files
-    - title: Group
-      value: 
-      type: 0
-      typeString: CustomFieldType_Text
-    - title: Description
-      value: 
-      type: 0
-      typeString: CustomFieldType_Text
     - title: Is Item
       value: True
       type: 2
       typeString: CustomFieldType_Boolean
-  - id: 4
+    - title: Name
+      value: Chocolate
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: Group
+      value: Products
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: Description
+      value: "\u5927\u304D\u3081\u306E\u677F\u30C1\u30E7\u30B3\u30EC\u30FC\u30C8\u3060\u3001\u888B\u306E\u5916\u304B\u3089\u3082\u7518\u3044\u9999\u308A\u304C\u3059\u308B\u3002"
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: jp
+      value: "\u30C1\u30E7\u30B3\u30EC\u30FC\u30C8"
+      type: 4
+      typeString: CustomFieldType_Localization
+    - title: en
+      value: Chocolate
+      type: 4
+      typeString: CustomFieldType_Localization
+  - id: 2
     fields:
+    - title: Is Item
+      value: True
+      type: 2
+      typeString: CustomFieldType_Boolean
     - title: Name
       value: LittleCookie
       type: 0
       typeString: CustomFieldType_Text
-    - title: Pictures
-      value: '[]'
-      type: 3
-      typeString: CustomFieldType_Files
     - title: Group
-      value: 
+      value: Products
       type: 0
       typeString: CustomFieldType_Text
     - title: Description
-      value: 
+      value: "\u30EA\u30DC\u30F3\u306E\u3064\u3044\u3066\u3044\u308B\u888B\u83D3\u5B50\u3060\u3001\u610F\u5916\u3068\u305A\u3063\u3057\u308A\u3057\u3066\u3044\u308B\u3002"
       type: 0
       typeString: CustomFieldType_Text
-    - title: Is Item
-      value: True
-      type: 2
-      typeString: CustomFieldType_Boolean
-  - id: 5
-    fields:
-    - title: Name
-      value: Mt_Chocolate
-      type: 0
-      typeString: CustomFieldType_Text
-    - title: Pictures
-      value: '[]'
-      type: 3
-      typeString: CustomFieldType_Files
-    - title: Group
-      value: 
-      type: 0
-      typeString: CustomFieldType_Text
-    - title: Description
-      value: 
-      type: 0
-      typeString: CustomFieldType_Text
-    - title: Is Item
-      value: True
-      type: 2
-      typeString: CustomFieldType_Boolean
+    - title: jp
+      value: "\u3061\u3044\u3055\u306ACookie"
+      type: 4
+      typeString: CustomFieldType_Localization
+    - title: en
+      value: LittleCookie
+      type: 4
+      typeString: CustomFieldType_Localization
   locations: []
   variables:
   - id: 1
@@ -175,7 +143,7 @@ MonoBehaviour:
       type: 2
       typeString: CustomFieldType_Boolean
     - title: Description
-      value: 
+      value: whether happening conversation now
       type: 0
       typeString: 
   - id: 2
@@ -189,7 +157,25 @@ MonoBehaviour:
       type: 0
       typeString: CustomFieldType_Text
     - title: Description
+      value: Selected item in Inventory
+      type: 0
+      typeString: CustomFieldType_Text
+  - id: 3
+    fields:
+    - title: Name
+      value: DescriptionMessage
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: 
+      value: -1
+      type: 6
+      typeString: CustomFieldType_Item
+    - title: Initial Value
       value: 
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: Description
+      value: Description by Selected item in Inventory
       type: 0
       typeString: CustomFieldType_Text
   conversations:
@@ -390,7 +376,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 20
-        y: 80
+        y: 81.03093
         width: 160
         height: 30
     - id: 2
@@ -817,7 +803,7 @@ MonoBehaviour:
         y: 299.4175
         width: 160
         height: 30
-    canvasScrollPosition: {x: 0, y: 72.16495}
+    canvasScrollPosition: {x: 0, y: 26.804138}
     canvasZoom: 0.9700001
   - id: 2
     fields:
@@ -904,9 +890,17 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
-        value: None()
+        value: 
         type: 0
         typeString: CustomFieldType_Text
+      - title: jp
+        value: 
+        type: 4
+        typeString: CustomFieldType_Localization
+      - title: en
+        value: 
+        type: 4
+        typeString: CustomFieldType_Localization
       conversationID: 2
       isRoot: 0
       isGroup: 0
@@ -930,90 +924,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 27.826088
-        y: 31.739128
-        width: 160
-        height: 30
-    - id: 1
-      fields:
-      - title: Title
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Pictures
-        value: '[]'
-        type: 3
-        typeString: CustomFieldType_Files
-      - title: Description
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Actor
-        value: 1
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Conversant
-        value: -1
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Menu Text
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Dialogue Text
-        value: "\u5165\u308C\u308B"
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Parenthetical
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Audio Files
-        value: '[]'
-        type: 3
-        typeString: CustomFieldType_Files
-      - title: Video File
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Sequence
-        value: FSMEvent (SelectedOption0)
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Response Menu Sequence
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      conversationID: 2
-      isRoot: 0
-      isGroup: 0
-      nodeColor: 
-      delaySimStatus: 0
-      falseConditionAction: Block
-      conditionPriority: 2
-      outgoingLinks: []
-      conditionsString: 
-      userScript: 
-      onExecute:
-        m_PersistentCalls:
-          m_Calls:
-          - m_Target: {fileID: 0}
-            m_MethodName: 
-            m_Mode: 1
-            m_Arguments:
-              m_ObjectArgument: {fileID: 0}
-              m_ObjectArgumentAssemblyTypeName: 
-              m_IntArgument: 0
-              m_FloatArgument: 0
-              m_StringArgument: 
-              m_BoolArgument: 0
-            m_CallState: 2
-        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-      canvasRect:
-        serializedVersion: 2
-        x: 29.565208
-        y: 176.65218
+        x: 300.82605
+        y: 57.739113
         width: 160
         height: 30
     - id: 2
@@ -1043,7 +955,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: "\u8ABF\u3079\u308B"
+        value: "\u3057\u3089\u3079\u308B"
         type: 0
         typeString: CustomFieldType_Text
       - title: Parenthetical
@@ -1059,9 +971,17 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
-        value: 
+        value: Check
         type: 0
         typeString: CustomFieldType_Text
+      - title: jp
+        value: "\u3057\u3089\u3079\u308B"
+        type: 4
+        typeString: CustomFieldType_Localization
+      - title: en
+        value: 
+        type: 4
+        typeString: CustomFieldType_Localization
       conversationID: 2
       isRoot: 0
       isGroup: 0
@@ -1073,7 +993,7 @@ MonoBehaviour:
       - originConversationID: 2
         originDialogueID: 2
         destinationConversationID: 2
-        destinationDialogueID: 9
+        destinationDialogueID: 8
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -1085,8 +1005,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 219.13046
-        y: 176.65219
+        x: 299.13046
+        y: 200.65218
         width: 160
         height: 30
     - id: 3
@@ -1143,6 +1063,14 @@ MonoBehaviour:
         value: 
         type: 0
         typeString: CustomFieldType_Text
+      - title: jp
+        value: "\u3082\u3069\u308B"
+        type: 4
+        typeString: CustomFieldType_Localization
+      - title: en
+        value: Back
+        type: 4
+        typeString: CustomFieldType_Localization
       conversationID: 2
       isRoot: 0
       isGroup: 0
@@ -1150,13 +1078,7 @@ MonoBehaviour:
       delaySimStatus: 0
       falseConditionAction: Block
       conditionPriority: 2
-      outgoingLinks:
-      - originConversationID: 2
-        originDialogueID: 3
-        destinationConversationID: 2
-        destinationDialogueID: 8
-        isConnector: 0
-        priority: 2
+      outgoingLinks: []
       conditionsString: 
       userScript: 
       onExecute:
@@ -1166,8 +1088,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 419.30438
-        y: 174.26088
+        x: 514.3043
+        y: 201.26086
         width: 160
         height: 30
     - id: 7
@@ -1197,7 +1119,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: "[var=ThisItemName]\"\u3060\""
+        value: "[var=ThisItemName]\u3060"
         type: 0
         typeString: CustomFieldType_Item
       - title: Parenthetical
@@ -1224,6 +1146,14 @@ MonoBehaviour:
         value: 
         type: 0
         typeString: CustomFieldType_Text
+      - title: jp
+        value: "[var=ThisItemName]\u3060"
+        type: 4
+        typeString: CustomFieldType_Localization
+      - title: en
+        value: A [var=ThisItemName]
+        type: 4
+        typeString: CustomFieldType_Localization
       conversationID: 2
       isRoot: 0
       isGroup: 0
@@ -1232,12 +1162,6 @@ MonoBehaviour:
       falseConditionAction: Block
       conditionPriority: 2
       outgoingLinks:
-      - originConversationID: 2
-        originDialogueID: 7
-        destinationConversationID: 2
-        destinationDialogueID: 1
-        isConnector: 0
-        priority: 2
       - originConversationID: 2
         originDialogueID: 7
         destinationConversationID: 2
@@ -1259,80 +1183,13 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 29.565224
-        y: 94.17393
+        x: 302.5652
+        y: 120.17392
         width: 160
         height: 30
     - id: 8
       fields:
       - title: Title
-        value: New Dialogue Entry
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Pictures
-        value: '[]'
-        type: 3
-        typeString: CustomFieldType_Files
-      - title: Description
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Actor
-        value: -1
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Conversant
-        value: 1
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Menu Text
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Dialogue Text
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Parenthetical
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Audio Files
-        value: '[]'
-        type: 3
-        typeString: CustomFieldType_Files
-      - title: Video File
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Sequence
-        value: False
-        type: 2
-        typeString: CustomFieldType_Boolean
-      conversationID: 2
-      isRoot: 0
-      isGroup: 0
-      nodeColor: 
-      delaySimStatus: 0
-      falseConditionAction: Block
-      conditionPriority: 2
-      outgoingLinks: []
-      conditionsString: 
-      userScript: 
-      onExecute:
-        m_PersistentCalls:
-          m_Calls: []
-        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-      canvasRect:
-        serializedVersion: 2
-        x: 415.17395
-        y: 261.69565
-        width: 160
-        height: 30
-    - id: 9
-      fields:
-      - title: Title
         value: 
         type: 0
         typeString: CustomFieldType_Text
@@ -1357,7 +1214,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: aaaaa
+        value: '[var=DescriptionMessage]'
         type: 0
         typeString: CustomFieldType_Text
       - title: Parenthetical
@@ -1376,6 +1233,14 @@ MonoBehaviour:
         value: 
         type: 0
         typeString: CustomFieldType_Text
+      - title: jp
+        value: 
+        type: 4
+        typeString: CustomFieldType_Localization
+      - title: en
+        value: 
+        type: 4
+        typeString: CustomFieldType_Localization
       conversationID: 2
       isRoot: 0
       isGroup: 0
@@ -1393,8 +1258,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 219.13046
-        y: 261.6522
+        x: 304.1304
+        y: 281.65216
         width: 160
         height: 30
     canvasScrollPosition: {x: 0, y: 0}
