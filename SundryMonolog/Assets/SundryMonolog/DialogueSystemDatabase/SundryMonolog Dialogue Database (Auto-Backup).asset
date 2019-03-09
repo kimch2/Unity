@@ -139,37 +139,45 @@ MonoBehaviour:
       type: 0
       typeString: 
     - title: Initial Value
-      value: True
+      value: False
       type: 2
       typeString: CustomFieldType_Boolean
     - title: Description
       value: whether happening conversation now
       type: 0
       typeString: 
-  - id: 2
+  - id: 3
     fields:
     - title: Name
-      value: ThisItemName
+      value: DescriptionMessage
       type: 0
       typeString: CustomFieldType_Text
+    - title: 
+      value: -1
+      type: 6
+      typeString: CustomFieldType_Item
     - title: Initial Value
       value: 
       type: 0
       typeString: CustomFieldType_Text
     - title: Description
-      value: Selected item in Inventory
+      value: Description by Selected item in Inventory
       type: 0
       typeString: CustomFieldType_Text
-  - id: 3
+  - id: 4
     fields:
     - title: Name
-      value: ThisItemNum
+      value: ThisItemName
       type: 0
       typeString: CustomFieldType_Text
+    - title: 
+      value: -1
+      type: 6
+      typeString: CustomFieldType_Item
     - title: Initial Value
-      value: 0
-      type: 1
-      typeString: CustomFieldType_Number
+      value: 
+      type: 0
+      typeString: CustomFieldType_Text
     - title: Description
       value: 
       type: 0
@@ -372,7 +380,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 20
-        y: 80
+        y: 81.03093
         width: 160
         height: 30
     - id: 2
@@ -799,7 +807,7 @@ MonoBehaviour:
         y: 299.4175
         width: 160
         height: 30
-    canvasScrollPosition: {x: 0, y: 72.16495}
+    canvasScrollPosition: {x: 0, y: 26.804138}
     canvasZoom: 0.9700001
   - id: 2
     fields:
@@ -886,9 +894,17 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
-        value: None()
+        value: 
         type: 0
         typeString: CustomFieldType_Text
+      - title: jp
+        value: 
+        type: 4
+        typeString: CustomFieldType_Localization
+      - title: en
+        value: 
+        type: 4
+        typeString: CustomFieldType_Localization
       conversationID: 2
       isRoot: 0
       isGroup: 0
@@ -912,8 +928,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 27.826088
-        y: 31.739128
+        x: 299.79514
+        y: 58.770042
         width: 160
         height: 30
     - id: 2
@@ -959,11 +975,15 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
-        value: Check
+        value: 
         type: 0
         typeString: CustomFieldType_Text
       - title: jp
         value: "\u3057\u3089\u3079\u308B"
+        type: 4
+        typeString: CustomFieldType_Localization
+      - title: en
+        value: Check
         type: 4
         typeString: CustomFieldType_Localization
       conversationID: 2
@@ -989,8 +1009,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 26.130478
-        y: 174.65219
+        x: 305.13046
+        y: 198.59035
         width: 160
         height: 30
     - id: 3
@@ -1036,7 +1056,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
-        value: FSMEvent (SelectedOption2)
+        value: FSMEvent (BackToPlay)
         type: 0
         typeString: CustomFieldType_Text
       - title: 
@@ -1064,7 +1084,7 @@ MonoBehaviour:
       conditionPriority: 2
       outgoingLinks: []
       conditionsString: 
-      userScript: 
+      userScript: Variable["NowConversation"] = false
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -1072,8 +1092,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 241.3044
-        y: 175.26088
+        x: 515.3043
+        y: 199.26086
         width: 160
         height: 30
     - id: 7
@@ -1167,14 +1187,14 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 29.565224
-        y: 94.17393
+        x: 302.5652
+        y: 120.17392
         width: 160
         height: 30
     - id: 8
       fields:
       - title: Title
-        value: New Dialogue Entry
+        value: 
         type: 0
         typeString: CustomFieldType_Text
       - title: Pictures
@@ -1198,7 +1218,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: 
+        value: '[var=DescriptionMessage]'
         type: 0
         typeString: CustomFieldType_Text
       - title: Parenthetical
@@ -1225,6 +1245,10 @@ MonoBehaviour:
         value: 
         type: 4
         typeString: CustomFieldType_Localization
+      - title: Response Menu Sequence
+        value: 
+        type: 0
+        typeString: 
       conversationID: 2
       isRoot: 0
       isGroup: 0
@@ -1234,7 +1258,7 @@ MonoBehaviour:
       conditionPriority: 2
       outgoingLinks: []
       conditionsString: 
-      userScript: 
+      userScript: Variable["NowConversation"] = false
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -1242,11 +1266,11 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 32.13047
-        y: 255.65219
+        x: 305.0377
+        y: 276.77585
         width: 160
         height: 30
-    canvasScrollPosition: {x: 0, y: 104.999985}
+    canvasScrollPosition: {x: 87.979195, y: 190.26573}
     canvasZoom: 1.0000001
   - id: 3
     fields:
