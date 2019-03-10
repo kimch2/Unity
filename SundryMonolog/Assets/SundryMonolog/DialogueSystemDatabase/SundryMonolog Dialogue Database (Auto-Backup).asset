@@ -78,32 +78,6 @@ MonoBehaviour:
     portrait: {fileID: 0}
     alternatePortraits: []
   items:
-  - id: 3
-    fields:
-    - title: Is Item
-      value: True
-      type: 2
-      typeString: CustomFieldType_Boolean
-    - title: Name
-      value: Chocolate
-      type: 0
-      typeString: CustomFieldType_Text
-    - title: Group
-      value: Products
-      type: 0
-      typeString: CustomFieldType_Text
-    - title: Description
-      value: "\u5927\u304D\u3081\u306E\u677F\u30C1\u30E7\u30B3\u30EC\u30FC\u30C8\u3060\u3001\u888B\u306E\u5916\u304B\u3089\u3082\u7518\u3044\u9999\u308A\u304C\u3059\u308B\u3002"
-      type: 0
-      typeString: CustomFieldType_Text
-    - title: jp
-      value: "\u30C1\u30E7\u30B3\u30EC\u30FC\u30C8"
-      type: 4
-      typeString: CustomFieldType_Localization
-    - title: en
-      value: Chocolate
-      type: 4
-      typeString: CustomFieldType_Localization
   - id: 2
     fields:
     - title: Is Item
@@ -128,6 +102,32 @@ MonoBehaviour:
       typeString: CustomFieldType_Localization
     - title: en
       value: LittleCookie
+      type: 4
+      typeString: CustomFieldType_Localization
+  - id: 3
+    fields:
+    - title: Is Item
+      value: True
+      type: 2
+      typeString: CustomFieldType_Boolean
+    - title: Name
+      value: Chocolate
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: Group
+      value: Products
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: Description
+      value: "\u5927\u304D\u3081\u306E\u677F\u30C1\u30E7\u30B3\u30EC\u30FC\u30C8\u3060\u3001\u888B\u306E\u5916\u304B\u3089\u3082\u7518\u3044\u9999\u308A\u304C\u3059\u308B\u3002"
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: jp
+      value: "\u30C1\u30E7\u30B3\u30EC\u30FC\u30C8"
+      type: 4
+      typeString: CustomFieldType_Localization
+    - title: en
+      value: Chocolate
       type: 4
       typeString: CustomFieldType_Localization
   locations: []
@@ -186,7 +186,7 @@ MonoBehaviour:
   - id: 1
     fields:
     - title: Title
-      value: New Conversation 1
+      value: TalkingToCustomer
       type: 0
       typeString: 
     - title: Pictures
@@ -1092,8 +1092,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 515.3043
-        y: 199.26086
+        x: 516.3043
+        y: 198.26086
         width: 160
         height: 30
     - id: 7
@@ -1270,12 +1270,12 @@ MonoBehaviour:
         y: 276.77585
         width: 160
         height: 30
-    canvasScrollPosition: {x: 87.979195, y: 190.26573}
-    canvasZoom: 1.0000001
+    canvasScrollPosition: {x: 113.03583, y: 0}
+    canvasZoom: 0.97000015
   - id: 3
     fields:
     - title: Title
-      value: New Conversation 3
+      value: UseMicrowave
       type: 0
       typeString: CustomFieldType_Text
     - title: Pictures
@@ -1450,7 +1450,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 30
+        x: 18.60759
         y: 121
         width: 160
         height: 30
