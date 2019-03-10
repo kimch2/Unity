@@ -78,32 +78,6 @@ MonoBehaviour:
     portrait: {fileID: 0}
     alternatePortraits: []
   items:
-  - id: 2
-    fields:
-    - title: Is Item
-      value: True
-      type: 2
-      typeString: CustomFieldType_Boolean
-    - title: Name
-      value: LittleCookie
-      type: 0
-      typeString: CustomFieldType_Text
-    - title: Group
-      value: Products
-      type: 0
-      typeString: CustomFieldType_Text
-    - title: Description
-      value: "\u30EA\u30DC\u30F3\u306E\u3064\u3044\u3066\u3044\u308B\u888B\u83D3\u5B50\u3060\u3001\u610F\u5916\u3068\u305A\u3063\u3057\u308A\u3057\u3066\u3044\u308B\u3002"
-      type: 0
-      typeString: CustomFieldType_Text
-    - title: jp
-      value: "\u3061\u3044\u3055\u306ACookie"
-      type: 4
-      typeString: CustomFieldType_Localization
-    - title: en
-      value: LittleCookie
-      type: 4
-      typeString: CustomFieldType_Localization
   - id: 3
     fields:
     - title: Is Item
@@ -119,7 +93,7 @@ MonoBehaviour:
       type: 0
       typeString: CustomFieldType_Text
     - title: Description
-      value: "\u5927\u304D\u3081\u306E\u677F\u30C1\u30E7\u30B3\u30EC\u30FC\u30C8\u3060\u3001\u888B\u306E\u5916\u304B\u3089\u3082\u7518\u3044\u9999\u308A\u304C\u3059\u308B\u3002"
+      value: "\u5927\u304D\u3081\u306E\u677F\u30C1\u30E7\u30B3\u30EC\u30FC\u30C8\u3060\u3001\u307B\u306E\u304B\u306B\u7518\u3044\u9999\u308A\u304C\u3059\u308B\u3002"
       type: 0
       typeString: CustomFieldType_Text
     - title: jp
@@ -128,6 +102,84 @@ MonoBehaviour:
       typeString: CustomFieldType_Localization
     - title: en
       value: Chocolate
+      type: 4
+      typeString: CustomFieldType_Localization
+  - id: 4
+    fields:
+    - title: Is Item
+      value: True
+      type: 2
+      typeString: CustomFieldType_Boolean
+    - title: Name
+      value: Gum
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: Group
+      value: 
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: Description
+      value: "\u30DF\u30F3\u30C8\u306E\u9999\u308A\u304C\u3059\u308B\u30C1\u30E5\u30FC\u30A4\u30F3\u30AC\u30E0\u3060"
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: jp
+      value: 
+      type: 4
+      typeString: CustomFieldType_Localization
+    - title: en
+      value: 
+      type: 4
+      typeString: CustomFieldType_Localization
+  - id: 2
+    fields:
+    - title: Is Item
+      value: True
+      type: 2
+      typeString: CustomFieldType_Boolean
+    - title: Name
+      value: LittleCookie
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: Group
+      value: Products
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: Description
+      value: "\u30EA\u30DC\u30F3\u306E\u3064\u3044\u3066\u3044\u308B\u888B\u5165\u308A\u30AF\u30C3\u30AD\u30FC\u3060\u3001\u610F\u5916\u3068\u305A\u3063\u3057\u308A\u3057\u3066\u3044\u308B\u3002"
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: jp
+      value: "\u3061\u3044\u3055\u306ACookie"
+      type: 4
+      typeString: CustomFieldType_Localization
+    - title: en
+      value: LittleCookie
+      type: 4
+      typeString: CustomFieldType_Localization
+  - id: 5
+    fields:
+    - title: Is Item
+      value: True
+      type: 2
+      typeString: CustomFieldType_Boolean
+    - title: Name
+      value: Mt_Chocolate
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: Group
+      value: 
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: Description
+      value: "\u4E09\u89D2\u5F62\u306E\u30D1\u30D5\u5165\u308A\u30C1\u30E7\u30B3\u30EC\u30FC\u30C8\u3001\u5305\u88C5\u304C\u30AD\u30E9\u30AD\u30E9\u3057\u3066\u3044\u308B"
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: jp
+      value: 
+      type: 4
+      typeString: CustomFieldType_Localization
+    - title: en
+      value: 
       type: 4
       typeString: CustomFieldType_Localization
   locations: []
@@ -179,7 +231,7 @@ MonoBehaviour:
       type: 0
       typeString: CustomFieldType_Text
     - title: Description
-      value: 
+      value: SelectedItemName
       type: 0
       typeString: CustomFieldType_Text
   - id: 5
@@ -197,7 +249,7 @@ MonoBehaviour:
       type: 0
       typeString: CustomFieldType_Text
     - title: Description
-      value: 
+      value: Inventory1
       type: 0
       typeString: CustomFieldType_Text
   - id: 6
@@ -215,7 +267,7 @@ MonoBehaviour:
       type: 0
       typeString: CustomFieldType_Text
     - title: Description
-      value: 
+      value: Inventory2
       type: 0
       typeString: CustomFieldType_Text
   - id: 7
@@ -233,7 +285,25 @@ MonoBehaviour:
       type: 0
       typeString: CustomFieldType_Text
     - title: Description
+      value: Inventory3
+      type: 0
+      typeString: CustomFieldType_Text
+  - id: 8
+    fields:
+    - title: Name
+      value: MicrowavedItem
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: 
+      value: -1
+      type: 6
+      typeString: CustomFieldType_Item
+    - title: Initial Value
       value: 
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: Description
+      value: Used Microwave
       type: 0
       typeString: CustomFieldType_Text
   conversations:
@@ -982,8 +1052,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 299.79514
-        y: 58.770042
+        x: 20
+        y: 55
         width: 160
         height: 30
     - id: 2
@@ -1063,8 +1133,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 305.13046
-        y: 198.59035
+        x: 380
+        y: 28.96907
         width: 160
         height: 30
     - id: 3
@@ -1146,8 +1216,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 516.3043
-        y: 198.26086
+        x: 384.12372
+        y: 84.12372
         width: 160
         height: 30
     - id: 7
@@ -1241,8 +1311,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 302.5652
-        y: 120.17392
+        x: 201.03093
+        y: 55
         width: 160
         height: 30
     - id: 8
@@ -1302,7 +1372,7 @@ MonoBehaviour:
       - title: Response Menu Sequence
         value: 
         type: 0
-        typeString: 
+        typeString: CustomFieldType_Text
       conversationID: 2
       isRoot: 0
       isGroup: 0
@@ -1320,11 +1390,11 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 305.0377
-        y: 276.77585
+        x: 561.0309
+        y: 55
         width: 160
         height: 30
-    canvasScrollPosition: {x: 113.03583, y: 0}
+    canvasScrollPosition: {x: 0, y: 0}
     canvasZoom: 0.97000015
   - id: 3
     fields:
@@ -1387,7 +1457,7 @@ MonoBehaviour:
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: 2
+        value: -1
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -1411,7 +1481,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
-        value: None()
+        value: 
         type: 0
         typeString: CustomFieldType_Text
       - title: jp
@@ -1437,7 +1507,7 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: 
+      userScript: Variable["NowConversation"] = true
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -1445,8 +1515,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 210
-        y: 20
+        x: 20
+        y: 105
         width: 160
         height: 30
     - id: 1
@@ -1464,7 +1534,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Actor
-        value: 2
+        value: -1
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
@@ -1544,14 +1614,14 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 210
-        y: 68.73418
+        x: 200
+        y: 105
         width: 160
         height: 30
     - id: 2
       fields:
       - title: Title
-        value: New Dialogue Entry
+        value: 
         type: 0
         typeString: CustomFieldType_Text
       - title: Pictures
@@ -1567,7 +1637,7 @@ MonoBehaviour:
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: 2
+        value: -1
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -1575,7 +1645,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: 
+        value: '[var=InvItem0]'
         type: 0
         typeString: CustomFieldType_Text
       - title: Parenthetical
@@ -1591,7 +1661,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
-        value: 
+        value: FSMEvent (MicrowavedItem)
         type: 0
         typeString: CustomFieldType_Text
       - title: jp
@@ -1611,7 +1681,9 @@ MonoBehaviour:
       conditionPriority: 2
       outgoingLinks: []
       conditionsString: 
-      userScript: 
+      userScript: 'Variable["MicrowavedItem"] = "[var=InvItem0]";
+
+        Variable["NowConversation"] = false'
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -1619,14 +1691,14 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 28.734177
-        y: 126.32912
+        x: 380
+        y: 30
         width: 160
         height: 30
     - id: 3
       fields:
       - title: Title
-        value: New Dialogue Entry
+        value: 
         type: 0
         typeString: CustomFieldType_Text
       - title: Pictures
@@ -1642,7 +1714,7 @@ MonoBehaviour:
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: 2
+        value: -1
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -1650,7 +1722,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: 
+        value: '[var=InvItem1]'
         type: 0
         typeString: CustomFieldType_Text
       - title: Parenthetical
@@ -1694,8 +1766,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 213.79745
-        y: 127.59494
+        x: 378
+        y: 80
         width: 160
         height: 30
     - id: 4
@@ -1717,7 +1789,7 @@ MonoBehaviour:
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: 2
+        value: -1
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -1725,7 +1797,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: 
+        value: '[var=InvItem2]'
         type: 0
         typeString: CustomFieldType_Text
       - title: Parenthetical
@@ -1769,8 +1841,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 407.72147
-        y: 128.86076
+        x: 380
+        y: 130
         width: 160
         height: 30
     - id: 5
@@ -1792,7 +1864,7 @@ MonoBehaviour:
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: 2
+        value: -1
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -1816,7 +1888,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
-        value: 
+        value: FSMEvent (ClosePopUpWindow)
         type: 0
         typeString: CustomFieldType_Text
       - title: jp
@@ -1827,6 +1899,10 @@ MonoBehaviour:
         value: 
         type: 4
         typeString: CustomFieldType_Localization
+      - title: Response Menu Sequence
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
       conversationID: 3
       isRoot: 0
       isGroup: 0
@@ -1836,7 +1912,7 @@ MonoBehaviour:
       conditionPriority: 2
       outgoingLinks: []
       conditionsString: 
-      userScript: 
+      userScript: Variable["NowConversation"] = false
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -1844,12 +1920,12 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 601.1393
-        y: 126.3291
+        x: 380
+        y: 181
         width: 160
         height: 30
     canvasScrollPosition: {x: 0, y: 0}
-    canvasZoom: 0.79
+    canvasZoom: 0.9999999
   - id: 4
     fields:
     - title: Title

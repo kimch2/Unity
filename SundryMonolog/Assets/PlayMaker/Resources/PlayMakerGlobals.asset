@@ -71,12 +71,6 @@ MonoBehaviour:
       value: 0
     stringVariables:
     - useVariable: 1
-      name: HavingProductName
-      tooltip: 
-      showInInspector: 0
-      networkSync: 0
-      value: 
-    - useVariable: 1
       name: ThisCustomerTag
       tooltip: 
       showInInspector: 0
@@ -113,9 +107,8 @@ MonoBehaviour:
     enumVariables: []
     categories:
     - 
-    variableCategoryIDs: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    variableCategoryIDs: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   events:
-  - sold
   - Reset
   - Sort
   - PickedProductReturn
@@ -141,5 +134,4 @@ MonoBehaviour:
   - ProductsRestock
   - TurnUpProduct
   - TurnInvisibleProduct
-  - sss
-  - BackToPlay
+  - MicrowavingStart
