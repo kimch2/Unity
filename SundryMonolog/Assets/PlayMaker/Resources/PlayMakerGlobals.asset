@@ -22,6 +22,12 @@ MonoBehaviour:
       value: 0
     boolVariables:
     - useVariable: 1
+      name: FinishMicrowaving
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
       name: NowConversation
       tooltip: 
       showInInspector: 0
@@ -69,6 +75,12 @@ MonoBehaviour:
       showInInspector: 0
       networkSync: 0
       value: 0
+    - useVariable: 1
+      name: UsingMicrowave
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
     stringVariables:
     - useVariable: 1
       name: ThisCustomerTag
@@ -107,7 +119,7 @@ MonoBehaviour:
     enumVariables: []
     categories:
     - 
-    variableCategoryIDs: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    variableCategoryIDs: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   events:
   - Reset
   - Sort
