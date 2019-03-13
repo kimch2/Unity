@@ -131,7 +131,6 @@ MonoBehaviour:
   - StartConversation
   - FinishOrder
   - Check
-  - RemoveInvIcon
   - RemoveOrderIcon
   - ChoseCustomer
   - StartTransaction
@@ -147,3 +146,4 @@ MonoBehaviour:
   - TurnUpProduct
   - TurnInvisibleProduct
   - MicrowavingStart
+  - RemoveInvIcon
