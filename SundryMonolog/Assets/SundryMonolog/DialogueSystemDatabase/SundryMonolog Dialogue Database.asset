@@ -1800,8 +1800,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 378
-        y: 80
+        x: 383.6604
+        y: 80.943405
         width: 160
         height: 30
     - id: 4
@@ -1958,7 +1958,7 @@ MonoBehaviour:
         y: 182
         width: 160
         height: 30
-    canvasScrollPosition: {x: 217.92453, y: 0}
+    canvasScrollPosition: {x: 0, y: 0}
     canvasZoom: 1.0599998
   - id: 4
     fields:
