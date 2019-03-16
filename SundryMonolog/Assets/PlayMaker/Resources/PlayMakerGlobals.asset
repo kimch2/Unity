@@ -12,7 +12,13 @@ MonoBehaviour:
   m_Name: PlayMakerGlobals
   m_EditorClassIdentifier: 
   variables:
-    floatVariables: []
+    floatVariables:
+    - useVariable: 1
+      name: CowntdownTime
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
     intVariables:
     - useVariable: 1
       name: SelectedInv
@@ -22,13 +28,13 @@ MonoBehaviour:
       value: 0
     boolVariables:
     - useVariable: 1
-      name: FinishMicrowaving
+      name: NowConversation
       tooltip: 
       showInInspector: 0
       networkSync: 0
       value: 0
     - useVariable: 1
-      name: NowConversation
+      name: NowMicrowaving
       tooltip: 
       showInInspector: 0
       networkSync: 0
@@ -119,7 +125,7 @@ MonoBehaviour:
     enumVariables: []
     categories:
     - 
-    variableCategoryIDs: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    variableCategoryIDs: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   events:
   - Reset
   - Sort
@@ -128,7 +134,6 @@ MonoBehaviour:
   - PickedProduct
   - ScoreIncreasing
   - TakeOrder
-  - StartConversation
   - FinishOrder
   - Check
   - RemoveOrderIcon
@@ -145,5 +150,5 @@ MonoBehaviour:
   - ProductsRestock
   - TurnUpProduct
   - TurnInvisibleProduct
-  - MicrowavingStart
   - RemoveInvIcon
+  - StartMicrowaveCountdown
