@@ -14,7 +14,7 @@ MonoBehaviour:
   variables:
     floatVariables:
     - useVariable: 1
-      name: CowntdownTime
+      name: MicrowaveCountdown
       tooltip: 
       showInInspector: 0
       networkSync: 0

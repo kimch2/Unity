@@ -2695,7 +2695,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 71
-        y: 161
+        y: 152
         width: 160
         height: 30
     - id: 41
@@ -2769,8 +2769,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 518.9302
-        y: 153
+        x: 525.9302
+        y: 154
         width: 160
         height: 30
     - id: 42
@@ -2848,8 +2848,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 520.7764
-        y: 206.23816
+        x: 522.7764
+        y: 205.23816
         width: 160
         height: 30
     - id: 43
