@@ -8208,7 +8208,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0.00012207031}
+  m_AnchoredPosition: {x: 0, y: 0.00008392334}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &488756849
@@ -10634,7 +10634,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 1638034602}
   m_Direction: 2
   m_Value: 0
-  m_Size: 0.9999995
+  m_Size: 0.99999976
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -14425,19 +14425,11 @@ MonoBehaviour:
         x: 286.10156
         y: 278.6875
         width: 157
-        height: 32
+        height: 16
       isBreakpoint: 0
       isSequence: 0
       hideUnused: 0
-      transitions:
-      - fsmEvent:
-          name: FINISHED
-          isSystemEvent: 1
-          isGlobal: 0
-        toState: Off Now transaction
-        linkStyle: 0
-        linkConstraint: 0
-        colorIndex: 0
+      transitions: []
       actionData:
         actionNames:
         - HutongGames.PlayMaker.Actions.SetIntValue
@@ -14795,8 +14787,8 @@ MonoBehaviour:
       colorIndex: 4
       position:
         serializedVersion: 2
-        x: 489.5703
-        y: 236.69531
+        x: 496.5703
+        y: 262.6953
         width: 139
         height: 32
       isBreakpoint: 0
@@ -14955,7 +14947,7 @@ MonoBehaviour:
         x: 962.3281
         y: 108.3125
         width: 175
-        height: 48
+        height: 64
       isBreakpoint: 0
       isSequence: 0
       hideUnused: 0
@@ -14976,12 +14968,20 @@ MonoBehaviour:
         linkStyle: 0
         linkConstraint: 0
         colorIndex: 0
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: Check Now Transaction or Not
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
       actionData:
         actionNames:
         - HutongGames.PlayMaker.Actions.BoolTest
         customNames:
         - 
-        actionEnabled: 01
+        actionEnabled: 00
         actionIsOpen: 01
         actionStartIndex: 00000000
         actionHashCodes: a4c8bf00
@@ -17587,8 +17587,8 @@ MonoBehaviour:
       colorIndex: 4
       position:
         serializedVersion: 2
-        x: 84.97656
-        y: 156.97656
+        x: 52.976562
+        y: 124.97656
         width: 100
         height: 16
       isBreakpoint: 0
@@ -17675,8 +17675,8 @@ MonoBehaviour:
       colorIndex: 4
       position:
         serializedVersion: 2
-        x: 308.79688
-        y: 225.5
+        x: 276.79688
+        y: 193.5
         width: 121
         height: 48
       isBreakpoint: 0
@@ -17702,12 +17702,14 @@ MonoBehaviour:
       actionData:
         actionNames:
         - HutongGames.PlayMaker.Actions.BoolTest
+        - HutongGames.PlayMaker.Actions.BoolTest
         customNames:
         - 
-        actionEnabled: 01
-        actionIsOpen: 01
-        actionStartIndex: 00000000
-        actionHashCodes: a4c8bf00
+        - 
+        actionEnabled: 0001
+        actionIsOpen: 0101
+        actionStartIndex: 0000000004000000
+        actionHashCodes: a4c8bf00a4c8bf00
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams: []
@@ -17731,6 +17733,12 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: 0
+        - useVariable: 1
+          name: NowTransaction
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
         fsmVector2Params: []
         fsmVector3Params: []
         fsmColorParams: []
@@ -17739,26 +17747,32 @@ MonoBehaviour:
         stringParams:
         - True
         - False
-        byteData: 00
+        - True
+        - False
+        byteData: 0000
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 11000000170000001700000001000000
+        paramDataType: 1100000017000000170000000100000011000000170000001700000001000000
         paramName:
         - boolVariable
         - isTrue
         - isFalse
         - everyFrame
-        paramDataPos: 00000000000000000100000000000000
-        paramByteDataSize: 00000000000000000000000001000000
+        - boolVariable
+        - isTrue
+        - isFalse
+        - everyFrame
+        paramDataPos: 0000000000000000010000000000000001000000020000000300000001000000
+        paramByteDataSize: 0000000000000000000000000100000000000000000000000000000001000000
     - name: Game Start!
       description: "\u30FB\u5BA2\u9078\u51FA\n\u30FB\u30D9\u30EB\u306E\u5F79\u76EE\u7D42\u4E86"
       colorIndex: 4
       position:
         serializedVersion: 2
-        x: 60
-        y: 259
+        x: 129
+        y: 225
         width: 118
         height: 16
       isBreakpoint: 0
@@ -17774,7 +17788,7 @@ MonoBehaviour:
         - 
         - 
         - 
-        actionEnabled: 010101
+        actionEnabled: 010000
         actionIsOpen: 010101
         actionStartIndex: 000000000400000007000000
         actionHashCodes: 5e69bb0427fbe10348c01101
@@ -17883,8 +17897,8 @@ MonoBehaviour:
       colorIndex: 4
       position:
         serializedVersion: 2
-        x: 294
-        y: 136
+        x: 262
+        y: 104
         width: 128
         height: 32
       isBreakpoint: 0
@@ -17943,8 +17957,8 @@ MonoBehaviour:
       colorIndex: 4
       position:
         serializedVersion: 2
-        x: 527
-        y: 242
+        x: 435
+        y: 210
         width: 106
         height: 16
       isBreakpoint: 0
@@ -25214,28 +25228,11 @@ MonoBehaviour:
         value: {fileID: 0}
       materialVariables: []
       textureVariables: []
-      arrayVariables:
-      - useVariable: 1
-        name: Icons
-        tooltip: 
-        showInInspector: 0
-        networkSync: 0
-        type: 12
-        objectTypeName: UnityEngine.Sprite
-        floatValues: []
-        intValues: 
-        boolValues: 
-        stringValues: []
-        vector4Values: []
-        objectReferences:
-        - {fileID: 21300000, guid: 8c1043428b4eda84fa4263669db5bacd, type: 3}
-        - {fileID: 21300000, guid: ffb581b4a2afed947b08655b4f64c94f, type: 3}
-        - {fileID: 21300000, guid: 3f731f58210cea74db9e7e618ec0a257, type: 3}
-        - {fileID: 21300000, guid: 6030b5af373cb9f478d082784bf109d4, type: 3}
+      arrayVariables: []
       enumVariables: []
       categories:
       - 
-      variableCategoryIDs: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+      variableCategoryIDs: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
     description: 
     docUrl: 
     showStateLabel: 0
@@ -32458,8 +32455,8 @@ MonoBehaviour:
           - {fileID: 21300000, guid: ffb581b4a2afed947b08655b4f64c94f, type: 3}
           - {fileID: 21300000, guid: 3f731f58210cea74db9e7e618ec0a257, type: 3}
           - {fileID: 21300000, guid: 6030b5af373cb9f478d082784bf109d4, type: 3}
-          - {fileID: 0}
-          - {fileID: 0}
+          - {fileID: 21300000, guid: 3e46bd5c13be7aa49aecde08aad28cf8, type: 3}
+          - {fileID: 21300000, guid: 4b355ed6e49968f4bab155173afd9111, type: 3}
         fsmEnumParams: []
         fsmFloatParams: []
         fsmIntParams:
@@ -32828,30 +32825,11 @@ MonoBehaviour:
         value: {fileID: 0}
       materialVariables: []
       textureVariables: []
-      arrayVariables:
-      - useVariable: 1
-        name: Icons
-        tooltip: 
-        showInInspector: 0
-        networkSync: 0
-        type: 12
-        objectTypeName: UnityEngine.Sprite
-        floatValues: []
-        intValues: 
-        boolValues: 
-        stringValues: []
-        vector4Values: []
-        objectReferences:
-        - {fileID: 21300000, guid: 8c1043428b4eda84fa4263669db5bacd, type: 3}
-        - {fileID: 21300000, guid: ffb581b4a2afed947b08655b4f64c94f, type: 3}
-        - {fileID: 21300000, guid: 3f731f58210cea74db9e7e618ec0a257, type: 3}
-        - {fileID: 21300000, guid: 6030b5af373cb9f478d082784bf109d4, type: 3}
-        - {fileID: 0}
-        - {fileID: 0}
+      arrayVariables: []
       enumVariables: []
       categories:
       - 
-      variableCategoryIDs: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+      variableCategoryIDs: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
     description: 
     docUrl: 
     showStateLabel: 0

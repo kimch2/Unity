@@ -127,11 +127,30 @@ MonoBehaviour:
     objectVariables: []
     materialVariables: []
     textureVariables: []
-    arrayVariables: []
+    arrayVariables:
+    - useVariable: 1
+      name: Icons
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      type: 12
+      objectTypeName: UnityEngine.Sprite
+      floatValues: []
+      intValues: 
+      boolValues: 
+      stringValues: []
+      vector4Values: []
+      objectReferences:
+      - {fileID: 21300000, guid: 8c1043428b4eda84fa4263669db5bacd, type: 3}
+      - {fileID: 21300000, guid: ffb581b4a2afed947b08655b4f64c94f, type: 3}
+      - {fileID: 21300000, guid: 3f731f58210cea74db9e7e618ec0a257, type: 3}
+      - {fileID: 21300000, guid: 6030b5af373cb9f478d082784bf109d4, type: 3}
+      - {fileID: 21300000, guid: 3e46bd5c13be7aa49aecde08aad28cf8, type: 3}
+      - {fileID: 21300000, guid: 4b355ed6e49968f4bab155173afd9111, type: 3}
     enumVariables: []
     categories:
     - 
-    variableCategoryIDs: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    variableCategoryIDs: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   events:
   - Reset
   - Sort
