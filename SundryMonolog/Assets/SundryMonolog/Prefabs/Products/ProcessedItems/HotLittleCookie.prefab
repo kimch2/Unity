@@ -25,7 +25,7 @@ GameObject:
   - component: {fileID: 65510775403232394}
   m_Layer: 0
   m_Name: HotLittleCookie
-  m_TagString: Untagged
+  m_TagString: Item
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -58,7 +58,7 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 2100004, guid: 123cbe0810532a14a9605a46149db32b, type: 3}
+  - {fileID: 2100000, guid: 44b5c3828f09a8a458351689390dd87c, type: 2}
   - {fileID: 2100010, guid: 123cbe0810532a14a9605a46149db32b, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0

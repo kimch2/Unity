@@ -154,8 +154,6 @@ MonoBehaviour:
   events:
   - Reset
   - Sort
-  - PickedProductReturn
-  - PickedProductPos3
   - PickedProduct
   - ScoreIncreasing
   - TakeOrder
@@ -173,8 +171,10 @@ MonoBehaviour:
   - PressD
   - PressW
   - ProductsRestock
-  - TurnUpProduct
-  - TurnInvisibleProduct
   - RemoveInvIcon
   - StartMicrowaveCountdown
   - MicrowavingStop
+  - TurnInvisibleThisObj
+  - ResetItemPos
+  - TurnInvisibleProduct
+  - ReturnInvisibleProduct
