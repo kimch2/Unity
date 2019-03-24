@@ -184,10 +184,6 @@ MonoBehaviour:
   - Inv3Update
   - Inv1Update
   - UpdateInventory
-  - PressA
-  - PressS
-  - PressD
-  - PressW
   - ProductsRestock
   - RemoveInvIcon
   - StartMicrowaveCountdown
@@ -197,3 +193,7 @@ MonoBehaviour:
   - TurnInvisibleProduct
   - ReturnInvisibleProduct
   - StockMicrowavedItems
+  - PressA
+  - PressD
+  - PressE
+  - PressS

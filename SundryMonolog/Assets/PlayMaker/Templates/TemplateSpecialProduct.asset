@@ -740,7 +740,7 @@ MonoBehaviour:
       isGlobal: 0
     - name: PressE
       isSystemEvent: 0
-      isGlobal: 0
+      isGlobal: 1
     - name: ResetItemPos
       isSystemEvent: 0
       isGlobal: 1
