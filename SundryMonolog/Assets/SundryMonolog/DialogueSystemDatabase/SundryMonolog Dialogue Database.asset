@@ -2771,8 +2771,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 525.9302
-        y: 153
+        x: 520.9302
+        y: 154
         width: 160
         height: 30
     - id: 42

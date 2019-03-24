@@ -196,3 +196,4 @@ MonoBehaviour:
   - ResetItemPos
   - TurnInvisibleProduct
   - ReturnInvisibleProduct
+  - StockMicrowavedItems
