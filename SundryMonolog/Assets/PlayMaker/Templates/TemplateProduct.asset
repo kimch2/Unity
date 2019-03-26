@@ -23,7 +23,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 60.59375
+        x: 76.59375
         y: 103.140625
         width: 149.5
         height: 32
@@ -36,7 +36,7 @@ MonoBehaviour:
           isSystemEvent: 0
           isGlobal: 0
         toState: Original Position
-        linkStyle: 0
+        linkStyle: 2
         linkConstraint: 0
         colorIndex: 0
       actionData:
@@ -164,8 +164,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 52.484375
-        y: 256.5
+        x: 77.765625
+        y: 311.14062
         width: 138
         height: 16
       isBreakpoint: 0
@@ -362,7 +362,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 247.36719
+        x: 263.3672
         y: 239.75
         width: 128
         height: 32
@@ -375,7 +375,7 @@ MonoBehaviour:
           isSystemEvent: 0
           isGlobal: 0
         toState: Create INV Item
-        linkStyle: 0
+        linkStyle: 3
         linkConstraint: 0
         colorIndex: 0
       actionData:
@@ -471,7 +471,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 414.9453
+        x: 430.9453
         y: 148.51562
         width: 122
         height: 16
@@ -576,8 +576,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 60.304688
-        y: 205.67188
+        x: 64
+        y: 208
         width: 140
         height: 16
       isBreakpoint: 0
