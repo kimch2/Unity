@@ -482,6 +482,15 @@
     <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
       <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/15.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
+    <Reference Include="UnityFbxPrefab">
+      <HintPath>C:/Users/silya/OneDrive/ドキュメント/SM/SundryMonolog/Assets/FbxExporters/UnityFbxPrefab.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityFbxExporterEditor">
+      <HintPath>C:/Users/silya/OneDrive/ドキュメント/SM/SundryMonolog/Assets/FbxExporters/Editor/UnityFbxExporterEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityFbxSdk">
+      <HintPath>C:/Users/silya/OneDrive/ドキュメント/SM/SundryMonolog/Assets/FbxExporters/Editor/FbxSdk/Plugins/UnityFbxSdk.dll</HintPath>
+    </Reference>
     <Reference Include="ConditionalExpression">
       <HintPath>C:/Users/silya/OneDrive/ドキュメント/SM/SundryMonolog/Assets/PlayMaker/ConditionalExpression.dll</HintPath>
     </Reference>
