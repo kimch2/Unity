@@ -241,6 +241,7 @@
     <Compile Include="Assets\PlayMaker ArrayMaker\Addons\Unity\Screen\ScreenSetResolution.cs" />
     <Compile Include="Assets\PlayMaker ArrayMaker\Addons\Unity\Text\SplitTextToArrayList.cs" />
     <Compile Include="Assets\PlayMaker Custom Actions\ArrayMaker\ArrayListFindGameObjectsInsideCollider.cs" />
+    <Compile Include="Assets\PlayMaker Custom Actions\iTween\ItweenMoveTo_v2.cs" />
     <Compile Include="Assets\PlayMaker Custom Actions\Logic\BoolCompare.cs" />
     <Compile Include="Assets\PlayMaker Custom Actions\Physics\EnableCollider.cs" />
     <Compile Include="Assets\PlayMaker Custom Actions\Physics\EnableColliderByTag.cs" />
