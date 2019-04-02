@@ -231,6 +231,15 @@
     <Compile Include="Assets\PlayMaker\Editor\PlayMakerWelcomeWindow.cs" />
     <Compile Include="Assets\PlayMaker\Editor\PreUpdateChecker.cs" />
     <Compile Include="Assets\PlayMaker\Editor\ReportWindow.cs" />
+    <Compile Include="Assets\SWS\Scripts\Editor\AboutSWSEditor.cs" />
+    <Compile Include="Assets\SWS\Scripts\Editor\BezierPathEditor.cs" />
+    <Compile Include="Assets\SWS\Scripts\Editor\CreateWPManager.cs" />
+    <Compile Include="Assets\SWS\Scripts\Editor\moveEditor.cs" />
+    <Compile Include="Assets\SWS\Scripts\Editor\navMoveEditor.cs" />
+    <Compile Include="Assets\SWS\Scripts\Editor\PathEditor.cs" />
+    <Compile Include="Assets\SWS\Scripts\Editor\ReviewWindowEditor.cs" />
+    <Compile Include="Assets\SWS\Scripts\Editor\splineMoveEditor.cs" />
+    <Compile Include="Assets\SWS\Scripts\Editor\WaypointEditor.cs" />
     <None Include="Assets\FbxExporters\Editor\FbxSdk\LICENSE.txt" />
     <None Include="Assets\PlayMaker\Editor\Resources\CustomVariableTypes.txt" />
     <None Include="Assets\net.fabrejean\Editor\Common\GuiSkins\VolcanicGuiSkin\ReadMeForCredits.txt" />
@@ -537,6 +546,12 @@
     </Reference>
     <Reference Include="UnityEngine.StandardEvents">
       <HintPath>C:/Users/silya/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.13/UnityEngine.StandardEvents.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween">
+      <HintPath>C:/Users/silya/OneDrive/ドキュメント/SM/SundryMonolog/Assets/SWS/Extensions/DOTween/DOTween.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTweenEditor">
+      <HintPath>C:/Users/silya/OneDrive/ドキュメント/SM/SundryMonolog/Assets/SWS/Extensions/DOTween/Editor/DOTweenEditor.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/2.0-api/mscorlib.dll</HintPath>
