@@ -532,6 +532,12 @@
     <Reference Include="PlayMaker">
       <HintPath>C:/Users/silya/OneDrive/ドキュメント/SM/SundryMonolog/Assets/Plugins/PlayMaker/PlayMaker.dll</HintPath>
     </Reference>
+    <Reference Include="DOTween">
+      <HintPath>C:/Users/silya/OneDrive/ドキュメント/SM/SundryMonolog/Assets/SWS/Extensions/DOTween/DOTween.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTweenEditor">
+      <HintPath>C:/Users/silya/OneDrive/ドキュメント/SM/SundryMonolog/Assets/SWS/Extensions/DOTween/Editor/DOTweenEditor.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEditor.Advertisements">
       <HintPath>C:/Users/silya/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
     </Reference>
@@ -546,12 +552,6 @@
     </Reference>
     <Reference Include="UnityEngine.StandardEvents">
       <HintPath>C:/Users/silya/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.13/UnityEngine.StandardEvents.dll</HintPath>
-    </Reference>
-    <Reference Include="DOTween">
-      <HintPath>C:/Users/silya/OneDrive/ドキュメント/SM/SundryMonolog/Assets/SWS/Extensions/DOTween/DOTween.dll</HintPath>
-    </Reference>
-    <Reference Include="DOTweenEditor">
-      <HintPath>C:/Users/silya/OneDrive/ドキュメント/SM/SundryMonolog/Assets/SWS/Extensions/DOTween/Editor/DOTweenEditor.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/2.0-api/mscorlib.dll</HintPath>
