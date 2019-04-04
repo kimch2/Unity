@@ -12,6 +12,8 @@ TagManager:
   - Customer0
   - Item
   - belongings
+  - WhiteBullet
+  - BlackBullet
   layers:
   - Default
   - TransparentFX

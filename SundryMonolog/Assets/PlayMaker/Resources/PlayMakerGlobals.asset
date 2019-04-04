@@ -40,6 +40,12 @@ MonoBehaviour:
       value: 0
     boolVariables:
     - useVariable: 1
+      name: BlackBullet
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
       name: EggFlip
       tooltip: 
       showInInspector: 0
@@ -117,6 +123,12 @@ MonoBehaviour:
       showInInspector: 0
       networkSync: 0
       value: 0
+    - useVariable: 1
+      name: WhiteBullet
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 1
     stringVariables:
     - useVariable: 1
       name: ThisCustomerTag
@@ -142,6 +154,12 @@ MonoBehaviour:
       showInInspector: 0
       networkSync: 0
       value: {fileID: 1123991206135042, guid: 2a679df1f5d8b6748ace64e16683e7e7, type: 2}
+    - useVariable: 1
+      name: Player
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: {fileID: 0}
     - useVariable: 1
       name: SpawnPosition
       tooltip: 
@@ -174,7 +192,7 @@ MonoBehaviour:
     enumVariables: []
     categories:
     - 
-    variableCategoryIDs: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    variableCategoryIDs: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   events:
   - Reset
   - Sort
