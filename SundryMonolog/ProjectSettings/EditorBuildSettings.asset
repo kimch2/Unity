@@ -6,6 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
+    path: Assets/SundryMonolog/Scenes/NoonScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/SundryMonolog/Scenes/NightScene.unity
+    guid: f3b5bd7de40ee7c4b98d797d8a73e224
+  - enabled: 1
+    path: Assets/SundryMonolog/Scenes/BattleScene.unity
+    guid: 9bf03166517242842b2e920affcb6776
   m_configObjects: {}
