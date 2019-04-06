@@ -212,6 +212,7 @@
     <Compile Include="Assets\PlayMaker ArrayMaker\Addons\Custom\GameObject\ArrayListContainsGameObject.cs" />
     <Compile Include="Assets\PlayMaker ArrayMaker\Addons\Custom\GameObject\ArrayListFindGameObjectsByTag.cs" />
     <Compile Include="Assets\PlayMaker ArrayMaker\Addons\Custom\GameObject\ArrayListGetAllChildOfGameObject.cs" />
+    <Compile Include="Assets\PlayMaker ArrayMaker\Addons\Custom\GameObject\ArrayListGetChildrenOfGameObject.cs" />
     <Compile Include="Assets\PlayMaker ArrayMaker\Addons\Custom\GameObject\ArrayListGetClosestGameObject.cs" />
     <Compile Include="Assets\PlayMaker ArrayMaker\Addons\Custom\GameObject\ArrayListGetClosestGameObjectInSight.cs" />
     <Compile Include="Assets\PlayMaker ArrayMaker\Addons\Custom\GameObject\ArrayListGetFarthestGameObject.cs" />
@@ -241,6 +242,8 @@
     <Compile Include="Assets\PlayMaker ArrayMaker\Addons\Unity\Screen\ScreenSetResolution.cs" />
     <Compile Include="Assets\PlayMaker ArrayMaker\Addons\Unity\Text\SplitTextToArrayList.cs" />
     <Compile Include="Assets\PlayMaker Custom Actions\ArrayMaker\ArrayListFindGameObjectsInsideCollider.cs" />
+    <Compile Include="Assets\PlayMaker Custom Actions\BinarySaver\BinaryLoad.cs" />
+    <Compile Include="Assets\PlayMaker Custom Actions\BinarySaver\BinarySave.cs" />
     <Compile Include="Assets\PlayMaker Custom Actions\Logic\BoolCompare.cs" />
     <Compile Include="Assets\PlayMaker Custom Actions\Physics\EnableCollider.cs" />
     <Compile Include="Assets\PlayMaker Custom Actions\Physics\EnableColliderByTag.cs" />

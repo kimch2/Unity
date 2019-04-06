@@ -18774,14 +18774,14 @@ MonoBehaviour:
         paramName: []
         paramDataPos: 
         paramByteDataSize: 
-    - name: State 2
+    - name: Deside Enemise num
       description: 
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 237
-        y: 102
-        width: 123
+        x: 236
+        y: 105
+        width: 166
         height: 64
       isBreakpoint: 0
       isSequence: 0
@@ -19103,8 +19103,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 409
-        y: 133
+        x: 512
+        y: 135
         width: 100
         height: 32
       isBreakpoint: 0
@@ -19375,8 +19375,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 409
-        y: 185
+        x: 513
+        y: 183
         width: 100
         height: 32
       isBreakpoint: 0
@@ -19520,7 +19520,7 @@ MonoBehaviour:
         name: Encount
         isSystemEvent: 0
         isGlobal: 1
-      toState: State 2
+      toState: Deside Enemise num
       linkStyle: 0
       linkConstraint: 0
       colorIndex: 0
