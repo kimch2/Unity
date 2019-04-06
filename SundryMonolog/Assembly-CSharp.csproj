@@ -61,6 +61,22 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Easy Save 2\ES2Init.cs" />
+    <Compile Include="Assets\Easy Save 2\Examples\Creating an Automatic Save Structure\ES2UniqueID.cs" />
+    <Compile Include="Assets\Easy Save 2\Examples\Creating an Automatic Save Structure\UniqueGameLogic.cs" />
+    <Compile Include="Assets\Easy Save 2\Examples\Creating an Automatic Save Structure\UniqueObjectManager.cs" />
+    <Compile Include="Assets\Easy Save 2\Examples\Creating an Automatic Save Structure\UniqueSaveManager.cs" />
+    <Compile Include="Assets\Easy Save 2\Examples\Save and Load Prefabs Instantiated at Runtime\PrefabManager.cs" />
+    <Compile Include="Assets\Easy Save 2\Examples\Shared Assets\Scripts\MyExampleScript.cs" />
+    <Compile Include="Assets\Easy Save 2\Examples\Upload and Download a Texture\UploadDownloadTexture.cs" />
+    <Compile Include="Assets\Easy Save 2\Types\ES2_AudioClip.cs" />
+    <Compile Include="Assets\Easy Save 2\Types\ES2_GameObject.cs" />
+    <Compile Include="Assets\Easy Save 2\Types\ES2_RawTexture2D.cs" />
+    <Compile Include="Assets\Easy Save 2\Types\ES2_Sprite.cs" />
+    <Compile Include="Assets\Easy Save 2\Types\ES2UserType_UnityEngineCanvasRenderer.cs" />
+    <Compile Include="Assets\Easy Save 2\Types\ES2UserType_UnityEngineLineRenderer.cs" />
+    <Compile Include="Assets\Easy Save 2\Types\ES2UserType_UnityEngineRectTransform.cs" />
+    <Compile Include="Assets\Easy Save 2\Types\ES2UserType_UnityEngineUIText.cs" />
     <Compile Include="Assets\Pixel Crushers\Dialogue System\Third Party Support\PlayMaker Support\Actions\AddDialogueDatabase.cs" />
     <Compile Include="Assets\Pixel Crushers\Dialogue System\Third Party Support\PlayMaker Support\Actions\AddQuest.cs" />
     <Compile Include="Assets\Pixel Crushers\Dialogue System\Third Party Support\PlayMaker Support\Actions\AddQuestEntry.cs" />
@@ -1287,11 +1303,13 @@
     <None Include="Assets\PlayMaker\Templates\Readme.txt" />
     <None Include="Assets\PlayMaker\Readme.txt" />
     <None Include="Assets\Pixel Crushers\Dialogue System\Third Party Support\PlayMaker Support\_README.txt" />
+    <None Include="Assets\Easy Save 2\changelog.txt" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
     <None Include="Assets\FbxExporters\RELEASE_NOTES.txt" />
     <None Include="Assets\SWS\Examples\Assets\Shaders\DiffuseReflectiveShader.shader" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
     <None Include="Assets\PlayMaker ArrayMaker\readme.txt" />
+    <None Include="Assets\Easy Save 2\readme.txt" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Masking.shader" />
@@ -1300,6 +1318,7 @@
     <None Include="Assets\SWS\Extensions\DOTween\readme.txt" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF Overlay.shader" />
     <None Include="Assets\SWS\Changelog.txt" />
+    <None Include="Assets\link.xml" />
     <None Include="Assets\PlayMaker\Resources\PlayMakerAssemblies.txt" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Surface.cginc" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
