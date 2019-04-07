@@ -84,6 +84,10 @@
     <Compile Include="Assets\Pixel Crushers\Dialogue System\Third Party Support\PlayMaker Support\Actions\Editor\CustomActionEditorRunLua.cs" />
     <Compile Include="Assets\Pixel Crushers\Dialogue System\Third Party Support\PlayMaker Support\Actions\Editor\CustomActionEditorStartConversation.cs" />
     <Compile Include="Assets\Pixel Crushers\Dialogue System\Third Party Support\PlayMaker Support\Scripts\Editor\PlayMakerMenuItems.cs" />
+    <Compile Include="Assets\PlayMaker ArrayMaker EasySave3\Actions\Editor\ES3ArraylistLoadEditor.cs" />
+    <Compile Include="Assets\PlayMaker ArrayMaker EasySave3\Actions\Editor\ES3ArraylistSaveEditor.cs" />
+    <Compile Include="Assets\PlayMaker ArrayMaker EasySave3\Actions\Editor\ES3HashtableLoadEditor.cs" />
+    <Compile Include="Assets\PlayMaker ArrayMaker EasySave3\Actions\Editor\ES3HashtableSaveEditor.cs" />
     <Compile Include="Assets\PlayMaker ArrayMaker\__internal__\Editor\PlayMakerArrayListProxyInspector.cs" />
     <Compile Include="Assets\PlayMaker ArrayMaker\__internal__\Editor\PlayMakerCollectionProxyInspector.cs" />
     <Compile Include="Assets\PlayMaker ArrayMaker\__internal__\Editor\PlayMakerHashTableProxyInspector.cs" />
