@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -330,7 +330,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -0.00019073486}
+  m_AnchoredPosition: {x: 0, y: 0.00039672852}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &42793777
@@ -817,7 +817,7 @@ MonoBehaviour:
           name: FINISHED
           isSystemEvent: 1
           isGlobal: 0
-        toState: State 1
+        toState: Get Name
         linkStyle: 0
         linkConstraint: 0
         colorIndex: 0
@@ -984,8 +984,8 @@ MonoBehaviour:
       colorIndex: 5
       position:
         serializedVersion: 2
-        x: 233.20312
-        y: 198.03906
+        x: 234.53906
+        y: 152.80469
         width: 134
         height: 32
       isBreakpoint: 0
@@ -1175,13 +1175,13 @@ MonoBehaviour:
         - index
         paramDataPos: 0000000000000000010000000200000000000000030000000000000004000000000000000100000000000000010000000000000005000000010000000100000000000000
         paramByteDataSize: 0000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000000000000100000000000000
-    - name: State 3
+    - name: Int Switch
       description: 
       colorIndex: 5
       position:
         serializedVersion: 2
-        x: 57
-        y: 328
+        x: 56.960938
+        y: 248.51562
         width: 100
         height: 64
       isBreakpoint: 0
@@ -1192,15 +1192,15 @@ MonoBehaviour:
           name: Num1
           isSystemEvent: 0
           isGlobal: 0
-        toState: State 2
-        linkStyle: 0
+        toState: A Silhouette
+        linkStyle: 2
         linkConstraint: 0
         colorIndex: 0
       - fsmEvent:
           name: Num2
           isSystemEvent: 0
           isGlobal: 0
-        toState: State 4
+        toState: Two Silhouettes
         linkStyle: 0
         linkConstraint: 0
         colorIndex: 0
@@ -1208,7 +1208,7 @@ MonoBehaviour:
           name: Num3
           isSystemEvent: 0
           isGlobal: 0
-        toState: State 6
+        toState: Three Silhouettes
         linkStyle: 0
         linkConstraint: 0
         colorIndex: 0
@@ -1292,13 +1292,13 @@ MonoBehaviour:
         - everyFrame
         paramDataPos: 00000000000000000100000002000000030000000100000000000000010000000200000000000000
         paramByteDataSize: 00000000000000000000000000000000000000000000000000000000000000000000000001000000
-    - name: State 1
+    - name: Get Name
       description: 
       colorIndex: 5
       position:
         serializedVersion: 2
-        x: 59.273438
-        y: 212.875
+        x: 60.609375
+        y: 167.64062
         width: 100
         height: 48
       isBreakpoint: 0
@@ -1317,7 +1317,7 @@ MonoBehaviour:
           name: FINISHED
           isSystemEvent: 1
           isGlobal: 0
-        toState: State 3
+        toState: Int Switch
         linkStyle: 0
         linkConstraint: 0
         colorIndex: 0
@@ -1437,14 +1437,14 @@ MonoBehaviour:
         - result
         paramDataPos: 00000000000000000000000000000000010000000000000001000000020000000200000000000000
         paramByteDataSize: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
-    - name: State 2
+    - name: A Silhouette
       description: 
-      colorIndex: 6
+      colorIndex: 4
       position:
         serializedVersion: 2
-        x: 242.21875
-        y: 343.125
-        width: 100
+        x: 250.36719
+        y: 263.60938
+        width: 110
         height: 32
       isBreakpoint: 0
       isSequence: 0
@@ -1454,7 +1454,7 @@ MonoBehaviour:
           name: FINISHED
           isSystemEvent: 1
           isGlobal: 0
-        toState: State 5
+        toState: Start Dialogue
         linkStyle: 0
         linkConstraint: 0
         colorIndex: 0
@@ -1657,14 +1657,14 @@ MonoBehaviour:
         - storeObject
         paramDataPos: 000000000000000000000000000000000000000001000000000000000000000001000000020000000000000004000000000000000200000000000000010000000100000001000000010000000200000002000000
         paramByteDataSize: 000000000000000000000000000000000000000000000000000000000000000000000000000000000400000001000000000000000000000000000000000000000000000000000000000000000000000000000000
-    - name: State 4
+    - name: Two Silhouettes
       description: 
       colorIndex: 4
       position:
         serializedVersion: 2
-        x: 246.67188
-        y: 422.67188
-        width: 100
+        x: 243.85938
+        y: 326.71875
+        width: 136
         height: 48
       isBreakpoint: 0
       isSequence: 0
@@ -1674,7 +1674,7 @@ MonoBehaviour:
           name: FINISHED
           isSystemEvent: 1
           isGlobal: 0
-        toState: State 5
+        toState: Start Dialogue
         linkStyle: 0
         linkConstraint: 0
         colorIndex: 0
@@ -1682,7 +1682,7 @@ MonoBehaviour:
           name: LooP
           isSystemEvent: 0
           isGlobal: 0
-        toState: State 8
+        toState: Set Pos And Create
         linkStyle: 0
         linkConstraint: 0
         colorIndex: 0
@@ -1802,14 +1802,14 @@ MonoBehaviour:
         - result
         paramDataPos: 00000000000000000000000000000000010000000000000001000000020000000200000000000000
         paramByteDataSize: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
-    - name: State 6
+    - name: Three Silhouettes
       description: 
-      colorIndex: 3
+      colorIndex: 4
       position:
         serializedVersion: 2
-        x: 245.80469
-        y: 525.8672
-        width: 100
+        x: 242.96875
+        y: 412.0703
+        width: 146
         height: 48
       isBreakpoint: 0
       isSequence: 0
@@ -1819,7 +1819,7 @@ MonoBehaviour:
           name: FINISHED
           isSystemEvent: 1
           isGlobal: 0
-        toState: State 5
+        toState: Start Dialogue
         linkStyle: 0
         linkConstraint: 0
         colorIndex: 0
@@ -1827,7 +1827,7 @@ MonoBehaviour:
           name: LooP
           isSystemEvent: 0
           isGlobal: 0
-        toState: State 8
+        toState: Set Pos And Create
         linkStyle: 0
         linkConstraint: 0
         colorIndex: 0
@@ -1947,14 +1947,14 @@ MonoBehaviour:
         - result
         paramDataPos: 00000000000000000000000000000000010000000000000001000000020000000200000000000000
         paramByteDataSize: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
-    - name: State 5
+    - name: Start Dialogue
       description: "\u30A2\u30CB\u30E1\u30FC\u30B7\u30E7\u30F3\u518D\u751F(\u3055\u308C\u308B\u304B\u3089\u307B\u3063\u3068\u3044\u3066\u3044\u3044\u304B\u3082\uFF1F)\n\u30C0\u30A4\u30A2\u30ED\u30B0\u958B\u59CB"
-      colorIndex: 2
+      colorIndex: 1
       position:
         serializedVersion: 2
-        x: 439.17188
-        y: 457.4922
-        width: 205
+        x: 461.01562
+        y: 267.01562
+        width: 228.5
         height: 16
       isBreakpoint: 0
       isSequence: 0
@@ -1977,7 +1977,7 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: {fileID: 277541002}
-        - useVariable: 0
+        - useVariable: 1
           name: 
           tooltip: 
           showInInspector: 0
@@ -1996,7 +1996,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: TalkingToCustomer
+          value: Encount
         fsmObjectParams: []
         fsmVarParams: []
         fsmArrayParams: []
@@ -2008,7 +2008,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: -1
+          value: 0
         fsmBoolParams: []
         fsmVector2Params: []
         fsmVector3Params: []
@@ -2029,14 +2029,14 @@ MonoBehaviour:
         - conversant
         paramDataPos: 00000000000000000000000001000000
         paramByteDataSize: 00000000000000000000000000000000
-    - name: State 8
+    - name: Set Pos And Create
       description: 
-      colorIndex: 3
+      colorIndex: 5
       position:
         serializedVersion: 2
-        x: 249
-        y: 595
-        width: 100
+        x: 247.53125
+        y: 479.83594
+        width: 157
         height: 48
       isBreakpoint: 0
       isSequence: 0
@@ -2046,7 +2046,7 @@ MonoBehaviour:
           name: Num2
           isSystemEvent: 0
           isGlobal: 0
-        toState: State 4
+        toState: Two Silhouettes
         linkStyle: 0
         linkConstraint: 0
         colorIndex: 0
@@ -2054,7 +2054,7 @@ MonoBehaviour:
           name: Num3
           isSystemEvent: 0
           isGlobal: 0
-        toState: State 6
+        toState: Three Silhouettes
         linkStyle: 0
         linkConstraint: 0
         colorIndex: 0
@@ -2294,8 +2294,8 @@ MonoBehaviour:
       colorIndex: 2
       position:
         serializedVersion: 2
-        x: 238.19531
-        y: 245.09375
+        x: 239.53125
+        y: 199.85938
         width: 146
         height: 32
       isBreakpoint: 0
@@ -2306,7 +2306,7 @@ MonoBehaviour:
           name: FINISHED
           isSystemEvent: 1
           isGlobal: 0
-        toState: State 1
+        toState: Get Name
         linkStyle: 0
         linkConstraint: 0
         colorIndex: 0
@@ -2426,10 +2426,67 @@ MonoBehaviour:
         - boolValue
         paramDataPos: 000000000000000001000000020000000000000003000000000000000400000005000000000000000000000001000000
         paramByteDataSize: 000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000
+    - name: State 1
+      description: 
+      colorIndex: 1
+      position:
+        serializedVersion: 2
+        x: 518.60156
+        y: 400.65625
+        width: 107
+        height: 16
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions: []
+      actionData:
+        actionNames:
+        - PixelCrushers.DialogueSystem.PlayMaker.StopConversation
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: 00000000
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams: []
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 
+        paramName: []
+        paramDataPos: 
+        paramByteDataSize: 
     events:
     - name: FINISHED
       isSystemEvent: 1
       isGlobal: 0
+    - name: BackToPlay
+      isSystemEvent: 0
+      isGlobal: 1
     - name: False
       isSystemEvent: 0
       isGlobal: 0
@@ -2448,7 +2505,15 @@ MonoBehaviour:
     - name: True
       isSystemEvent: 0
       isGlobal: 0
-    globalTransitions: []
+    globalTransitions:
+    - fsmEvent:
+        name: BackToPlay
+        isSystemEvent: 0
+        isGlobal: 1
+      toState: State 1
+      linkStyle: 0
+      linkConstraint: 0
+      colorIndex: 0
     variables:
       floatVariables: []
       intVariables:
@@ -2706,7 +2771,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previewOnGUI: 1
   enableGUILayout: 1
-  drawStateLabels: 1
+  drawStateLabels: 0
   enableStateLabelsInBuilds: 0
   GUITextureStateLabels: 0
   GUITextStateLabels: 0
@@ -6995,7 +7060,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &473221309
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10450,18 +10515,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1027248590}
-        m_MethodName: OnFastForward
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 93573936}
         m_MethodName: SendEvent
         m_Mode: 5
         m_Arguments:
@@ -11613,8 +11667,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2139549380}
   m_HandleRect: {fileID: 2139549379}
   m_Direction: 2
-  m_Value: 1
-  m_Size: 0.9999988
+  m_Value: 0
+  m_Size: 0.9999994
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:

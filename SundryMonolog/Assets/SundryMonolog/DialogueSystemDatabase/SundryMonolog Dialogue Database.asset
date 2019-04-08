@@ -488,8 +488,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 20
-        y: 30
+        x: 25.15464
+        y: 28.96907
         width: 160
         height: 30
     - id: 1
@@ -573,8 +573,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 20
-        y: 81.03093
+        x: 26.185562
+        y: 107.83504
         width: 160
         height: 30
     - id: 2
@@ -1001,8 +1001,8 @@ MonoBehaviour:
         y: 299.4175
         width: 160
         height: 30
-    canvasScrollPosition: {x: 0, y: 26.804138}
-    canvasZoom: 0.9700001
+    canvasScrollPosition: {x: 0, y: 5.288542}
+    canvasZoom: 0.8800002
   - id: 18
     fields:
     - title: Title
@@ -1460,11 +1460,11 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 562.0618
+        x: 563.0927
         y: 55
         width: 160
         height: 30
-    canvasScrollPosition: {x: 0, y: 3.0927734}
+    canvasScrollPosition: {x: 0, y: 0}
     canvasZoom: 0.97000015
   - id: 19
     fields:
@@ -1953,8 +1953,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 201.13216
-        y: 168.86797
+        x: 206.19548
+        y: 173.93126
         width: 160
         height: 30
     - id: 6
@@ -2191,7 +2191,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 421.88693
-        y: 209.07268
+        y: 211.60432
         width: 160
         height: 30
     - id: 3
@@ -2979,8 +2979,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 287.22357
-        y: 156.71982
+        x: 288.22357
+        y: 157.71982
         width: 160
         height: 30
     canvasScrollPosition: {x: 0, y: 0}
@@ -3046,7 +3046,7 @@ MonoBehaviour:
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: 9
+        value: -1
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -3054,7 +3054,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 
+        value: '[var=SilhouetteName0][f]'
         type: 0
         typeString: 
       - title: Parenthetical
@@ -3073,6 +3073,14 @@ MonoBehaviour:
         value: None()
         type: 0
         typeString: 
+      - title: jp
+        value: 
+        type: 4
+        typeString: CustomFieldType_Localization
+      - title: en
+        value: 
+        type: 4
+        typeString: CustomFieldType_Localization
       conversationID: 21
       isRoot: 0
       isGroup: 0
@@ -3084,7 +3092,7 @@ MonoBehaviour:
       - originConversationID: 21
         originDialogueID: 0
         destinationConversationID: 21
-        destinationDialogueID: 1
+        destinationDialogueID: 2
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -3096,16 +3104,16 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 14
-        y: 74
+        x: 120.66992
+        y: 72.97087
         width: 160
         height: 30
-    - id: 1
+    - id: 2
       fields:
       - title: Title
         value: 
         type: 0
-        typeString: 
+        typeString: CustomFieldType_Text
       - title: Pictures
         value: '[]'
         type: 3
@@ -3113,9 +3121,9 @@ MonoBehaviour:
       - title: Description
         value: 
         type: 0
-        typeString: 
+        typeString: CustomFieldType_Text
       - title: Actor
-        value: 9
+        value: -1
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
@@ -3125,15 +3133,15 @@ MonoBehaviour:
       - title: Menu Text
         value: 
         type: 0
-        typeString: 
+        typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: "[var=SilhouetteName0]\u306B\u5F15\u304D\u8FBC\u307E\u308C\u305F\uFF01"
+        value: "[var=SilhouetteName0]\n[var=SilhouetteName1]\n[var=SilhouetteName2]\n\u306B\u5F15\u304D\u8FBC\u307E\u308C\u305F\uFF01"
         type: 0
-        typeString: 
+        typeString: CustomFieldType_Text
       - title: Parenthetical
         value: 
         type: 0
-        typeString: 
+        typeString: CustomFieldType_Text
       - title: Audio Files
         value: '[]'
         type: 3
@@ -3141,8 +3149,20 @@ MonoBehaviour:
       - title: Video File
         value: 
         type: 0
-        typeString: 
+        typeString: CustomFieldType_Text
       - title: Sequence
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: jp
+        value: 
+        type: 4
+        typeString: CustomFieldType_Localization
+      - title: en
+        value: 
+        type: 4
+        typeString: CustomFieldType_Localization
+      - title: Response Menu Sequence
         value: 
         type: 0
         typeString: 
@@ -3163,12 +3183,12 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 246
-        y: 71
+        x: 343.68933
+        y: 74.06795
         width: 160
         height: 30
-    canvasScrollPosition: {x: 0, y: 0}
-    canvasZoom: 1
+    canvasScrollPosition: {x: 56.31067, y: 7.766983}
+    canvasZoom: 1.03
   syncInfo:
     syncActors: 0
     syncItems: 0
