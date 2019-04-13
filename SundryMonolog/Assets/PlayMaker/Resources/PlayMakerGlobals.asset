@@ -149,13 +149,37 @@ MonoBehaviour:
       networkSync: 0
       value: {fileID: 1544972424301310, guid: b822e602a85573241808b4a0f88c2068, type: 2}
     - useVariable: 1
+      name: InventoryManager
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: {fileID: 0}
+    - useVariable: 1
       name: OrderPosition
       tooltip: 
       showInInspector: 0
       networkSync: 0
       value: {fileID: 1123991206135042, guid: 2a679df1f5d8b6748ace64e16683e7e7, type: 2}
     - useVariable: 1
+      name: PeopleEventManager
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: {fileID: 0}
+    - useVariable: 1
       name: Player
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: {fileID: 0}
+    - useVariable: 1
+      name: PlayerCameraManager
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: {fileID: 0}
+    - useVariable: 1
+      name: ProductManager
       tooltip: 
       showInInspector: 0
       networkSync: 0
@@ -192,7 +216,7 @@ MonoBehaviour:
     enumVariables: []
     categories:
     - 
-    variableCategoryIDs: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    variableCategoryIDs: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   events:
   - Reset
   - Sort
@@ -224,3 +248,6 @@ MonoBehaviour:
   - PressSpace
   - Encount
   - BackToPlay
+  - GameStart
+  - MouseOff
+  - MouseOver
