@@ -198,20 +198,6 @@ MonoBehaviour:
       value: whether happening conversation now
       type: 0
       typeString: 
-  - id: 12
-    fields:
-    - title: Name
-      value: UsingMicrowave
-      type: 0
-      typeString: 
-    - title: Initial Value
-      value: False
-      type: 2
-      typeString: CustomFieldType_Boolean
-    - title: Description
-      value: 
-      type: 0
-      typeString: 
   - id: 7
     fields:
     - title: Name
@@ -248,20 +234,6 @@ MonoBehaviour:
       value: SelectedItemName
       type: 0
       typeString: CustomFieldType_Text
-  - id: 13
-    fields:
-    - title: Name
-      value: ChoseNum
-      type: 0
-      typeString: 
-    - title: Initial Value
-      value: 0
-      type: 1
-      typeString: CustomFieldType_Number
-    - title: Description
-      value: "\u30EC\u30F3\u30B8\u7528\u9078\u629E\u80A2"
-      type: 0
-      typeString: 
   - id: 9
     fields:
     - title: Name
@@ -316,6 +288,34 @@ MonoBehaviour:
       value: Inventory2
       type: 0
       typeString: CustomFieldType_Text
+  - id: 12
+    fields:
+    - title: Name
+      value: UsingMicrowave
+      type: 0
+      typeString: 
+    - title: Initial Value
+      value: False
+      type: 2
+      typeString: CustomFieldType_Boolean
+    - title: Description
+      value: 
+      type: 0
+      typeString: 
+  - id: 13
+    fields:
+    - title: Name
+      value: ChoseNum
+      type: 0
+      typeString: 
+    - title: Initial Value
+      value: 0
+      type: 1
+      typeString: CustomFieldType_Number
+    - title: Description
+      value: "\u30EC\u30F3\u30B8\u7528\u9078\u629E\u80A2"
+      type: 0
+      typeString: 
   - id: 14
     fields:
     - title: Name
@@ -337,45 +337,63 @@ MonoBehaviour:
   - id: 15
     fields:
     - title: Name
-      value: SilhouetteName0
+      value: Option0
       type: 0
-      typeString: 
+      typeString: CustomFieldType_Text
     - title: Initial Value
       value: 
       type: 0
       typeString: CustomFieldType_Text
     - title: Description
-      value: "\u6575\u306E\u540D\u524D1"
+      value: "\u540D\u524D1"
       type: 0
-      typeString: 
+      typeString: CustomFieldType_Text
   - id: 16
     fields:
     - title: Name
-      value: SilhouetteName1
+      value: Option1
       type: 0
-      typeString: 
+      typeString: CustomFieldType_Text
     - title: Initial Value
       value: 
       type: 0
       typeString: CustomFieldType_Text
     - title: Description
-      value: "\u6575\u306E\u540D\u524D2"
+      value: "\u540D\u524D2"
       type: 0
-      typeString: 
+      typeString: CustomFieldType_Text
   - id: 17
     fields:
     - title: Name
-      value: SilhouetteName2
+      value: Option2
       type: 0
-      typeString: 
+      typeString: CustomFieldType_Text
     - title: Initial Value
       value: 
       type: 0
       typeString: CustomFieldType_Text
     - title: Description
-      value: "\u6575\u306E\u540D\u524D3"
+      value: "\u540D\u524D3"
       type: 0
-      typeString: 
+      typeString: CustomFieldType_Text
+  - id: 23
+    fields:
+    - title: Name
+      value: SelectedOption
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: 
+      value: -1
+      type: 6
+      typeString: CustomFieldType_Item
+    - title: Initial Value
+      value: 
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: Description
+      value: "\u9078\u3070\u308C\u305F\u9078\u629E\u80A2"
+      type: 0
+      typeString: CustomFieldType_Text
   - id: 18
     fields:
     - title: Name
@@ -392,6 +410,24 @@ MonoBehaviour:
       typeString: CustomFieldType_Boolean
     - title: Description
       value: "\u529B\u304C\u6E9C\u307E\u3063\u3066\u3044\u308B\u304B\u3069\u3046\u304B"
+      type: 0
+      typeString: CustomFieldType_Text
+  - id: 19
+    fields:
+    - title: Name
+      value: DoSomething
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: 
+      value: -1
+      type: 6
+      typeString: CustomFieldType_Item
+    - title: Initial Value
+      value: False
+      type: 2
+      typeString: CustomFieldType_Boolean
+    - title: Description
+      value: "\u4F55\u304B\u884C\u52D5\u3092\u3057\u305F\u304B\u3069\u3046\u304B"
       type: 0
       typeString: CustomFieldType_Text
   conversations:
@@ -3072,7 +3108,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: '[var=SilhouetteName0][f]'
+        value: 
         type: 0
         typeString: 
       - title: Parenthetical
@@ -3153,7 +3189,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: "[var=SilhouetteName0]\n[var=SilhouetteName1]\n[var=SilhouetteName2]\n\u306B\u5F15\u304D\u8FBC\u307E\u308C\u305F\uFF01"
+        value: "[var=Option0]\n[var=Option1]\n[var=Option2]\n\u306B\u5F15\u304D\u8FBC\u307E\u308C\u305F\uFF01"
         type: 0
         typeString: CustomFieldType_Text
       - title: Parenthetical
@@ -3201,7 +3237,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 343.68933
+        x: 342.71844
         y: 74.06795
         width: 160
         height: 30
@@ -3419,8 +3455,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 244
-        y: 123
+        x: 241.7273
+        y: 121.86363
         width: 160
         height: 30
     - id: 2
@@ -3582,7 +3618,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 480.91272
-        y: 63.71843
+        y: 65.21098
         width: 160
         height: 30
     - id: 4
@@ -3612,7 +3648,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: "\u8A71\u304B\u3051\u308B"
+        value: "\u8A71\u3057\u304B\u3051\u3066\u307F\u308B"
         type: 0
         typeString: CustomFieldType_Text
       - title: Parenthetical
@@ -3650,7 +3686,13 @@ MonoBehaviour:
       - originConversationID: 22
         originDialogueID: 4
         destinationConversationID: 22
-        destinationDialogueID: 6
+        destinationDialogueID: 11
+        isConnector: 0
+        priority: 2
+      - originConversationID: 22
+        originDialogueID: 4
+        destinationConversationID: 22
+        destinationDialogueID: 12
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -3662,8 +3704,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 481.82526
-        y: 219
+        x: 479.4724
+        y: 216.64706
         width: 160
         height: 30
     - id: 5
@@ -3734,93 +3776,6 @@ MonoBehaviour:
         destinationDialogueID: 7
         isConnector: 0
         priority: 2
-      conditionsString: '
-
-'
-      userScript: 'Variable["NowConversation"] = false;
-
-        Variable["UsingMicrowave"] = true;
-
-        Variable["ChoseNum"] = 0'
-      onExecute:
-        m_PersistentCalls:
-          m_Calls: []
-        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-      canvasRect:
-        serializedVersion: 2
-        x: 479.9709
-        y: 294.9709
-        width: 160
-        height: 30
-    - id: 6
-      fields:
-      - title: Title
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Pictures
-        value: '[]'
-        type: 3
-        typeString: CustomFieldType_Files
-      - title: Description
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Actor
-        value: -1
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Conversant
-        value: -1
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Menu Text
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Dialogue Text
-        value: "\u3042\u306A\u305F\u306F\n\u306A\u305C\u8972\u3063\u3066\u304F\u308B\u306E\u304B\u3092\u805E\u3044\u3066\u307F\u305F\u3002"
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Parenthetical
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Audio Files
-        value: '[]'
-        type: 3
-        typeString: CustomFieldType_Files
-      - title: Video File
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Sequence
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: jp
-        value: 
-        type: 4
-        typeString: CustomFieldType_Localization
-      - title: en
-        value: 
-        type: 4
-        typeString: CustomFieldType_Localization
-      conversationID: 22
-      isRoot: 0
-      isGroup: 0
-      nodeColor: 
-      delaySimStatus: 0
-      falseConditionAction: Block
-      conditionPriority: 2
-      outgoingLinks:
-      - originConversationID: 22
-        originDialogueID: 6
-        destinationConversationID: 22
-        destinationDialogueID: 8
-        isConnector: 0
-        priority: 2
       conditionsString: 
       userScript: 
       onExecute:
@@ -3830,8 +3785,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 711.9708
-        y: 222.94174
+        x: 472.1363
+        y: 323.38712
         width: 160
         height: 30
     - id: 7
@@ -3905,83 +3860,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 709.9708
-        y: 293
-        width: 160
-        height: 30
-    - id: 8
-      fields:
-      - title: Title
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Pictures
-        value: '[]'
-        type: 3
-        typeString: CustomFieldType_Files
-      - title: Description
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Actor
-        value: 9
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Conversant
-        value: -1
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Menu Text
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Dialogue Text
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Parenthetical
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Audio Files
-        value: '[]'
-        type: 3
-        typeString: CustomFieldType_Files
-      - title: Video File
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Sequence
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: jp
-        value: 
-        type: 4
-        typeString: CustomFieldType_Localization
-      - title: en
-        value: 
-        type: 4
-        typeString: CustomFieldType_Localization
-      conversationID: 22
-      isRoot: 0
-      isGroup: 0
-      nodeColor: 
-      delaySimStatus: 0
-      falseConditionAction: Block
-      conditionPriority: 2
-      outgoingLinks: []
-      conditionsString: 
-      userScript: 
-      onExecute:
-        m_PersistentCalls:
-          m_Calls: []
-        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-      canvasRect:
-        serializedVersion: 2
-        x: 937.2136
-        y: 225.36893
+        x: 979.78345
+        y: 320.86432
         width: 160
         height: 30
     - id: 9
@@ -4059,8 +3939,243 @@ MonoBehaviour:
         y: 131.25244
         width: 160
         height: 30
-    canvasScrollPosition: {x: 0, y: 0}
-    canvasZoom: 0.5800003
+    - id: 11
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 3
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: -1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Dialogue Text
+        value: '[var=Option0]'
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Video File
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: FSMEvent (Conversation,BattleManager)
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: jp
+        value: 
+        type: 4
+        typeString: CustomFieldType_Localization
+      - title: en
+        value: 
+        type: 4
+        typeString: CustomFieldType_Localization
+      conversationID: 22
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks: []
+      conditionsString: 
+      userScript: 'Variable["DoSomething"] = true;
+
+        Variable["SelectedOption"] = Variable["Option0"]'
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      canvasRect:
+        serializedVersion: 2
+        x: 758.10364
+        y: 134.57143
+        width: 160
+        height: 30
+    - id: 12
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 3
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: -1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Dialogue Text
+        value: '[var=Option1]'
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Video File
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: FSMEvent (Conversation,BattleManager)
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: jp
+        value: 
+        type: 4
+        typeString: CustomFieldType_Localization
+      - title: en
+        value: 
+        type: 4
+        typeString: CustomFieldType_Localization
+      conversationID: 22
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 22
+        originDialogueID: 12
+        destinationConversationID: 22
+        destinationDialogueID: 15
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      canvasRect:
+        serializedVersion: 2
+        x: 754.17773
+        y: 216.44171
+        width: 160
+        height: 30
+    - id: 15
+      fields:
+      - title: Title
+        value: New Dialogue Entry
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: -1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 3
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Dialogue Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Video File
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: FSMEvent (Conversation,BattleManager)
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: jp
+        value: 
+        type: 4
+        typeString: CustomFieldType_Localization
+      - title: en
+        value: 
+        type: 4
+        typeString: CustomFieldType_Localization
+      conversationID: 22
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks: []
+      conditionsString: 
+      userScript: 'Variable["DoSomething"] = true;
+
+        Variable["SelectedOption"] = "Option1"'
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      canvasRect:
+        serializedVersion: 2
+        x: 986.12354
+        y: 217.46234
+        width: 160
+        height: 30
+    canvasScrollPosition: {x: 341.55157, y: 0}
+    canvasZoom: 0.84999967
   - id: 23
     fields:
     - title: Title
