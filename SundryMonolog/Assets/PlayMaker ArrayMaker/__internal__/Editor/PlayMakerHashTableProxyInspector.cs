@@ -50,11 +50,8 @@ public class PlayMakerHashTableProxyInspector : PlayMakerCollectionProxyInspecto
 		if (GUI.changed)
 		{
             EditorUtility.SetDirty(proxy);
-            #if UNITY_5_3_OR_NEWER
-            if (!Application.isPlaying)
-            {
-                EditorSceneManager.MarkSceneDirty(proxy.gameObject.scene);
-            }
+			#if UNITY_5_3_OR_NEWER
+			EditorSceneManager.MarkSceneDirty(proxy.gameObject.scene);
 			#endif
 		}
 		

@@ -23,7 +23,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\bin\Debug\</OutputPath>
-    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_2_20;UNITY_2018_2;UNITY_2018;PLATFORM_ARCH_64;UNITY_64;UNITY_ANALYTICS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITES;ENABLE_GRID;ENABLE_TILEMAP;ENABLE_TERRAIN;ENABLE_TEXTURE_STREAMING;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_VIDEO;ENABLE_PACKMAN;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_LOCALIZATION;PLATFORM_STANDALONE_WIN;PLATFORM_STANDALONE;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_EVENT_QUEUE;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;ENABLE_VR;ENABLE_AR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_VSTU;PLAYMAKER;PLAYMAKER_1_9;PLAYMAKER_1_9_0;PLAYMAKER_1_8_OR_NEWER;PLAYMAKER_1_8_5_OR_NEWER;PLAYMAKER_1_9_OR_NEWER;ECOSYSTEM;ECOSYSTEM_0_6;ECOSYSTEM_0_6_OR_NEWER;ARRAYMAKER;PLAYMAKER_UTILS</DefineConstants>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_2_20;UNITY_2018_2;UNITY_2018;PLATFORM_ARCH_64;UNITY_64;UNITY_ANALYTICS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITES;ENABLE_GRID;ENABLE_TILEMAP;ENABLE_TERRAIN;ENABLE_TEXTURE_STREAMING;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_VIDEO;ENABLE_PACKMAN;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_LOCALIZATION;PLATFORM_STANDALONE_WIN;PLATFORM_STANDALONE;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_EVENT_QUEUE;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;ENABLE_VR;ENABLE_AR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_VSTU;PLAYMAKER;PLAYMAKER_1_9;PLAYMAKER_1_9_0;PLAYMAKER_1_8_OR_NEWER;PLAYMAKER_1_8_5_OR_NEWER;PLAYMAKER_1_9_OR_NEWER;ECOSYSTEM;ECOSYSTEM_0_6;ECOSYSTEM_0_6_OR_NEWER;ARRAYMAKER;PLAYMAKER_UTILS;DATAMAKER</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
@@ -274,6 +274,54 @@
     <Compile Include="Assets\PlayMaker Custom Actions\StateMachine\Iterate.cs" />
     <Compile Include="Assets\PlayMaker Custom Actions\uGui\uGuiTextSetText.cs" />
     <Compile Include="Assets\PlayMaker Custom Actions\UnityObject\ActivateComponents.cs" />
+    <Compile Include="Assets\PlayMaker DataMaker\_internal_\DataMakerCore.cs" />
+    <Compile Include="Assets\PlayMaker DataMaker\_internal_\DataMakerProxyBase.cs" />
+    <Compile Include="Assets\PlayMaker DataMaker\Csv\Actions\GetCsvColumnCount.cs" />
+    <Compile Include="Assets\PlayMaker DataMaker\Csv\Actions\GetCsvFieldByIndex.cs" />
+    <Compile Include="Assets\PlayMaker DataMaker\Csv\Actions\GetCsvFieldByKey.cs" />
+    <Compile Include="Assets\PlayMaker DataMaker\Csv\Actions\GetCsvFieldsByColumnIndex.cs" />
+    <Compile Include="Assets\PlayMaker DataMaker\Csv\Actions\GetCsvFieldsByColumnKey.cs" />
+    <Compile Include="Assets\PlayMaker DataMaker\Csv\Actions\GetCsvFieldsByRow.cs" />
+    <Compile Include="Assets\PlayMaker DataMaker\Csv\Actions\GetCsvHeader.cs" />
+    <Compile Include="Assets\PlayMaker DataMaker\Csv\Actions\GetCsvRecordCount.cs" />
+    <Compile Include="Assets\PlayMaker DataMaker\Csv\Actions\ReadCsv.cs" />
+    <Compile Include="Assets\PlayMaker DataMaker\Csv\Actions\RemoveAllCsvReference.cs" />
+    <Compile Include="Assets\PlayMaker DataMaker\Csv\Actions\RemoveCsvReference.cs" />
+    <Compile Include="Assets\PlayMaker DataMaker\Csv\Scripts\CsvReader.cs" />
+    <Compile Include="Assets\PlayMaker DataMaker\Csv\XmlMaker\Actions\ConvertCsvStringToXmlNode.cs" />
+    <Compile Include="Assets\PlayMaker DataMaker\Xml\__internal__\DataMakerXmlActions.cs" />
+    <Compile Include="Assets\PlayMaker DataMaker\Xml\__internal__\DataMakerXmlNodeActions.cs" />
+    <Compile Include="Assets\PlayMaker DataMaker\Xml\__internal__\DataMakerXmlNodeListActions.cs" />
+    <Compile Include="Assets\PlayMaker DataMaker\Xml\__internal__\DataMakerXmlNodeListProxy.cs" />
+    <Compile Include="Assets\PlayMaker DataMaker\Xml\__internal__\DataMakerXmlNodeProxy.cs" />
+    <Compile Include="Assets\PlayMaker DataMaker\Xml\__internal__\DataMakerXmlProxy.cs" />
+    <Compile Include="Assets\PlayMaker DataMaker\Xml\__internal__\DataMakerXmlUtils.cs" />
+    <Compile Include="Assets\PlayMaker DataMaker\Xml\__internal__\Objects\FsmXmlNode.cs" />
+    <Compile Include="Assets\PlayMaker DataMaker\Xml\__internal__\Objects\FsmXmlNodeList.cs" />
+    <Compile Include="Assets\PlayMaker DataMaker\Xml\Actions\__internal__\FsmXmlPropertiesStorage.cs" />
+    <Compile Include="Assets\PlayMaker DataMaker\Xml\Actions\__internal__\FsmXmlPropertiesTypes.cs" />
+    <Compile Include="Assets\PlayMaker DataMaker\Xml\Actions\__internal__\FsmXmlProperty.cs" />
+    <Compile Include="Assets\PlayMaker DataMaker\Xml\Actions\__internal__\FsmXmlSource.cs" />
+    <Compile Include="Assets\PlayMaker DataMaker\Xml\Actions\__internal__\FsmXpathQuery.cs" />
+    <Compile Include="Assets\PlayMaker DataMaker\Xml\Actions\XML Delete\XmlNodeDelete.cs" />
+    <Compile Include="Assets\PlayMaker DataMaker\Xml\Actions\XML Delete\XmlNodeRemoveAll.cs" />
+    <Compile Include="Assets\PlayMaker DataMaker\Xml\Actions\XML Delete\XmlNodeRemoveAttribute.cs" />
+    <Compile Include="Assets\PlayMaker DataMaker\Xml\Actions\XML Read\XmlGetNextNodeListProperties.cs" />
+    <Compile Include="Assets\PlayMaker DataMaker\Xml\Actions\XML Read\XmlGetNodeProperties.cs" />
+    <Compile Include="Assets\PlayMaker DataMaker\Xml\Actions\XML Read\XmlSelectNodes.cs" />
+    <Compile Include="Assets\PlayMaker DataMaker\Xml\Actions\XML Read\XmlSelectSingleNode.cs" />
+    <Compile Include="Assets\PlayMaker DataMaker\Xml\Actions\XML Tools\XmlNodesMathOperator.cs" />
+    <Compile Include="Assets\PlayMaker DataMaker\Xml\Actions\XML Write\XmlCloneNode.cs" />
+    <Compile Include="Assets\PlayMaker DataMaker\Xml\Actions\XML Write\XmlCreateNode.cs" />
+    <Compile Include="Assets\PlayMaker DataMaker\Xml\Actions\XML Write\XmlInsertNode.cs" />
+    <Compile Include="Assets\PlayMaker DataMaker\Xml\Actions\XML Write\XmlParentNode.cs" />
+    <Compile Include="Assets\PlayMaker DataMaker\Xml\Actions\XML Write\XmlReplaceNode.cs" />
+    <Compile Include="Assets\PlayMaker DataMaker\Xml\Actions\XML Write\XmlSaveInProxy.cs" />
+    <Compile Include="Assets\PlayMaker DataMaker\Xml\Actions\XML Write\XmlSetNodeProperties.cs" />
+    <Compile Include="Assets\PlayMaker DataMaker\Xml\Actions\XML\XmlLoadFromTextAsset.cs" />
+    <Compile Include="Assets\PlayMaker DataMaker\Xml\Actions\XML\XmlProxyGetXmlAsString.cs" />
+    <Compile Include="Assets\PlayMaker DataMaker\Xml\Actions\XML\XmlProxyRefreshStringVersion.cs" />
+    <Compile Include="Assets\PlayMaker DataMaker\Xml\ArrayMaker\Actions\HashTableGetXmlNodeProperties.cs" />
     <Compile Include="Assets\PlayMaker PathFinding\Agent\AgentActivateCurrentOffMeshLink.cs" />
     <Compile Include="Assets\PlayMaker PathFinding\Agent\AgentCompleteOffMeshLink.cs" />
     <Compile Include="Assets\PlayMaker PathFinding\Agent\AgentFindClosestEdge.cs" />
@@ -1319,6 +1367,7 @@
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
     <None Include="Assets\PlayMaker ArrayMaker\readme.txt" />
     <None Include="Assets\Easy Save 2\readme.txt" />
+    <None Include="Assets\PlayMaker Utils\External Libraries\Rotorz\Reorderable List Field\README.txt" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Masking.shader" />
@@ -1330,6 +1379,8 @@
     <None Include="Assets\link.xml" />
     <None Include="Assets\PlayMaker\Resources\PlayMakerAssemblies.txt" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Surface.cginc" />
+    <None Include="Assets\SundryMonolog\Xml\test.xml" />
+    <None Include="Assets\PlayMaker Utils\External Libraries\Rotorz\Reorderable List Field\LICENSE.txt" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />

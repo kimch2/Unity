@@ -1,13 +1,15 @@
-// (c) Copyright HutongGames, LLC 2010-2016. All rights reserved.
+﻿// (c) Copyright HutongGames, LLC 2010-2016. All rights reserved.
 
 using System;
+using System.IO;
+using System.Collections;
 using System.Collections.Generic;
 using System.Reflection;
  
 using UnityEditor;
-using UnityEditorInternal;
 using UnityEngine;
 
+using HutongGames.Rotorz.ReorderableList;
 
 namespace HutongGames.PlayMakerEditor.Ecosystem.Utils
 {
@@ -22,23 +24,20 @@ namespace HutongGames.PlayMakerEditor.Ecosystem.Utils
 
 		public EnumCreator.EnumDefinition currentEnum = new EnumCreator.EnumDefinition();
 
-        SerializedObject _so;
-
-        private ReorderableList list;
-
-        /// <summary>
-        /// The current enum file details.
-        /// If this is not null, it means we are editing an existing enum
-        /// </summary>
-        public EnumFileDetails currentEnumFileDetails = null;
+		/// <summary>
+		/// The current enum file details.
+		/// If this is not null, it means we are editing an existing enum
+		/// </summary>
+		public EnumFileDetails currentEnumFileDetails = null;
 
 		void StartEditingNewEnum()
 		{
+			Debug.Log("start New Enum: ");
 			allowReordering = true;
 			currentEnumFileDetails = null;
 			currentEnum = new EnumCreator.EnumDefinition();
 
-            if (_list==null)
+			if (_list==null)
 			{
 				return;
 			}
@@ -62,9 +61,7 @@ namespace HutongGames.PlayMakerEditor.Ecosystem.Utils
 			_sourceDetails = enumDetails;
 
 			currentEnum = new EnumCreator.EnumDefinition();
-
-
-            currentEnumFileDetails = enumDetails;
+			currentEnumFileDetails = enumDetails;
 
 			// nameSpace
 			currentEnum.NameSpace = enumDetails.nameSpace;
@@ -98,12 +95,9 @@ namespace HutongGames.PlayMakerEditor.Ecosystem.Utils
 
 		GUIStyle labelStyle;
 
-
 		public void OnGUI()
 		{
-            
-
-            FsmEditorStyles.Init();
+			FsmEditorStyles.Init();
 
 			// set style ot use rich text.
 			if (labelStyle==null)
@@ -174,13 +168,8 @@ namespace HutongGames.PlayMakerEditor.Ecosystem.Utils
 
 			}else{
 				EditorGUIUtility.AddCursorRect(cursorChangeRect,MouseCursor.ResizeVertical);
-#if UNITY_5_3_OR_NEWER
-                if (Event.current.type == EventType.MouseDown && cursorChangeRect.Contains(Event.current.mousePosition))
-                {
-#else
-                if( Event.current.type == EventType.mouseDown && cursorChangeRect.Contains(Event.current.mousePosition)){
-#endif
-                    resize = true;
+				if( Event.current.type == EventType.MouseDown && cursorChangeRect.Contains(Event.current.mousePosition)){
+					resize = true;
 					currentScrollViewHeight = Event.current.mousePosition.y;
 
 				}
@@ -336,33 +325,23 @@ namespace HutongGames.PlayMakerEditor.Ecosystem.Utils
 				ReBuildPreview = true;
 			}
 
-            // ENTRIES
+			// ENTRIES
 
-            if (list == null || list.draggable != allowReordering)
-            {
-                list = new ReorderableList(currentEnum.entries,typeof(string),
-                                   allowReordering, true, true, true);
-
-                list.drawElementCallback = HandleElementCallbackDelegate;
-                list.drawHeaderCallback = (Rect rect) => {
-                    EditorGUI.LabelField(rect, "Items");
-                };
-
-                list.onAddCallback = HandleAddCallbackDelegate;
-
-            }
-
-            enumEntriesScrollPos = GUILayout.BeginScrollView(enumEntriesScrollPos);
+				enumEntriesScrollPos= GUILayout.BeginScrollView(enumEntriesScrollPos);
 				int count = currentEnum.entries.Count;
 
 				
 
 				List<string> _origEntries = new List<string>(currentEnum.entries);
-
-            
-                list.DoLayoutList();
+				ReorderableListGUI.Title("Enum Entries:  <color=#B20000><b>"+currentEnum.EntriesValidation.message+"</b></color>");
 
 
+				if (!allowReordering)
+				{
+					ReorderableListGUI.ListField(currentEnum.entries,DrawListItem,ReorderableListFlags.DisableReordering);
+				}else{
+					ReorderableListGUI.ListField(currentEnum.entries,DrawListItem);
+				}
 				GUILayout.BeginHorizontal();
 				GUILayout.FlexibleSpace();
 				allowReordering = GUILayout.Toggle(allowReordering,"Enable Reordering");
@@ -463,98 +442,45 @@ namespace HutongGames.PlayMakerEditor.Ecosystem.Utils
 			*/
 		}
 
+		private string DrawListItem(Rect position, string value) {
+			// Text fields do not like `null` values!
+			if (value == null)
+			{
+				value = "";
+				ReBuildPreview = true;
+			}
+				
 
-        void HandleAddCallbackDelegate(ReorderableList list)
-        {
-            currentEnum.entries.Add(string.Empty);
-        }
+			Color _origColor = GUI.color;
 
+			bool hasValidationResult =  currentEnum.EntryValidations.ContainsKey(value);
+			if (hasValidationResult)
+			{
+				EnumCreator.ValidationResult _validationResult = currentEnum.EntryValidations[value];
 
-        void HandleElementCallbackDelegate(Rect rect, int index, bool isActive, bool isFocused)
-        {
+				if (!_validationResult.success)
+				{
+					GUI.color = Color.red;
+				}
+			}
 
-            string value = currentEnum.entries[index];
+			// check if that index is validated
+			string _newValue = EditorGUI.TextField(position, value);
 
-
-            // Text fields do not like `null` values!
-            if (value == null)
-            {
-                value = "";
-                ReBuildPreview = true;
-            }
-
-
-            Color _origColor = GUI.color;
-
-            bool hasValidationResult = currentEnum.EntryValidations.ContainsKey(value);
-            if (hasValidationResult)
-            {
-                EnumCreator.ValidationResult _validationResult = currentEnum.EntryValidations[value];
-
-                if (!_validationResult.success)
-                {
-                    GUI.color = Color.red;
-                }
-            }
-
-            // check if that index is validated
-            string _newValue = EditorGUI.TextField(new Rect(rect.x,rect.y+2,rect.width,rect.height-4), new GUIContent("Entry "+index), value);
+			GUI.color = _origColor;
 
 
-            GUI.color = _origColor;
+			if (!string.Equals(_newValue,value))
+			{
+				ReBuildPreview = true;
+			}
+			return _newValue;
+		}
 
-            if ((index +1) < currentEnum.entries.Count)
-            {
-                EditorGUI.DrawRect(new Rect(rect.x, rect.y +rect.height-1, rect.width, 1), new Color(0.5f, 0.5f, 0.5f, 0.5f));
-            }
-            if (!string.Equals(_newValue, value))
-            {
-                currentEnum.entries[index] = _newValue;
-                ReBuildPreview = true;
-            }
-        }
+		#endregion
 
 
-
-        //      private string DrawListItem(Rect position, string value) {
-        //	// Text fields do not like `null` values!
-        //	if (value == null)
-        //	{
-        //		value = "";
-        //		ReBuildPreview = true;
-        //	}
-
-
-        //	Color _origColor = GUI.color;
-
-        //	bool hasValidationResult =  currentEnum.EntryValidations.ContainsKey(value);
-        //	if (hasValidationResult)
-        //	{
-        //		EnumCreator.ValidationResult _validationResult = currentEnum.EntryValidations[value];
-
-        //		if (!_validationResult.success)
-        //		{
-        //			GUI.color = Color.red;
-        //		}
-        //	}
-
-        //	// check if that index is validated
-        //	string _newValue = EditorGUI.TextField(position,new GUIContent("entry"),  value);
-
-        //	GUI.color = _origColor;
-
-
-        //	if (!string.Equals(_newValue,value))
-        //	{
-        //		ReBuildPreview = true;
-        //	}
-        //	return _newValue;
-        //}
-
-        #endregion
-
-
-        void MatchFormWithExistingEnum()
+		void MatchFormWithExistingEnum()
 		{
 			if (_list==null)
 			{
