@@ -22,8 +22,8 @@ GameObject:
   - component: {fileID: 33229558567184554}
   - component: {fileID: 23681201361171502}
   - component: {fileID: 95406434539958458}
-  - component: {fileID: 114571231230851042}
   - component: {fileID: 195169268320099944}
+  - component: {fileID: 114571231230851042}
   m_Layer: 0
   m_Name: CustomerB
   m_TagString: Stranger
@@ -184,7 +184,7 @@ MonoBehaviour:
         tooltip: 
         showInInspector: 0
         networkSync: 0
-        value: 0
+        value: 1
       stringVariables:
       - useVariable: 1
         name: ThisCustomerTag

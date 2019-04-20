@@ -268,7 +268,7 @@ MonoBehaviour:
   referenceName: 
   storeInMemory: 
   useSource: 1
-  XmlTextAsset: {fileID: 0}
+  XmlTextAsset: {fileID: 4900000, guid: 9de71e0c6a6e87249926284de65c374e, type: 3}
   FsmEventTarget: {fileID: 0}
 --- !u!114 &114437800272019038
 MonoBehaviour:
@@ -292,7 +292,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 206.50781
+        x: 222.50781
         y: 153.3125
         width: 100
         height: 64
@@ -395,7 +395,31 @@ MonoBehaviour:
           networkSync: 0
           value: Barks
         fsmObjectParams: []
-        fsmVarParams: []
+        fsmVarParams:
+        - variableName: 
+          objectType: 
+          useVariable: 0
+          type: -1
+          floatValue: 0
+          intValue: 0
+          boolValue: 0
+          stringValue: 
+          vector4Value: {x: 0, y: 0, z: 0, w: 0}
+          objectReference: {fileID: 0}
+          arrayValue:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            type: -1
+            objectTypeName: 
+            floatValues: []
+            intValues: 
+            boolValues: 
+            stringValues: []
+            vector4Values: []
+            objectReferences: []
         fsmArrayParams: []
         fsmEnumParams: []
         fsmFloatParams: []
@@ -424,12 +448,12 @@ MonoBehaviour:
         - Use Variable
         - Use Proxy
         - In Memory
-        - 
+        - /Barks/Bark
         - True
         - False
         - Failure
         byteData: 01000000000000000000000000010101
-        arrayParamSizes: 0500000000000000
+        arrayParamSizes: 0500000001000000
         arrayParamTypes:
         - System.String
         - HutongGames.PlayMaker.FsmVar
@@ -437,7 +461,7 @@ MonoBehaviour:
         customTypeNames:
         - FsmXmlSource
         - FsmXpathQuery
-        paramDataType: 13000000280000000c00000003000000030000000300000003000000030000000000000005000000120000001300000012000000120000000100000008000000010000000100000028000000120000000c000000010000000300000012000000120000001000000011000000170000001700000017000000
+        paramDataType: 13000000280000000c00000003000000030000000300000003000000030000000000000005000000120000001300000012000000120000000100000008000000010000000100000028000000120000000c00000027000000010000000300000012000000120000001000000011000000170000001700000017000000
         paramName:
         - storeGameObject
         - xmlSource
@@ -460,6 +484,7 @@ MonoBehaviour:
         - xPath
         - xPathQuery
         - xPathVariables
+        - 
         - _foldout
         - parsedQuery
         - xmlResult
@@ -469,15 +494,15 @@ MonoBehaviour:
         - foundEvent
         - notFoundEvent
         - errorEvent
-        paramDataPos: 000000000000000000000000000000000100000002000000030000000400000000000000000000000000000001000000010000000200000004000000050000000d0000000e0000000100000003000000010000000f0000000500000004000000050000000000000000000000060000000700000008000000
-        paramByteDataSize: 000000000000000000000000000000000000000000000000000000000000000004000000000000000000000000000000000000000000000001000000080000000100000001000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000000000000
+        paramDataPos: 000000000000000000000000000000000100000002000000030000000400000000000000000000000000000001000000010000000200000004000000050000000d0000000e000000010000000300000001000000000000000f0000000500000004000000050000000000000000000000060000000700000008000000
+        paramByteDataSize: 00000000000000000000000000000000000000000000000000000000000000000400000000000000000000000000000000000000000000000100000008000000010000000100000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000000000000
     - name: State 2
       description: 
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 698.2656
-        y: 178.71875
+        x: 656.2656
+        y: 180.71875
         width: 100
         height: 32
       isBreakpoint: 0
@@ -568,8 +593,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 700.27344
-        y: 235.71875
+        x: 658.27344
+        y: 237.71875
         width: 100
         height: 16
       isBreakpoint: 0
@@ -620,8 +645,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 386
-        y: 106
+        x: 363
+        y: 104
         width: 100
         height: 48
       isBreakpoint: 0
@@ -632,7 +657,7 @@ MonoBehaviour:
           name: LooP
           isSystemEvent: 0
           isGlobal: 0
-        toState: State 6
+        toState: State 7
         linkStyle: 0
         linkConstraint: 0
         colorIndex: 0
@@ -640,7 +665,7 @@ MonoBehaviour:
           name: FINISHED
           isSystemEvent: 1
           isGlobal: 0
-        toState: State 7
+        toState: State 6
         linkStyle: 0
         linkConstraint: 0
         colorIndex: 0
@@ -742,14 +767,14 @@ MonoBehaviour:
         fsmFloatParams: []
         fsmIntParams:
         - useVariable: 1
-          name: Index
+          name: 
           tooltip: 
           showInInspector: 0
           networkSync: 0
           value: 0
         fsmBoolParams:
         - useVariable: 1
-          name: 
+          name: Reset
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -798,8 +823,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 62.671875
-        y: 197.99219
+        x: 57.671875
+        y: 198.99219
         width: 100
         height: 16
       isBreakpoint: 0
@@ -850,8 +875,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 578.5703
-        y: 122.609375
+        x: 513.5703
+        y: 131.60938
         width: 100
         height: 16
       isBreakpoint: 0
@@ -902,8 +927,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 380.75
-        y: 201.99219
+        x: 356.75
+        y: 193.99219
         width: 100
         height: 32
       isBreakpoint: 0

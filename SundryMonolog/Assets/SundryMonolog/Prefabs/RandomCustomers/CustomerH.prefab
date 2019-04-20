@@ -29,7 +29,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &4581026615851198
 Transform:
   m_ObjectHideFlags: 1
@@ -268,6 +268,6 @@ NavMeshAgent:
   m_AutoBraking: 1
   m_AutoRepath: 1
   m_Height: 1.6768795
-  m_BaseOffset: 0.83843976
+  m_BaseOffset: 0.05
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4

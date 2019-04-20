@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Barks>
-  <Bark id="0" name="SilhouetteA" text="なんで襲うのかって？"></Bark>　//会話の順番入れんとアカンのじゃないのこれ
-  <Bark id="1" name="SilhouetteA" text="そりゃ俺は暴れたいだけだからな！"></Bark>
-  <Bark id="2" name="SilhouetteA" text="いくぜ！"></Bark>
+  <Bark id="0" text="なんで襲うのかって？"></Bark>
+  <Bark id="1" text="そりゃ俺は暴れたいだけだからな！"></Bark>
+  <Bark id="2" text="いくぜ！"></Bark>
+  <Bark id="3" text="いくぜ！"></Bark>
   
 </Barks>
