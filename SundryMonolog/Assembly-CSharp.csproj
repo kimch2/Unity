@@ -261,6 +261,7 @@
     <Compile Include="Assets\PlayMaker ArrayMaker\Addons\Unity\Screen\GetCurrentResolution.cs" />
     <Compile Include="Assets\PlayMaker ArrayMaker\Addons\Unity\Screen\ScreenSetResolution.cs" />
     <Compile Include="Assets\PlayMaker ArrayMaker\Addons\Unity\Text\SplitTextToArrayList.cs" />
+    <Compile Include="Assets\PlayMaker Custom Actions\__Internal\FsmStateActionAdvanced.cs" />
     <Compile Include="Assets\PlayMaker Custom Actions\ArrayMaker\ArrayListFindGameObjectsInsideCollider.cs" />
     <Compile Include="Assets\PlayMaker Custom Actions\BinarySaver\BinaryLoad.cs" />
     <Compile Include="Assets\PlayMaker Custom Actions\BinarySaver\BinarySave.cs" />
@@ -273,6 +274,7 @@
     <Compile Include="Assets\PlayMaker Custom Actions\Resources\ResourcesLoad.cs" />
     <Compile Include="Assets\PlayMaker Custom Actions\Resources\ResourcesLoadAll.cs" />
     <Compile Include="Assets\PlayMaker Custom Actions\StateMachine\Iterate.cs" />
+    <Compile Include="Assets\PlayMaker Custom Actions\Transform\GetNegativeRotation.cs" />
     <Compile Include="Assets\PlayMaker Custom Actions\uGui\uGuiTextSetText.cs" />
     <Compile Include="Assets\PlayMaker Custom Actions\UnityObject\ActivateComponents.cs" />
     <Compile Include="Assets\PlayMaker DataMaker\_internal_\DataMakerCore.cs" />
