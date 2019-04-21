@@ -266,6 +266,7 @@
     <Compile Include="Assets\PlayMaker Custom Actions\BinarySaver\BinarySave.cs" />
     <Compile Include="Assets\PlayMaker Custom Actions\GameObject\CreateObjectAdvanced.cs" />
     <Compile Include="Assets\PlayMaker Custom Actions\Logic\BoolCompare.cs" />
+    <Compile Include="Assets\PlayMaker Custom Actions\Logic\Vector3Compare.cs" />
     <Compile Include="Assets\PlayMaker Custom Actions\Physics\EnableCollider.cs" />
     <Compile Include="Assets\PlayMaker Custom Actions\Physics\EnableColliderByTag.cs" />
     <Compile Include="Assets\PlayMaker Custom Actions\Resources\FindGameObjectsResourcesWithNameContaining.cs" />
