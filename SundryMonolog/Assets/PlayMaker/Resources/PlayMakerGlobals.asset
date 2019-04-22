@@ -52,6 +52,12 @@ MonoBehaviour:
       networkSync: 0
       value: 0
     - useVariable: 1
+      name: GameStop
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
       name: NowConversation
       tooltip: 
       showInInspector: 0
@@ -142,6 +148,12 @@ MonoBehaviour:
     rectVariables: []
     quaternionVariables: []
     gameObjectVariables:
+    - useVariable: 1
+      name: Clock
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: {fileID: 0}
     - useVariable: 1
       name: DissapearPosition
       tooltip: 
@@ -234,7 +246,7 @@ MonoBehaviour:
     enumVariables: []
     categories:
     - 
-    variableCategoryIDs: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    variableCategoryIDs: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   events:
   - Reset
   - Sort

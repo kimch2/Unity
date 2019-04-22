@@ -1421,8 +1421,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 380
-        y: 28.96907
+        x: 378.96906
+        y: 27.93814
         width: 160
         height: 30
     - id: 3
@@ -1508,7 +1508,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 383.09277
+        x: 382.06186
         y: 85.15465
         width: 160
         height: 30
@@ -1654,7 +1654,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
-        value: 
+        value: FSMEvent (BackToPlay,PlayerInventoryManager)
         type: 0
         typeString: CustomFieldType_Text
       - title: jp
@@ -1670,7 +1670,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Response Menu Sequence
-        value: 
+        value: FSMEvent (BackToPlay,PlayerInventoryManager)
         type: 0
         typeString: CustomFieldType_Text
       - title: ThisItemName
