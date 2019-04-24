@@ -284,3 +284,5 @@ MonoBehaviour:
   - Conversation
   - BarkStart
   - PressW
+  - TimeUp
+  - CloseShutter
