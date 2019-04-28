@@ -3445,8 +3445,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 120.66992
-        y: 72.97087
+        x: 122.611664
+        y: 72
         width: 160
         height: 30
     - id: 2
@@ -4508,8 +4508,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 754.17773
-        y: 216.44171
+        x: 751.73865
+        y: 220.10028
         width: 160
         height: 30
     - id: 15
@@ -4601,8 +4601,8 @@ MonoBehaviour:
         y: 217.46234
         width: 160
         height: 30
-    canvasScrollPosition: {x: 35.636993, y: 0}
-    canvasZoom: 0.7599997
+    canvasScrollPosition: {x: 462.98007, y: 9.916546}
+    canvasZoom: 0.81999964
   - id: 23
     fields:
     - title: Title

@@ -266,76 +266,6 @@ MonoBehaviour:
       value: whether happening conversation now
       type: 0
       typeString: 
-  - id: 7
-    fields:
-    - title: Name
-      value: DescriptionMessage
-      type: 0
-      typeString: CustomFieldType_Text
-    - title: Initial Value
-      value: 
-      type: 0
-      typeString: CustomFieldType_Text
-    - title: Description
-      value: "\u30A2\u30A4\u30C6\u30E0\u306E\u8AAC\u660E"
-      type: 0
-      typeString: CustomFieldType_Text
-  - id: 8
-    fields:
-    - title: Name
-      value: ThisItemName
-      type: 0
-      typeString: CustomFieldType_Text
-    - title: Initial Value
-      value: 
-      type: 0
-      typeString: CustomFieldType_Text
-    - title: Description
-      value: SelectedItemName
-      type: 0
-      typeString: CustomFieldType_Text
-  - id: 9
-    fields:
-    - title: Name
-      value: InvItem0
-      type: 0
-      typeString: CustomFieldType_Text
-    - title: Initial Value
-      value: 
-      type: 0
-      typeString: CustomFieldType_Text
-    - title: Description
-      value: Inventory0
-      type: 0
-      typeString: CustomFieldType_Text
-  - id: 10
-    fields:
-    - title: Name
-      value: InvItem1
-      type: 0
-      typeString: CustomFieldType_Text
-    - title: Initial Value
-      value: 
-      type: 0
-      typeString: CustomFieldType_Text
-    - title: Description
-      value: Inventory1
-      type: 0
-      typeString: CustomFieldType_Text
-  - id: 11
-    fields:
-    - title: Name
-      value: InvItem2
-      type: 0
-      typeString: CustomFieldType_Text
-    - title: Initial Value
-      value: 
-      type: 0
-      typeString: CustomFieldType_Text
-    - title: Description
-      value: Inventory2
-      type: 0
-      typeString: CustomFieldType_Text
   - id: 12
     fields:
     - title: Name
@@ -361,9 +291,31 @@ MonoBehaviour:
       type: 1
       typeString: CustomFieldType_Number
     - title: Description
-      value: "\u30EC\u30F3\u30B8\u7528\u9078\u629E\u80A2"
+      value: "\u9078\u629E\u80A2\u756A\u53F7"
       type: 0
       typeString: 
+  - id: 24
+    fields:
+    - title: Name
+      value: Description
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: 
+      value: -1
+      type: 6
+      typeString: CustomFieldType_Item
+    - title: Initial Value
+      value: 
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: Description
+      value: "\u8AAC\u660E"
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: 
+      value: 
+      type: 6
+      typeString: CustomFieldType_Item
   - id: 14
     fields:
     - title: Name
@@ -1469,8 +1421,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 380
-        y: 28.96907
+        x: 378.96906
+        y: 27.93814
         width: 160
         height: 30
     - id: 3
@@ -1556,7 +1508,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 383.09277
+        x: 382.06186
         y: 85.15465
         width: 160
         height: 30
@@ -1587,7 +1539,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: "[var=ThisItemName]\u3060"
+        value: "[var=Option0]\u3060"
         type: 0
         typeString: CustomFieldType_Item
       - title: Parenthetical
@@ -1607,11 +1559,11 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: jp
-        value: "[var=ThisItemName]\u3060"
+        value: "[var=Option0]\u3060"
         type: 4
         typeString: CustomFieldType_Localization
       - title: en
-        value: A [var=ThisItemName]
+        value: 
         type: 4
         typeString: CustomFieldType_Localization
       - title: canvasRect
@@ -1686,7 +1638,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: '[var=DescriptionMessage]'
+        value: '[var=Description]'
         type: 0
         typeString: CustomFieldType_Text
       - title: Parenthetical
@@ -1702,7 +1654,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
-        value: 
+        value: FSMEvent (BackToPlay,PlayerInventoryManager)
         type: 0
         typeString: CustomFieldType_Text
       - title: jp
@@ -1718,7 +1670,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Response Menu Sequence
-        value: 
+        value: FSMEvent (BackToPlay,PlayerInventoryManager)
         type: 0
         typeString: CustomFieldType_Text
       - title: ThisItemName
@@ -2099,8 +2051,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 424.48016
-        y: 46.740227
+        x: 427.01184
+        y: 45.474403
         width: 160
         height: 30
     - id: 40
@@ -2291,8 +2243,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 206.19548
-        y: 173.93126
+        x: 207.46129
+        y: 177.72871
         width: 160
         height: 30
     - id: 6
@@ -2470,7 +2422,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 423.77368
-        y: 251.06387
+        y: 253.59552
         width: 160
         height: 30
     - id: 8
@@ -2678,7 +2630,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 199.24532
-        y: 314.151
+        y: 315.4168
         width: 160
         height: 30
     - id: 10
@@ -2946,8 +2898,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 428.8659
-        y: 354.39468
+        x: 427.6001
+        y: 355.66052
         width: 160
         height: 30
     - id: 13
@@ -3269,8 +3221,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 317.93018
-        y: 151
+        x: 329.93018
+        y: 148
         width: 160
         height: 30
     - id: 42
@@ -3356,8 +3308,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 317.77643
-        y: 205.23816
+        x: 329.77643
+        y: 202.23816
         width: 160
         height: 30
     canvasScrollPosition: {x: 0, y: 0}
@@ -3493,8 +3445,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 120.66992
-        y: 72.97087
+        x: 122.611664
+        y: 72
         width: 160
         height: 30
     - id: 2
@@ -4556,8 +4508,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 754.17773
-        y: 216.44171
+        x: 751.73865
+        y: 220.10028
         width: 160
         height: 30
     - id: 15
@@ -4649,8 +4601,8 @@ MonoBehaviour:
         y: 217.46234
         width: 160
         height: 30
-    canvasScrollPosition: {x: 35.636993, y: 0}
-    canvasZoom: 0.7599997
+    canvasScrollPosition: {x: 462.98007, y: 9.916546}
+    canvasZoom: 0.81999964
   - id: 23
     fields:
     - title: Title
@@ -4881,8 +4833,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 290
-        y: 57
+        x: 299.17432
+        y: 59.752304
         width: 160
         height: 30
     - id: 2
@@ -4969,7 +4921,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 293.07767
-        y: 126.33011
+        y: 127.24754
         width: 160
         height: 30
     - id: 3
@@ -5060,7 +5012,7 @@ MonoBehaviour:
         width: 160
         height: 30
     canvasScrollPosition: {x: 0, y: 0}
-    canvasZoom: 1.03
+    canvasZoom: 1.0899999
   syncInfo:
     syncActors: 0
     syncItems: 0
