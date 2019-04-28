@@ -82,15 +82,15 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1212273379635452}
-  m_LocalRotation: {x: -0, y: 0.000000014901163, z: -0.7117075, w: 0.70247597}
-  m_LocalPosition: {x: 0.015, y: -0.11, z: 0.053}
+  m_LocalRotation: {x: -0.08655901, y: 0.085436255, z: -0.70642424, w: 0.69726115}
+  m_LocalPosition: {x: 0.392, y: 0.607, z: 0.673}
   m_LocalScale: {x: 0.19420347, y: 0.00818844, z: 0.00401}
   m_Children:
   - {fileID: 4754232972609406}
   - {fileID: 4963477871026128}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90.748}
+  m_LocalEulerAnglesHint: {x: 0, y: 13.971001, z: -90.748}
 --- !u!4 &4963477871026128
 Transform:
   m_ObjectHideFlags: 1
@@ -635,7 +635,7 @@ MonoBehaviour:
         - HutongGames.PlayMaker.Actions.iTweenRotateAdd
         customNames:
         - 
-        actionEnabled: 01
+        actionEnabled: 00
         actionIsOpen: 01
         actionStartIndex: 00000000
         actionHashCodes: 86d45900
@@ -798,7 +798,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
+    preprocessed: 0
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0

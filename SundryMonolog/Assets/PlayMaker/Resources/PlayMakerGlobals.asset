@@ -280,3 +280,5 @@ MonoBehaviour:
   - PressW
   - TimeUp
   - CloseShutter
+  - ResultPassenger
+  - SlideIcon
