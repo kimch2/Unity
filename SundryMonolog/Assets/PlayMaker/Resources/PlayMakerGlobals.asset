@@ -33,6 +33,12 @@ MonoBehaviour:
       networkSync: 0
       value: 0
     - useVariable: 1
+      name: PassengersNum
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
       name: SelectedInv
       tooltip: 
       showInInspector: 0
@@ -149,12 +155,6 @@ MonoBehaviour:
     quaternionVariables: []
     gameObjectVariables:
     - useVariable: 1
-      name: Clock
-      tooltip: 
-      showInInspector: 0
-      networkSync: 0
-      value: {fileID: 0}
-    - useVariable: 1
       name: DissapearPosition
       tooltip: 
       showInInspector: 0
@@ -248,8 +248,6 @@ MonoBehaviour:
     - 
     variableCategoryIDs: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   events:
-  - Reset
-  - Sort
   - PickedProduct
   - ScoreIncreasing
   - TakeOrder
@@ -262,7 +260,6 @@ MonoBehaviour:
   - Inv3Update
   - Inv1Update
   - UpdateInventory
-  - ProductsRestock
   - RemoveInvIcon
   - StartMicrowaveCountdown
   - MicrowavingStop
@@ -276,11 +273,8 @@ MonoBehaviour:
   - PressE
   - PressS
   - PressSpace
-  - Encount
   - BackToPlay
   - GameStart
-  - MouseOff
-  - MouseOver
   - Conversation
   - BarkStart
   - PressW
