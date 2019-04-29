@@ -1384,6 +1384,7 @@
     <None Include="Assets\SWS\README.txt" />
     <None Include="Assets\PlayMaker\Templates\Readme.txt" />
     <None Include="Assets\PlayMaker\Readme.txt" />
+    <None Include="Assets\SundryMonolog\Xml\test 1.xml" />
     <None Include="Assets\PlayMaker ArrayMaker EasySave3\readme.txt" />
     <None Include="Assets\PlayMaker\Actions\Tween\Readme.txt" />
     <None Include="Assets\Pixel Crushers\Dialogue System\Third Party Support\PlayMaker Support\_README.txt" />
@@ -1406,7 +1407,9 @@
     <None Include="Assets\link.xml" />
     <None Include="Assets\PlayMaker\Resources\PlayMakerAssemblies.txt" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Surface.cginc" />
-    <None Include="Assets\SundryMonolog\Xml\test.xml" />
+    <None Include="Assets\SundryMonolog\Xml\test.xml">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="Assets\PlayMaker Utils\External Libraries\Rotorz\Reorderable List Field\LICENSE.txt" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />

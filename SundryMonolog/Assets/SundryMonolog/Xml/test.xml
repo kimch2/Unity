@@ -1,26 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Barks>
 
-    <Response0 id="0" text="中々やるじゃん"></Response0>
-    <Response0 id="1" text="俺はお前の魂を"></Response0>
-    <Response0 id="2" text="奪いに来たのさ"></Response0>
-  
-    <Response1 id="0" text="なんで襲うのかって？"></Response1>
-    <Response1 id="1" text="そりゃ俺は暴れたいだけだからな！"></Response1>
-    <Response1 id="2" text="準備はいいな！"></Response1>
-    <Response1 id="3" text="いくぜ！"></Response1>
+  <bark category="Response">
+    <Response id="0" text="中々やるじゃん"></Response>
+    <Response id="1" text="俺はお前の魂を"></Response>
+    <Response id="2" text="奪いに来たのさ"></Response>
+  </bark>
 
-    <Question0 id="0" text="新人か？"></Question0>
-    <Question0 id="1" text="力の使い方を知らないのか？"></Question0>
-
-    <Reaction0 id="0" text="aaa"></Reaction0>
-    <Reaction0 id="1" text="bbb"></Reaction0>
-    <Reaction0 id="2" text="ccccc"></Reaction0>
-
-    <Random0 id="0" text="フフフンフフフン♪">  </Random0>
-    <Random0 id="1" text="素人じゃねえな？">  </Random0>
-    <Random0 id="2" text="・・・！">  </Random0>
-
-  
+  <bark category="Random">
+    <Random id="0" text="中々やるじゃん"></Random>
+    <Random id="1" text="俺はお前の魂を"></Random>
+    <Random id="2" text="奪いに来たのさ"></Random>
+  </bark>
 
 </Barks>
