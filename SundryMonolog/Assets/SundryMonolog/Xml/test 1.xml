@@ -1,10 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Barks>
 
-    <Response id="0" text="中々やるじゃん"></Response>
-    <Response id="1" text="俺はお前の魂を"></Response>
+  <Talk0 id="0" text="あいうえお"></Talk0>
+  <Talk0 id="1" text="かきくけこ"></Talk0>
 
-    <Random id="0" text="AAAA"></Random>
-    <Random id="1" text="BBB"></Random>
+  <Talk1 id="0" text="さしすせそ"></Talk1>
+  <Talk1 id="1" text="たちつてと"></Talk1>
+
+  <Watch0 id="0" text="何見てんだ？"></Watch0>
 
 </Barks>
