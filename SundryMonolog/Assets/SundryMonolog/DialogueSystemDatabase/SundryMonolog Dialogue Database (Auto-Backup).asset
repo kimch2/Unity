@@ -425,7 +425,7 @@ MonoBehaviour:
   - id: 29
     fields:
     - title: Name
-      value: text
+      value: Text0
       type: 0
       typeString: CustomFieldType_Text
     - title: 
@@ -437,7 +437,51 @@ MonoBehaviour:
       type: 0
       typeString: CustomFieldType_Text
     - title: Description
+      value: "\u4F1A\u8A71\u7528"
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: 
       value: 
+      type: 6
+      typeString: CustomFieldType_Item
+  - id: 30
+    fields:
+    - title: Name
+      value: Text1
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: 
+      value: -1
+      type: 6
+      typeString: CustomFieldType_Item
+    - title: Initial Value
+      value: 
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: Description
+      value: "\u4F1A\u8A71\u7528"
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: 
+      value: 
+      type: 6
+      typeString: CustomFieldType_Item
+  - id: 31
+    fields:
+    - title: Name
+      value: Text2
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: 
+      value: -1
+      type: 6
+      typeString: CustomFieldType_Item
+    - title: Initial Value
+      value: 
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: Description
+      value: "\u4F1A\u8A71\u7528"
       type: 0
       typeString: CustomFieldType_Text
     - title: 
@@ -5147,6 +5191,18 @@ MonoBehaviour:
         destinationDialogueID: 3
         isConnector: 0
         priority: 2
+      - originConversationID: 24
+        originDialogueID: 0
+        destinationConversationID: 24
+        destinationDialogueID: 5
+        isConnector: 0
+        priority: 2
+      - originConversationID: 24
+        originDialogueID: 0
+        destinationConversationID: 24
+        destinationDialogueID: 6
+        isConnector: 0
+        priority: 2
       conditionsString: 
       userScript: 
       onExecute:
@@ -5156,8 +5212,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 175
-        y: 153
+        x: 211
+        y: 89.09891
         width: 160
         height: 30
     - id: 3
@@ -5183,11 +5239,11 @@ MonoBehaviour:
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
-        value: '[var=Talk0]'
+        value: 
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: '[var=Option0]'
+        value: '[var=Text0]'
         type: 0
         typeString: CustomFieldType_Text
       - title: Parenthetical
@@ -5207,7 +5263,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: jp
-        value: '[var=Option0]'
+        value: 
         type: 4
         typeString: CustomFieldType_Localization
       - title: en
@@ -5247,11 +5303,102 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 461
-        y: 157
+        x: 468
+        y: 90
         width: 160
         height: 30
-    - id: 4
+    - id: 5
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: -1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 9
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Dialogue Text
+        value: '[var=Text1]'
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Video File
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: jp
+        value: 
+        type: 4
+        typeString: CustomFieldType_Localization
+      - title: en
+        value: 
+        type: 4
+        typeString: CustomFieldType_Localization
+      - title: canvasRect
+        value: 
+        type: 0
+        typeString: 
+      - title: Response Menu Sequence
+        value: 
+        type: 0
+        typeString: 
+      - title: 
+        value: 
+        type: 0
+        typeString: 
+      - title: ThisItemName
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 24
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks: []
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      canvasRect:
+        serializedVersion: 2
+        x: 468.1978
+        y: 174.1099
+        width: 160
+        height: 30
+    - id: 6
       fields:
       - title: Title
         value: New Dialogue Entry
@@ -5262,7 +5409,7 @@ MonoBehaviour:
         type: 3
         typeString: CustomFieldType_Files
       - title: Description
-        value: "Bark\u306FDs\u5074\u306Bvariable\u304C\u306A\u3044\u3068\u8868\u793A\u3055\u308C\u306A\u3044"
+        value: 
         type: 0
         typeString: CustomFieldType_Text
       - title: Actor
@@ -5270,7 +5417,7 @@ MonoBehaviour:
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: 3
+        value: -1
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -5338,12 +5485,12 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 213
-        y: 256
+        x: 465
+        y: 257
         width: 160
         height: 30
-    canvasScrollPosition: {x: 28, y: 0}
-    canvasZoom: 1
+    canvasScrollPosition: {x: 23.252752, y: 0}
+    canvasZoom: 0.9100001
   syncInfo:
     syncActors: 0
     syncItems: 0
