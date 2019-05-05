@@ -5587,7 +5587,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
-        value: FSMEvent (Defense,BattleManager)
+        value: FSMEvent (StartDefense,BattleManager)
         type: 0
         typeString: CustomFieldType_Text
       - title: jp
@@ -5603,7 +5603,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Response Menu Sequence
-        value: FSMEvent (Defense,BattleManager)
+        value: 
         type: 0
         typeString: 
       - title: 
@@ -5632,7 +5632,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 990.8056
-        y: 147.02959
+        y: 148.11772
         width: 160
         height: 30
     - id: 5
