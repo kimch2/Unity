@@ -320,7 +320,7 @@ MonoBehaviour:
   - id: 18
     fields:
     - title: Name
-      value: Battle_PowerCharge
+      value: PowerCharge
       type: 0
       typeString: CustomFieldType_Text
     - title: Initial Value
@@ -4167,7 +4167,7 @@ MonoBehaviour:
         destinationDialogueID: 18
         isConnector: 0
         priority: 2
-      conditionsString: Variable["Battle_PowerCharge"] == false
+      conditionsString: Variable["PowerCharge"] == false
       userScript: 
       onExecute:
         m_PersistentCalls:
@@ -4533,7 +4533,7 @@ MonoBehaviour:
       falseConditionAction: Block
       conditionPriority: 2
       outgoingLinks: []
-      conditionsString: Variable["Battle_PowerCharge"] == true
+      conditionsString: Variable["PowerCharge"] == true
       userScript: 
       onExecute:
         m_PersistentCalls:
@@ -5100,8 +5100,8 @@ MonoBehaviour:
         y: 33.767662
         width: 160
         height: 30
-    canvasScrollPosition: {x: 58.227905, y: 8.860748}
-    canvasZoom: 0.7899997
+    canvasScrollPosition: {x: 207.56023, y: 18.140879}
+    canvasZoom: 0.7299997
   - id: 24
     fields:
     - title: Title
@@ -5926,7 +5926,7 @@ MonoBehaviour:
         y: 217.00192
         width: 160
         height: 30
-    canvasScrollPosition: {x: 112.76497, y: 0}
+    canvasScrollPosition: {x: 195.46353, y: 7.616974}
     canvasZoom: 0.91900027
   syncInfo:
     syncActors: 0
