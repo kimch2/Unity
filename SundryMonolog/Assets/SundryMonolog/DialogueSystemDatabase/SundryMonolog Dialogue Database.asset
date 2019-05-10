@@ -4502,7 +4502,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
-        value: FSMEvent (StartAttack,BattleManager)
+        value: FSMEvent (StartPlayerAttack,BattleManager)
         type: 0
         typeString: CustomFieldType_Text
       - title: jp
@@ -5100,7 +5100,7 @@ MonoBehaviour:
         y: 33.767662
         width: 160
         height: 30
-    canvasScrollPosition: {x: 481.53296, y: 0}
+    canvasScrollPosition: {x: 63.72458, y: 0}
     canvasZoom: 0.7299997
   - id: 24
     fields:
@@ -5587,7 +5587,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
-        value: FSMEvent (StartDefense,BattleManager)
+        value: FSMEvent (StartPlayerDefense,BattleManager)
         type: 0
         typeString: CustomFieldType_Text
       - title: jp

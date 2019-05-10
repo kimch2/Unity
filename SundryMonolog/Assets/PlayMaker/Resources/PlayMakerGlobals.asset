@@ -323,13 +323,15 @@ MonoBehaviour:
   - TimeUp
   - CloseShutter
   - ResultPassenger
-  - SlideIcon
   - Encount
-  - Defense
   - SetBullets
-  - StartDefense
   - Stock
   - WhiteDamage
   - BlackDamage
-  - StartAttack
-  - Attack
+  - SlideIcon
+  - SilhouetteDamage
+  - StartPlayerAttack
+  - StartPlayerDefense
+  - SilhouetteAttack
+  - SilhouetteDefense
+  - NowDodging
