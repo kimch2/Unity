@@ -4502,7 +4502,9 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
-        value: FSMEvent (StartPlayerAttack,BattleManager)
+        value: 'FSMEvent (StartPlayerAim,BattleManager);
+
+          FSMEvent (StartPlayerAim,BattleTimer)'
         type: 0
         typeString: CustomFieldType_Text
       - title: jp
@@ -4518,7 +4520,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Response Menu Sequence
-        value: 
+        value: BattleTimer
         type: 0
         typeString: CustomFieldType_Text
       - title: ThisItemName
@@ -5096,7 +5098,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 760.0593
+        x: 758.68945
         y: 33.767662
         width: 160
         height: 30

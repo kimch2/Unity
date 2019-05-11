@@ -330,8 +330,9 @@ MonoBehaviour:
   - BlackDamage
   - SlideIcon
   - SilhouetteDamage
-  - StartPlayerAttack
   - StartPlayerDefense
   - SilhouetteAttack
   - SilhouetteDefense
   - NowDodging
+  - StartPlayerAim
+  - StartPlayerAttack

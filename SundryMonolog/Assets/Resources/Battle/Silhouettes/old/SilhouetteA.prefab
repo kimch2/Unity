@@ -2692,15 +2692,12 @@ MonoBehaviour:
         - storeResult
         paramDataPos: 00000000000000000000000001000000000000000100000000000000
         paramByteDataSize: 00000000000000000000000000000000000000000000000000000000
-    events:
-    - name: Attack
-      isSystemEvent: 0
-      isGlobal: 0
+    events: []
     globalTransitions:
     - fsmEvent:
-        name: Attack
+        name: 
         isSystemEvent: 0
-        isGlobal: 1
+        isGlobal: 0
       toState: State 2
       linkStyle: 0
       linkConstraint: 0
@@ -6782,12 +6779,6 @@ MonoBehaviour:
     - name: FINISHED
       isSystemEvent: 1
       isGlobal: 0
-    - name: Attack
-      isSystemEvent: 0
-      isGlobal: 0
-    - name: Defense
-      isSystemEvent: 0
-      isGlobal: 0
     - name: False
       isSystemEvent: 0
       isGlobal: 0
@@ -6811,9 +6802,9 @@ MonoBehaviour:
       isGlobal: 0
     globalTransitions:
     - fsmEvent:
-        name: Defense
+        name: 
         isSystemEvent: 0
-        isGlobal: 1
+        isGlobal: 0
       toState: State 8
       linkStyle: 0
       linkConstraint: 0
