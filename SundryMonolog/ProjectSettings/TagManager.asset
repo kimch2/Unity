@@ -16,6 +16,7 @@ TagManager:
   - BlackBullet
   - Equipment
   - PlayerAttackPathManager
+  - PlayerBullet
   layers:
   - Default
   - TransparentFX
