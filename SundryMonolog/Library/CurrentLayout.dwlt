@@ -14,9 +14,9 @@ MonoBehaviour:
   m_PixelRect:
     serializedVersion: 2
     x: -561
-    y: 461
+    y: 449
     width: 481
-    height: 572
+    height: 584
   m_ShowMode: 0
   m_Title: 
   m_RootView: {fileID: 7}
@@ -35,7 +35,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PixelRect:
     serializedVersion: 2
-    x: -1207
+    x: -1215
     y: 1
     width: 1208
     height: 1032
@@ -58,9 +58,9 @@ MonoBehaviour:
   m_PixelRect:
     serializedVersion: 2
     x: -1846
-    y: 272
+    y: 260
     width: 609
-    height: 636
+    height: 648
   m_ShowMode: 0
   m_Title: 
   m_RootView: {fileID: 12}
@@ -130,7 +130,7 @@ MonoBehaviour:
     x: 0
     y: 0
     width: 481
-    height: 572
+    height: 584
   m_MinSize: {x: 200, y: 122}
   m_MaxSize: {x: 4000, y: 4022}
   m_ActualView: {fileID: 27}
@@ -156,11 +156,11 @@ MonoBehaviour:
     x: 0
     y: 0
     width: 481
-    height: 572
+    height: 584
   m_MinSize: {x: 200, y: 122}
   m_MaxSize: {x: 4000, y: 4022}
   vertical: 0
-  controlID: 442
+  controlID: 435
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -234,7 +234,7 @@ MonoBehaviour:
   m_MinSize: {x: 1004, y: 222}
   m_MaxSize: {x: 8004, y: 4022}
   vertical: 0
-  controlID: 170
+  controlID: 329
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -252,9 +252,9 @@ MonoBehaviour:
     x: 0
     y: 0
     width: 609
-    height: 636
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
+    height: 648
+  m_MinSize: {x: 100, y: 122}
+  m_MaxSize: {x: 4000, y: 4022}
   m_ActualView: {fileID: 31}
   m_Panes:
   - {fileID: 31}
@@ -278,11 +278,11 @@ MonoBehaviour:
     x: 0
     y: 0
     width: 609
-    height: 636
+    height: 648
   m_MinSize: {x: 100, y: 122}
   m_MaxSize: {x: 4000, y: 4022}
   vertical: 1
-  controlID: 406
+  controlID: 399
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -438,7 +438,7 @@ MonoBehaviour:
   m_MinSize: {x: 815, y: 471}
   m_MaxSize: {x: 22010, y: 14021}
   vertical: 0
-  controlID: 11
+  controlID: 47
 --- !u!114 &20
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -459,10 +459,10 @@ MonoBehaviour:
     y: 0
     width: 860
     height: 947
-  m_MinSize: {x: 104, y: 221}
-  m_MaxSize: {x: 4004, y: 8021}
+  m_MinSize: {x: 104, y: 242}
+  m_MaxSize: {x: 4004, y: 8042}
   vertical: 1
-  controlID: 12
+  controlID: 25
 --- !u!114 &21
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -509,8 +509,8 @@ MonoBehaviour:
     y: 430
     width: 860
     height: 517
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 104, y: 121}
+  m_MaxSize: {x: 4004, y: 4021}
   m_ActualView: {fileID: 32}
   m_Panes:
   - {fileID: 32}
@@ -539,7 +539,7 @@ MonoBehaviour:
   m_MinSize: {x: 234, y: 471}
   m_MaxSize: {x: 10004, y: 14021}
   vertical: 1
-  controlID: 35
+  controlID: 207
 --- !u!114 &24
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -637,9 +637,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: -561
-    y: 483
+    y: 471
     width: 481
-    height: 550
+    height: 562
   m_PersistentViewDataDictionary: {fileID: 0}
   Initialized: 1
   filterByFsm: 0
@@ -662,7 +662,7 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: -1207
+    x: -1215
     y: 23
     width: 213
     height: 1010
@@ -712,7 +712,7 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: -990
+    x: -998
     y: 23
     width: 991
     height: 1010
@@ -731,241 +731,175 @@ MonoBehaviour:
       zoom: 1
     selectionHistory:
       backList:
-      - fsmComponentID: -3089004
+      - fsmComponentID: 24500
         fsmComponent: {fileID: 0}
         fsmTemplate: {fileID: 0}
-      - fsmComponentID: -1122834
-        fsmComponent: {fileID: 0}
-        fsmTemplate: {fileID: 0}
-      - fsmComponentID: 24726
-        fsmComponent: {fileID: 0}
-        fsmTemplate: {fileID: 0}
-      - fsmComponentID: 24496
-        fsmComponent: {fileID: 0}
-        fsmTemplate: {fileID: 0}
-      - fsmComponentID: -1122834
-        fsmComponent: {fileID: 0}
-        fsmTemplate: {fileID: 0}
-      - fsmComponentID: 24726
-        fsmComponent: {fileID: 0}
-        fsmTemplate: {fileID: 0}
-      - fsmComponentID: -1122834
-        fsmComponent: {fileID: 0}
-        fsmTemplate: {fileID: 0}
-      - fsmComponentID: 24496
-        fsmComponent: {fileID: 0}
-        fsmTemplate: {fileID: 0}
-      - fsmComponentID: 24450
-        fsmComponent: {fileID: 0}
-        fsmTemplate: {fileID: 0}
-      - fsmComponentID: -1122834
-        fsmComponent: {fileID: 0}
-        fsmTemplate: {fileID: 0}
-      - fsmComponentID: 24496
-        fsmComponent: {fileID: 0}
-        fsmTemplate: {fileID: 0}
-      - fsmComponentID: 24726
-        fsmComponent: {fileID: 0}
-        fsmTemplate: {fileID: 0}
-      - fsmComponentID: 24496
-        fsmComponent: {fileID: 0}
-        fsmTemplate: {fileID: 0}
-      - fsmComponentID: 24726
-        fsmComponent: {fileID: 0}
-        fsmTemplate: {fileID: 0}
-      - fsmComponentID: 24496
-        fsmComponent: {fileID: 0}
-        fsmTemplate: {fileID: 0}
-      - fsmComponentID: 24726
-        fsmComponent: {fileID: 0}
-        fsmTemplate: {fileID: 0}
-      - fsmComponentID: 24496
-        fsmComponent: {fileID: 0}
-        fsmTemplate: {fileID: 0}
-      - fsmComponentID: 24726
-        fsmComponent: {fileID: 0}
-        fsmTemplate: {fileID: 0}
-      - fsmComponentID: 24496
-        fsmComponent: {fileID: 0}
-        fsmTemplate: {fileID: 0}
-      - fsmComponentID: 24726
-        fsmComponent: {fileID: 0}
-        fsmTemplate: {fileID: 0}
-      - fsmComponentID: -1122834
-        fsmComponent: {fileID: 0}
-        fsmTemplate: {fileID: 0}
-      - fsmComponentID: 24726
-        fsmComponent: {fileID: 0}
-        fsmTemplate: {fileID: 0}
-      - fsmComponentID: -1122834
-        fsmComponent: {fileID: 0}
+      - fsmComponentID: 25432
+        fsmComponent: {fileID: 114241265772912322, guid: ea3d3029b86480445ab173ed216980da,
+          type: 2}
         fsmTemplate: {fileID: 0}
-      - fsmComponentID: -1122834
+      - fsmComponentID: 24454
         fsmComponent: {fileID: 0}
         fsmTemplate: {fileID: 0}
-      - fsmComponentID: 24496
+      - fsmComponentID: 24500
         fsmComponent: {fileID: 0}
         fsmTemplate: {fileID: 0}
-      - fsmComponentID: -1122834
+      - fsmComponentID: 24738
         fsmComponent: {fileID: 0}
         fsmTemplate: {fileID: 0}
-      - fsmComponentID: 24726
+      - fsmComponentID: -339636
         fsmComponent: {fileID: 0}
         fsmTemplate: {fileID: 0}
-      - fsmComponentID: -1122834
+      - fsmComponentID: -340402
         fsmComponent: {fileID: 0}
         fsmTemplate: {fileID: 0}
-      - fsmComponentID: 24496
+      - fsmComponentID: -339636
         fsmComponent: {fileID: 0}
         fsmTemplate: {fileID: 0}
-      - fsmComponentID: -1122834
+      - fsmComponentID: 24768
         fsmComponent: {fileID: 0}
         fsmTemplate: {fileID: 0}
-      - fsmComponentID: 24662
+      - fsmComponentID: 24500
         fsmComponent: {fileID: 0}
         fsmTemplate: {fileID: 0}
-      - fsmComponentID: 24496
+      - fsmComponentID: 24454
         fsmComponent: {fileID: 0}
         fsmTemplate: {fileID: 0}
-      - fsmComponentID: 24662
+      - fsmComponentID: 24500
         fsmComponent: {fileID: 0}
         fsmTemplate: {fileID: 0}
-      - fsmComponentID: 24496
+      - fsmComponentID: 24454
         fsmComponent: {fileID: 0}
         fsmTemplate: {fileID: 0}
-      - fsmComponentID: 24662
+      - fsmComponentID: 24768
         fsmComponent: {fileID: 0}
         fsmTemplate: {fileID: 0}
-      - fsmComponentID: 24496
+      - fsmComponentID: -339636
         fsmComponent: {fileID: 0}
         fsmTemplate: {fileID: 0}
-      - fsmComponentID: -1122834
+      - fsmComponentID: 24768
         fsmComponent: {fileID: 0}
         fsmTemplate: {fileID: 0}
-      - fsmComponentID: 24496
+      - fsmComponentID: -340402
         fsmComponent: {fileID: 0}
         fsmTemplate: {fileID: 0}
-      - fsmComponentID: -1122834
+      - fsmComponentID: -339636
         fsmComponent: {fileID: 0}
         fsmTemplate: {fileID: 0}
-      - fsmComponentID: 24496
+      - fsmComponentID: 24768
         fsmComponent: {fileID: 0}
         fsmTemplate: {fileID: 0}
-      - fsmComponentID: -1122834
+      - fsmComponentID: 24500
         fsmComponent: {fileID: 0}
         fsmTemplate: {fileID: 0}
-      - fsmComponentID: 24496
-        fsmComponent: {fileID: 0}
+      - fsmComponentID: 25432
+        fsmComponent: {fileID: 114241265772912322, guid: ea3d3029b86480445ab173ed216980da,
+          type: 2}
         fsmTemplate: {fileID: 0}
-      - fsmComponentID: -1122834
+      - fsmComponentID: 24454
         fsmComponent: {fileID: 0}
         fsmTemplate: {fileID: 0}
-      - fsmComponentID: 24496
+      - fsmComponentID: 24458
         fsmComponent: {fileID: 0}
         fsmTemplate: {fileID: 0}
-      - fsmComponentID: -1122834
+      - fsmComponentID: 24500
         fsmComponent: {fileID: 0}
         fsmTemplate: {fileID: 0}
-      - fsmComponentID: 24496
+      - fsmComponentID: 24738
         fsmComponent: {fileID: 0}
         fsmTemplate: {fileID: 0}
-      - fsmComponentID: 24450
+      - fsmComponentID: -340402
         fsmComponent: {fileID: 0}
         fsmTemplate: {fileID: 0}
-      - fsmComponentID: 24496
+      - fsmComponentID: -339636
         fsmComponent: {fileID: 0}
         fsmTemplate: {fileID: 0}
-      - fsmComponentID: -1122834
+      - fsmComponentID: 24768
         fsmComponent: {fileID: 0}
         fsmTemplate: {fileID: 0}
-      - fsmComponentID: 24496
+      - fsmComponentID: -340402
         fsmComponent: {fileID: 0}
         fsmTemplate: {fileID: 0}
-      - fsmComponentID: -1122834
+      - fsmComponentID: -339636
         fsmComponent: {fileID: 0}
         fsmTemplate: {fileID: 0}
-      - fsmComponentID: 24496
+      - fsmComponentID: -340402
         fsmComponent: {fileID: 0}
         fsmTemplate: {fileID: 0}
-      - fsmComponentID: -1122834
+      - fsmComponentID: -339636
         fsmComponent: {fileID: 0}
         fsmTemplate: {fileID: 0}
-      - fsmComponentID: 24496
+      - fsmComponentID: 24768
         fsmComponent: {fileID: 0}
         fsmTemplate: {fileID: 0}
-      - fsmComponentID: -1122834
-        fsmComponent: {fileID: 0}
+      - fsmComponentID: -307156
+        fsmComponent: {fileID: 114619727613076206, guid: fce17a44a710b2c4c95ca7550f863bce,
+          type: 2}
         fsmTemplate: {fileID: 0}
-      - fsmComponentID: 24496
+      - fsmComponentID: 24768
         fsmComponent: {fileID: 0}
         fsmTemplate: {fileID: 0}
-      - fsmComponentID: 24496
+      - fsmComponentID: 24768
         fsmComponent: {fileID: 0}
         fsmTemplate: {fileID: 0}
-      - fsmComponentID: 24662
-        fsmComponent: {fileID: 0}
+      - fsmComponentID: -307156
+        fsmComponent: {fileID: 114619727613076206, guid: fce17a44a710b2c4c95ca7550f863bce,
+          type: 2}
         fsmTemplate: {fileID: 0}
-      - fsmComponentID: 25006
+      - fsmComponentID: 24768
         fsmComponent: {fileID: 0}
         fsmTemplate: {fileID: 0}
-      - fsmComponentID: 24612
+      - fsmComponentID: 24768
         fsmComponent: {fileID: 0}
         fsmTemplate: {fileID: 0}
-      - fsmComponentID: 25006
+      - fsmComponentID: 24768
         fsmComponent: {fileID: 0}
         fsmTemplate: {fileID: 0}
-      - fsmComponentID: 24662
+      - fsmComponentID: 24768
         fsmComponent: {fileID: 0}
         fsmTemplate: {fileID: 0}
-      - fsmComponentID: 24612
+      - fsmComponentID: 24768
         fsmComponent: {fileID: 0}
         fsmTemplate: {fileID: 0}
-      - fsmComponentID: 24662
+      - fsmComponentID: 24768
         fsmComponent: {fileID: 0}
         fsmTemplate: {fileID: 0}
-      - fsmComponentID: 24496
+      - fsmComponentID: 24500
         fsmComponent: {fileID: 0}
         fsmTemplate: {fileID: 0}
-      - fsmComponentID: 24662
+      - fsmComponentID: 24738
         fsmComponent: {fileID: 0}
         fsmTemplate: {fileID: 0}
-      - fsmComponentID: 24612
+      - fsmComponentID: 24500
         fsmComponent: {fileID: 0}
         fsmTemplate: {fileID: 0}
-      - fsmComponentID: 25006
+      - fsmComponentID: 24738
         fsmComponent: {fileID: 0}
         fsmTemplate: {fileID: 0}
-      - fsmComponentID: 24662
+      - fsmComponentID: 24768
         fsmComponent: {fileID: 0}
         fsmTemplate: {fileID: 0}
-      - fsmComponentID: 24662
+      - fsmComponentID: 24768
         fsmComponent: {fileID: 0}
         fsmTemplate: {fileID: 0}
-      - fsmComponentID: 24496
-        fsmComponent: {fileID: 0}
+      - fsmComponentID: 26824
+        fsmComponent: {fileID: 114464641978331022, guid: ea3d3029b86480445ab173ed216980da,
+          type: 2}
         fsmTemplate: {fileID: 0}
-      - fsmComponentID: 24662
-        fsmComponent: {fileID: 0}
+      - fsmComponentID: 26824
+        fsmComponent: {fileID: 114464641978331022, guid: ea3d3029b86480445ab173ed216980da,
+          type: 2}
         fsmTemplate: {fileID: 0}
-      - fsmComponentID: 24496
+      - fsmComponentID: 24458
         fsmComponent: {fileID: 0}
         fsmTemplate: {fileID: 0}
       - fsmComponentID: 25424
         fsmComponent: {fileID: 114241265772912322, guid: ea3d3029b86480445ab173ed216980da,
           type: 2}
         fsmTemplate: {fileID: 0}
-      - fsmComponentID: 24450
-        fsmComponent: {fileID: 0}
-        fsmTemplate: {fileID: 0}
       - fsmComponentID: 25424
         fsmComponent: {fileID: 114241265772912322, guid: ea3d3029b86480445ab173ed216980da,
           type: 2}
-        fsmTemplate: {fileID: 0}
-      - fsmComponentID: 24450
-        fsmComponent: {fileID: 0}
-        fsmTemplate: {fileID: 0}
-      - fsmComponentID: 24450
-        fsmComponent: {fileID: 0}
         fsmTemplate: {fileID: 0}
       - fsmComponentID: 26810
         fsmComponent: {fileID: 114241265772912322, guid: ea3d3029b86480445ab173ed216980da,
@@ -2241,23 +2175,14 @@ MonoBehaviour:
         fsmTemplate: {fileID: 0}
       forwardList: []
       selectionCache:
-      - fsmComponentID: 24450
+      - fsmComponentID: 24458
         fsmTemplate: {fileID: 0}
-        stateName: State 8
-        stateNames:
-        - State 8
+        stateName: Get Array
+        stateNames: []
         transitionIndex: 0
         scrollPosition: {x: 0, y: 0}
         zoom: 1
-      - fsmComponentID: 24496
-        fsmTemplate: {fileID: 0}
-        stateName: State 10
-        stateNames:
-        - State 10
-        transitionIndex: -1
-        scrollPosition: {x: 843.35156, y: -85.28906}
-        zoom: 1
-      - fsmComponentID: 24662
+      - fsmComponentID: 24768
         fsmTemplate: {fileID: 0}
         stateName: State 7
         stateNames:
@@ -2265,71 +2190,93 @@ MonoBehaviour:
         transitionIndex: -1
         scrollPosition: {x: 0, y: 0}
         zoom: 1
-      - fsmComponentID: 25006
+      - fsmComponentID: 24738
         fsmTemplate: {fileID: 0}
-        stateName: State 5
-        stateNames: []
+        stateName: State 2
+        stateNames:
+        - State 2
+        transitionIndex: -1
+        scrollPosition: {x: 0, y: 0}
+        zoom: 1
+      - fsmComponentID: 24500
+        fsmTemplate: {fileID: 0}
+        stateName: State 10
+        stateNames:
+        - State 10
         transitionIndex: 0
+        scrollPosition: {x: 501.57013, y: -140.9773}
+        zoom: 0.9099999
+      - fsmComponentID: -307156
+        fsmTemplate: {fileID: 0}
+        stateName: State 3
+        stateNames:
+        - State 3
+        transitionIndex: -1
         scrollPosition: {x: 0, y: 0}
         zoom: 1
-      - fsmComponentID: 24612
+      - fsmComponentID: -339636
         fsmTemplate: {fileID: 0}
-        stateName: State 1
+        stateName: State 7
+        stateNames:
+        - State 7
+        transitionIndex: -1
+        scrollPosition: {x: 0, y: 0}
+        zoom: 1
+      - fsmComponentID: -340402
+        fsmTemplate: {fileID: 0}
+        stateName: State 7
+        stateNames:
+        - State 7
+        transitionIndex: -1
+        scrollPosition: {x: 0, y: 0}
+        zoom: 1
+      - fsmComponentID: 24454
+        fsmTemplate: {fileID: 0}
+        stateName: State 10
+        stateNames:
+        - State 10
+        transitionIndex: -1
+        scrollPosition: {x: 297, y: -179}
+        zoom: 1
+      - fsmComponentID: 25432
+        fsmTemplate: {fileID: 0}
+        stateName: 
         stateNames: []
-        transitionIndex: 0
-        scrollPosition: {x: 0, y: 0}
-        zoom: 1
-      - fsmComponentID: -1122834
-        fsmTemplate: {fileID: 0}
-        stateName: State 2
-        stateNames:
-        - State 2
         transitionIndex: -1
-        scrollPosition: {x: -34.242188, y: -129.03906}
-        zoom: 0.94000006
-      - fsmComponentID: 24726
-        fsmTemplate: {fileID: 0}
-        stateName: State 2
-        stateNames:
-        - State 2
-        transitionIndex: -1
-        scrollPosition: {x: 0, y: 0}
-        zoom: 1
-      - fsmComponentID: -3089004
-        fsmTemplate: {fileID: 0}
-        stateName: State 2
-        stateNames:
-        - State 2
-        transitionIndex: -1
-        scrollPosition: {x: 0, y: 0}
+        scrollPosition: {x: 209, y: -96}
         zoom: 1
       recentlySelectedList:
-      - fsmComponentID: -3089004
+      - fsmComponentID: 24500
         fsmComponent: {fileID: 0}
         fsmTemplate: {fileID: 0}
-      - fsmComponentID: -1122834
-        fsmComponent: {fileID: 0}
-        fsmTemplate: {fileID: 0}
-      - fsmComponentID: 24726
-        fsmComponent: {fileID: 0}
-        fsmTemplate: {fileID: 0}
-      - fsmComponentID: 24496
-        fsmComponent: {fileID: 0}
-        fsmTemplate: {fileID: 0}
-      - fsmComponentID: 24450
-        fsmComponent: {fileID: 0}
-        fsmTemplate: {fileID: 0}
-      - fsmComponentID: 24662
-        fsmComponent: {fileID: 0}
-        fsmTemplate: {fileID: 0}
-      - fsmComponentID: 25006
-        fsmComponent: {fileID: 0}
-        fsmTemplate: {fileID: 0}
-      - fsmComponentID: 24612
-        fsmComponent: {fileID: 0}
-        fsmTemplate: {fileID: 0}
-      - fsmComponentID: 25424
+      - fsmComponentID: 25432
         fsmComponent: {fileID: 114241265772912322, guid: ea3d3029b86480445ab173ed216980da,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: 24454
+        fsmComponent: {fileID: 0}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: 24738
+        fsmComponent: {fileID: 0}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: -339636
+        fsmComponent: {fileID: 0}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: -340402
+        fsmComponent: {fileID: 0}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: 24768
+        fsmComponent: {fileID: 0}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: 24458
+        fsmComponent: {fileID: 0}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: -307156
+        fsmComponent: {fileID: 114619727613076206, guid: fce17a44a710b2c4c95ca7550f863bce,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: 26824
+        fsmComponent: {fileID: 114464641978331022, guid: ea3d3029b86480445ab173ed216980da,
           type: 2}
         fsmTemplate: {fileID: 0}
       - fsmComponentID: 26720
@@ -2346,10 +2293,6 @@ MonoBehaviour:
         fsmTemplate: {fileID: 0}
       - fsmComponentID: 26710
         fsmComponent: {fileID: 114626191519904494, guid: eac123f53a1cdaa46a20fed707bf2181,
-          type: 2}
-        fsmTemplate: {fileID: 0}
-      - fsmComponentID: -231326
-        fsmComponent: {fileID: 114464641978331022, guid: ea3d3029b86480445ab173ed216980da,
           type: 2}
         fsmTemplate: {fileID: 0}
       - fsmComponentID: 26506
@@ -2419,9 +2362,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: -1846
-    y: 294
+    y: 282
     width: 609
-    height: 614
+    height: 626
   m_PersistentViewDataDictionary: {fileID: 0}
 --- !u!114 &32
 MonoBehaviour:
@@ -2712,7 +2655,7 @@ MonoBehaviour:
   watches: []
   autoUpdateWatches: 0
   watchUpdateFrequency: 1
-  nextWatchUpdateTime: 14744.966288810989
+  nextWatchUpdateTime: 12741.298604971857
   watchableVariableNames:
   - Actor
   - ActorIndex
@@ -2787,14 +2730,14 @@ MonoBehaviour:
     height: 409
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneLighting: 0
-  lastFramingTime: 25658.154134624026
+  lastFramingTime: 12353.800828187737
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0.7134302, y: 1.134451, z: 2.8247802}
+    m_Target: {x: -0.5776367, y: -0.15625, z: 2.4672852}
     speed: 2
-    m_Value: {x: 0.7134302, y: 1.134451, z: 2.8247802}
+    m_Value: {x: -0.5776367, y: -0.15625, z: 2.4672852}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -2822,17 +2765,17 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0.22404094, y: -0.55689764, z: 0.15916161, w: 0.7838243}
+    m_Target: {x: 0.3873879, y: -0.27247038, z: 0.12098432, w: 0.87238395}
     speed: 2
-    m_Value: {x: 0.22403622, y: -0.5568859, z: 0.15915826, w: 0.7838078}
+    m_Value: {x: 0.3873878, y: -0.27247033, z: 0.12098429, w: 0.8723838}
   m_Size:
-    m_Target: 1.3174474
+    m_Target: 4.1744723
     speed: 2
-    m_Value: 1.3174474
+    m_Value: 4.1744723
   m_Ortho:
-    m_Target: 0
+    m_Target: 1
     speed: 2
-    m_Value: 0
+    m_Value: 1
   m_ShowGlobalGrid: 1
   m_LastSceneViewRotation: {x: 0.074838206, y: 0.049340285, z: 0.0037077437, w: -0.99596745}
   m_LastSceneViewOrtho: 0
@@ -2867,9 +2810,9 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 
-    m_LastClickedID: 0
-    m_ExpandedIDs: 64bcefffe4fbffff00000000ae5f0000466000004c60000016630000
+    m_SelectedIDs: b25f0000
+    m_LastClickedID: 24498
+    m_ExpandedIDs: e4fbffff000000007e5f0000b25f0000ea610000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -2930,20 +2873,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/SundryMonolog/Material
+    - Assets/Resources/Battle/Silhouettes
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/SundryMonolog/Material
+  - Assets/Resources/Battle/Silhouettes
   m_LastFoldersGridSize: 16
   m_LastProjectPath: "C:\\Users\\silya\\OneDrive\\\u30C9\u30AD\u30E5\u30E1\u30F3\u30C8\\SM\\SundryMonolog"
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 803}
-    m_SelectedIDs: 304b0000
-    m_LastClickedID: 19248
-    m_ExpandedIDs: 000000002c42000046420000ca4200005e4300009a430000ac4300009c450000b8450000de450000244600003e460000824600009c460000a4460000d846000020470000a4470000144800002a480000d64800000c4900007449000090490000224a0000244a00005a4a00009a4a0000424b0000f64c00006e4d00007c4d0000f84d0000124e0000904e0000964e0000b84e0000d24e0000ee4e00000e4f0000c64f0000cc4f0000005500003255000078550000a05500005c57000074580000305a0000925a0000ce5a0000266a0000286a000000ca9a3b
+    scrollPos: {x: 0, y: 338}
+    m_SelectedIDs: 3e460000
+    m_LastClickedID: 17982
+    m_ExpandedIDs: 000000002c420000ca4200005e430000ac4300009c450000b8450000de450000244600003e460000824600009c460000a4460000d846000020470000a4470000144800002a480000d64800000c4900007449000090490000224a0000244a00005a4a00009a4a0000f64c00006e4d00007c4d0000f84d0000124e0000904e0000964e0000b84e0000d24e0000ee4e00000e4f0000c64f0000cc4f0000005500003255000078550000a05500005c57000074580000305a0000925a0000ce5a00002c6a00002e6a00003672000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -2971,7 +2914,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000002c42000046420000ca4200005e4300009a430000ac4300009c450000b8450000de450000244600003e460000824600009c460000a4460000d846000020470000a4470000144800002a480000d64800000c4900007449000090490000224a0000244a00005a4a00009a4a0000424b0000f64c00006e4d00007c4d0000f84d0000124e0000904e0000964e0000b84e0000d24e0000ee4e00000e4f0000c64f0000cc4f0000005500003255000078550000a05500005c57000074580000305a0000925a0000ce5a0000266a0000286a0000
+    m_ExpandedIDs: 000000002c42000046420000ca4200005e4300009a430000ac4300009c450000b8450000de450000244600003e460000824600009c460000a4460000d846000020470000a4470000144800002a480000d64800000c4900007449000090490000224a0000244a00005a4a00009a4a0000424b0000f64c00006e4d00007c4d0000f84d0000124e0000904e0000964e0000b84e0000d24e0000ee4e00000e4f0000c64f0000cc4f0000005500003255000078550000a05500005c57000074580000305a0000925a0000ce5a00002c6a00002e6a0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -2999,21 +2942,21 @@ MonoBehaviour:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: 1c240000c8f4ffff3e4efffffc2400007412ffffe6a8feff8ca9fdff92fcfcffb625fdffd809fcffb64d00001e24000020240000d6310000120d0000fc0b0000d038000012350000c83500000e3200009c670000509afaff80450000824500007e4500006236000018370000543b0000c8370000404b000090410000d033f9ff4636fcff184100009c4700005461000002430000b44d00006639efffca86edff0ee2ecff0895eaff8245eaff28430000182276ff7e5600001056a2ffb058000006550000b249000082460000be58000000000000bc4700005a4e0000cc580000f0410000c2b4f4ff94460000d442000052b8fdff68a4eeff8ec1f2fffa410000b6450000
+    m_ExpandedInstanceIDs: 1c240000c8f4ffff3e4efffffc2400007412ffffe6a8feff8ca9fdff92fcfcffb625fdffd809fcffb64d00001e24000020240000d6310000120d0000fc0b0000d038000012350000c83500000e3200009c670000509afaff80450000824500007e4500006236000018370000543b0000c8370000404b000090410000d033f9ff4636fcff184100009c4700005461000002430000b44d00006639efffca86edff0ee2ecff0895eaff8245eaff28430000182276ff7e5600001056a2ffb058000006550000b249000082460000be58000000000000bc4700005a4e0000cc580000f0410000c2b4f4ff94460000d442000052b8fdff68a4eeff8ec1f2fffa410000b645000002420000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: PlayerBullets
+      m_OriginalName: PlayerBullets
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 29244
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 25}
     m_CreateAssetUtility:
