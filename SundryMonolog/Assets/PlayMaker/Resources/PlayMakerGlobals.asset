@@ -64,12 +64,6 @@ MonoBehaviour:
       value: 0
     boolVariables:
     - useVariable: 1
-      name: BlackBullet
-      tooltip: 
-      showInInspector: 0
-      networkSync: 0
-      value: 0
-    - useVariable: 1
       name: EggFlip
       tooltip: 
       showInInspector: 0
@@ -268,7 +262,21 @@ MonoBehaviour:
       showInInspector: 0
       networkSync: 0
       value: {fileID: 0}
-    objectVariables: []
+    objectVariables:
+    - useVariable: 1
+      name: BlackEgg
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      typeName: UnityEngine.Sprite
+      value: {fileID: 0}
+    - useVariable: 1
+      name: WhiteEgg
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      typeName: UnityEngine.Sprite
+      value: {fileID: 0}
     materialVariables: []
     textureVariables: []
     arrayVariables:
@@ -294,7 +302,7 @@ MonoBehaviour:
     enumVariables: []
     categories:
     - 
-    variableCategoryIDs: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    variableCategoryIDs: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   events:
   - PickedProduct
   - ScoreIncreasing
@@ -342,3 +350,4 @@ MonoBehaviour:
   - NowDodging
   - StartPlayerAim
   - StartPlayerAttack
+  - ResetEggSprite
