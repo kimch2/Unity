@@ -4502,9 +4502,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
-        value: 'FSMEvent (StartPlayerAim,BattleManager);
-
-          FSMEvent (StartPlayerAim,BattleTimer)'
+        value: FSMEvent (StartPlayerAim,BattleManager)
         type: 0
         typeString: CustomFieldType_Text
       - title: jp
@@ -4544,8 +4542,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 481.2381
-        y: 121.63516
+        x: 480.10175
+        y: 120.498795
         width: 160
         height: 30
     - id: 11
@@ -5102,8 +5100,8 @@ MonoBehaviour:
         y: 33.767662
         width: 160
         height: 30
-    canvasScrollPosition: {x: 63.72458, y: 0}
-    canvasZoom: 0.7299997
+    canvasScrollPosition: {x: 192.36722, y: 38.9944}
+    canvasZoom: 0.87999964
   - id: 24
     fields:
     - title: Title
