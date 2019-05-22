@@ -469,7 +469,7 @@ MonoBehaviour:
         actionStartIndex: 0000000001000000
         actionHashCodes: 8d4bb503dd881d00
         unityObjectParams:
-        - {fileID: 114619727613076206, guid: 27e18a11a17cd3941aa8b5c794387b91, type: 2}
+        - {fileID: 114619727613076206}
         fsmGameObjectParams: []
         fsmOwnerDefaultParams:
         - ownerOption: 0
@@ -768,7 +768,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
+    preprocessed: 0
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
